@@ -7,7 +7,7 @@
 --macro lime._internal.macros.DefineMacro.run()
 -cp /usr/local/lib/haxe/lib/lime/7,9,0/src
 -D lime=7.9.0
--cp /usr/local/lib/haxe/lib/flixel-addons/git
+-cp /usr/local/lib/haxe/lib/flixel-addons/2,10,0
 -D flixel-addons=2.10.0
 --macro keep('IntIterator')
 -cp /usr/local/lib/haxe/lib/hscript/2,4,0
