@@ -1,4 +1,4 @@
 Tutorial:gf:1
 Shift:tai:2
 Brave:tai:2
-Loss:tai:2
+Loss:tai-demon:2
