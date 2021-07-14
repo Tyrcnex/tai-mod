@@ -205,7 +205,7 @@ class TitleState extends MusicBeatState
 		blackScreen = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		credGroup.add(blackScreen);
 
-		credTextShit = new Alphabet(0, 0, "ninjamuffin99\nPhantomArcade\nkawaisprite\nevilsk8er", true);
+		credTextShit = new Alphabet(0, 0, "mraydinminer\ntyrcnex\njemartz", true);
 		credTextShit.screenCenter();
 
 		// credTextShit.alignment = CENTER;
@@ -394,10 +394,10 @@ class TitleState extends MusicBeatState
 		switch (curBeat)
 		{
 			case 1:
-				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+				createCoolText(['mraydinminer', 'tyrcnex', 'jemartz']);
 			// credTextShit.visible = true;
 			case 3:
-				addMoreText('present');
+				addMoreText('together with');
 			// credTextShit.text += '\npresent...';
 			// credTextShit.addText();
 			case 4:
@@ -407,15 +407,15 @@ class TitleState extends MusicBeatState
 			// credTextShit.screenCenter();
 			case 5:
 				if (Main.watermarks)
-					createCoolText(['Kade Engine', 'by']);
+					createCoolText(['khiodev', 'mixisdumb', 'ragolithic']);
 				else
-					createCoolText(['In Partnership', 'with']);
+					createCoolText(['khiodev', 'mixisdumb', 'ragolithic']);
 			case 7:
 				if (Main.watermarks)
-					addMoreText('KadeDeveloper');
+					addMoreText('helper dudes');
 				else
 				{
-					addMoreText('Newgrounds');
+					addMoreText('helper dudes');
 					ngSpr.visible = true;
 				}
 			// credTextShit.text += '\nNewgrounds';
@@ -438,13 +438,13 @@ class TitleState extends MusicBeatState
 			// credTextShit.text = "Friday";
 			// credTextShit.screenCenter();
 			case 13:
-				addMoreText('Friday');
+				addMoreText('FNF');
 			// credTextShit.visible = true;
 			case 14:
-				addMoreText('Night');
+				addMoreText('VSTAI');
 			// credTextShit.text += '\nNight';
 			case 15:
-				addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+				addMoreText('Have fun'); // credTextShit.text += '\nFunkin';
 
 			case 16:
 				skipIntro();
