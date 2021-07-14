@@ -412,10 +412,10 @@ class TitleState extends MusicBeatState
 					createCoolText(['khiodev', 'mixisdumb', 'ragolithic']);
 			case 7:
 				if (Main.watermarks)
-					addMoreText('helper dudes');
+					addMoreText('present');
 				else
 				{
-					addMoreText('helper dudes');
+					addMoreText('present');
 					ngSpr.visible = true;
 				}
 			// credTextShit.text += '\nNewgrounds';
@@ -438,13 +438,13 @@ class TitleState extends MusicBeatState
 			// credTextShit.text = "Friday";
 			// credTextShit.screenCenter();
 			case 13:
-				addMoreText('FNF');
+				addMoreText('VS');
 			// credTextShit.visible = true;
 			case 14:
-				addMoreText('VSTAI');
+				addMoreText('TAI');
 			// credTextShit.text += '\nNight';
 			case 15:
-				addMoreText('Have fun'); // credTextShit.text += '\nFunkin';
+				addMoreText('MOD'); // credTextShit.text += '\nFunkin';
 
 			case 16:
 				skipIntro();
