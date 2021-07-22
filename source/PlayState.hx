@@ -661,6 +661,18 @@ class PlayState extends MusicBeatState
 								add(waveSpriteFG);
 						*/
 			}
+			case 'sidewalk':
+				{
+					defaultCamZoom = 0.9;
+					curStage = 'sidewalk';
+					var bg:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('hahabgmoment'));
+					bg.updateHitbox();
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+					add(bg);
+
+				}
 			case 'stage':
 				{
 						defaultCamZoom = 0.9;
@@ -3482,4 +3494,6 @@ class PlayState extends MusicBeatState
 	}
 
 	var curLight:Int = 0;
+
+// If u are reading this i just wanna let you know that i am never gonna give you up never gonna let you down never gonna run around and hurt you. ~khio
 }
