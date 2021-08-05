@@ -373,6 +373,54 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_stagecurtains_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_stagefront_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_stage_light_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_animatedevilschool_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_animatedevilschool_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bfportrait_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bfportrait_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bgfreaks_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bgfreaks_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_evilschoolbg_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_evilschoolfg_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_petals_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_petals_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_arrowends_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_arrows_pixels_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_bad_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_combo_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_date_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_evil_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_evil_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_pixel_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_senpaimad_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_senpaimad_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_good_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_hand_textbox_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num0_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num1_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num2_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num3_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num4_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num5_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num6_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num7_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num8_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num9_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_ready_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_set_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_shit_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_sick_pixel_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaicrazy_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaicrazy_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaiportrait_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaiportrait_xml extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_spiritfaceforward_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebschool_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebsky_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebstreet_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebtrees_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebtrees_txt extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebtreesback_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_week54prototype_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_images_zzzzzzzz_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_shared_music_breakfast_mp3 extends null { }
@@ -832,6 +880,54 @@ null
 @:keep @:image("assets/shared/images/stagecurtains.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_stagecurtains_png extends lime.graphics.Image {}
 @:keep @:image("assets/shared/images/stagefront.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_stagefront_png extends lime.graphics.Image {}
 @:keep @:image("assets/shared/images/stage_light.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_stage_light_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/animatedEvilSchool.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_animatedevilschool_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/animatedEvilSchool.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_animatedevilschool_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/bfPortrait.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bfportrait_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/bfPortrait.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bfportrait_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/bgFreaks.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bgfreaks_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/bgFreaks.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_bgfreaks_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/evilSchoolBG.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_evilschoolbg_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/evilSchoolFG.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_evilschoolfg_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/petals.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_petals_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/petals.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_petals_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/arrowEnds.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_arrowends_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/arrows-pixels.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_arrows_pixels_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/bad-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_bad_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/combo-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_combo_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/date-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_date_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/dialogueBox-evil.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_evil_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/pixelUI/dialogueBox-evil.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_evil_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/dialogueBox-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_pixel_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/pixelUI/dialogueBox-pixel.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_pixel_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/dialogueBox-senpaiMad.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_senpaimad_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/pixelUI/dialogueBox-senpaiMad.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_dialoguebox_senpaimad_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/good-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_good_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/hand_textbox.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_hand_textbox_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num0-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num0_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num1-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num1_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num2-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num2_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num3-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num3_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num4-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num4_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num5-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num5_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num6-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num6_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num7-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num7_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num8-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num8_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/num9-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_num9_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/ready-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_ready_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/set-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_set_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/shit-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_shit_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/pixelUI/sick-pixel.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_pixelui_sick_pixel_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/senpaiCrazy.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaicrazy_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/senpaiCrazy.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaicrazy_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/senpaiPortrait.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaiportrait_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/senpaiPortrait.xml") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_senpaiportrait_xml extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/spiritFaceForward.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_spiritfaceforward_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/weebSchool.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebschool_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/weebSky.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebsky_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/weebStreet.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebstreet_png extends lime.graphics.Image {}
+@:keep @:image("assets/shared/images/weeb/weebTrees.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebtrees_png extends lime.graphics.Image {}
+@:keep @:file("assets/shared/images/weeb/weebTrees.txt") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebtrees_txt extends haxe.io.Bytes {}
+@:keep @:image("assets/shared/images/weeb/weebTreesBack.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_weeb_weebtreesback_png extends lime.graphics.Image {}
 @:keep @:image("assets/shared/images/week54prototype.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_week54prototype_png extends lime.graphics.Image {}
 @:keep @:image("assets/shared/images/zzzzzzzz.png") @:noCompletion #if display private #end class __ASSET__assets_shared_images_zzzzzzzz_png extends lime.graphics.Image {}
 @:keep @:file("assets/shared/music/breakfast.mp3") @:noCompletion #if display private #end class __ASSET__assets_shared_music_breakfast_mp3 extends haxe.io.Bytes {}
