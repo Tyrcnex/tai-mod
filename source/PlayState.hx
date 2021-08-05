@@ -661,17 +661,29 @@ class PlayState extends MusicBeatState
 								add(waveSpriteFG);
 						*/
 			}
-			case 'sidewalk':
-				{
-					defaultCamZoom = 0.9;
-					curStage = 'sidewalk';
-					var bg:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('hahabgmoment'));
-					bg.updateHitbox();
-					bg.antialiasing = true;
-					bg.scrollFactor.set(0.9, 0.9);
-					bg.active = false;
-					add(bg);
+			// case 'sidewalk':
+			// 	{
+			// 		defaultCamZoom = 0.9;
+			// 		curStage = 'sidewalk';
+			// 		var bg:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('hahabgmoment'));
+			// 		bg.updateHitbox();
+			// 		bg.antialiasing = true;
+			// 		bg.scrollFactor.set(0.9, 0.9);
+			// 		bg.active = false;
+			// 		add(bg);
 
+			// 	}
+			case 'sidewalk': 
+				{
+					curStage = 'sidewalk';
+	
+					var hallowTex = Paths.getSparrowAtlas('hahabgmoment','week7');
+	
+					halloweenBG = new FlxSprite(-200, -100);
+					halloweenBG.frames = hallowTex;
+					halloweenBG.animation.play('idle');
+					halloweenBG.antialiasing = true;
+					add(halloweenBG);
 				}
 			case 'stage':
 				{
