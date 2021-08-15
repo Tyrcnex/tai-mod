@@ -337,6 +337,8 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
 		}
 
+		boyfriend = new Boyfriend(770, 450, SONG.player1);
+
 		switch(SONG.stage)
 		{
 			case 'halloween': 
@@ -673,71 +675,34 @@ class PlayState extends MusicBeatState
 			// 		add(bg);
 
 			// 	}
-			case 'sidewalk': 
-				{
+			case 'sidewalk': {
+				defaultCamZoom = 0.8;
 					curStage = 'sidewalk';
-	
-					var hallowTex = Paths.getSparrowAtlas('hahabgmoment','week7');
-	
-					halloweenBG = new FlxSprite(-200, -100);
-					halloweenBG.frames = hallowTex;
-					halloweenBG.animation.play('idle');
-					halloweenBG.antialiasing = true;
-					add(halloweenBG);
-				}
+					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('madstage'));
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+					add(bg);
+			}
 			case 'stage':
 				{
-						defaultCamZoom = 0.9;
-						curStage = 'stage';
-						var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('stageback'));
-						bg.antialiasing = true;
-						bg.scrollFactor.set(0.9, 0.9);
-						bg.active = false;
-						add(bg);
-	
-						var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('stagefront'));
-						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-						stageFront.updateHitbox();
-						stageFront.antialiasing = true;
-						stageFront.scrollFactor.set(0.9, 0.9);
-						stageFront.active = false;
-						add(stageFront);
-	
-						var stageCurtains:FlxSprite = new FlxSprite(-500, -300).loadGraphic(Paths.image('stagecurtains'));
-						stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
-						stageCurtains.updateHitbox();
-						stageCurtains.antialiasing = true;
-						stageCurtains.scrollFactor.set(1.3, 1.3);
-						stageCurtains.active = false;
-	
-						add(stageCurtains);
-				}
-			default:
-			{
-					defaultCamZoom = 0.9;
+					defaultCamZoom = 0.8;
 					curStage = 'stage';
 					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('stageback'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(0.9, 0.9);
 					bg.active = false;
 					add(bg);
-
-					var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('stagefront'));
-					stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-					stageFront.updateHitbox();
-					stageFront.antialiasing = true;
-					stageFront.scrollFactor.set(0.9, 0.9);
-					stageFront.active = false;
-					add(stageFront);
-
-					var stageCurtains:FlxSprite = new FlxSprite(-500, -300).loadGraphic(Paths.image('stagecurtains'));
-					stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
-					stageCurtains.updateHitbox();
-					stageCurtains.antialiasing = true;
-					stageCurtains.scrollFactor.set(1.3, 1.3);
-					stageCurtains.active = false;
-
-					add(stageCurtains);
+				}
+			default:
+			{
+					defaultCamZoom = 0.8;
+					curStage = 'stage';
+					var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('stageback'));
+					bg.antialiasing = true;
+					bg.scrollFactor.set(0.9, 0.9);
+					bg.active = false;
+					add(bg);
 			}
 		}
 		var gfVersion:String = 'gf';
@@ -799,13 +764,16 @@ class PlayState extends MusicBeatState
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
-
-		
-		boyfriend = new Boyfriend(770, 450, SONG.player1);
-
 		// REPOSITIONING PER STAGE
 		switch (curStage)
 		{
+			case 'stage':{
+				
+				boyfriend.x += 300;
+				boyfriend.y += 200;
+				gf.y += 150;
+				dad.y += 200;
+			}
 			case 'limo':
 				boyfriend.y -= 220;
 				boyfriend.x += 260;
@@ -840,6 +808,13 @@ class PlayState extends MusicBeatState
 				boyfriend.y += 220;
 				gf.x += 180;
 				gf.y += 300;
+
+			case 'sidewalk': {
+				boyfriend.x += 300;
+				boyfriend.y += 200;
+				gf.y += 150;
+				dad.y += 200;
+			}
 		}
 
 		add(gf);
