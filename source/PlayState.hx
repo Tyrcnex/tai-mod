@@ -335,6 +335,12 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
 			case 'thorns':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
+			case 'shift':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('shift/dialog'));
+			case 'brave':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('brave/dialog'));
+			case 'loss':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('loss/dialog'));
 		}
 
 		boyfriend = new Boyfriend(770, 450, SONG.player1);
@@ -1024,6 +1030,12 @@ class PlayState extends MusicBeatState
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 				case 'thorns':
+					schoolIntro(doof);
+				case 'shift':
+					schoolIntro(doof);
+				case 'brave':
+					schoolIntro(doof);
+				case 'loss':
 					schoolIntro(doof);
 				default:
 					startCountdown();

@@ -38,7 +38,7 @@
 -D web
 --remap flash:openfl
 --macro flixel.system.macros.FlxDefines.run()
--js export/release/html5/bin/Kade Engine.js
+-js export/release/html5/bin/FNF VSTai Mod.js
 -cp export/release/html5/haxe
 -D html5
 -debug
