@@ -142,19 +142,21 @@ class DialogueBox extends FlxSpriteGroup
 			portraitLeft.visible = false;
 		} else if (PlayState.SONG.song.toLowerCase() == 'shift' || PlayState.SONG.song.toLowerCase() == 'brave') {
 			portraitLeft = new FlxSprite(-20, 40);
-			portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait'); // Do this later
-			portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
-			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.9));
+			portraitLeft.frames = Paths.getSparrowAtlas('weeb/taiPortrait'); // Do this later
+			portraitLeft.animation.addByPrefix('enter', 'TAI Portrait Enter', 24, false);
+			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.2));
 			portraitLeft.updateHitbox();
 			portraitLeft.scrollFactor.set();
+			portraitLeft.y += 111;
+			portraitLeft.x -= 315;
 			add(portraitLeft);
 			portraitLeft.visible = false;
 		} else if (PlayState.SONG.song.toLowerCase() == 'loss') {
 			portraitLeft = new FlxSprite(-20, 40);
 			portraitLeft.y += 30;
-			portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait'); // Also do this later
-			portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
-			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.9));
+			portraitLeft.frames = Paths.getSparrowAtlas('weeb/taiDemonPortrait'); // Also do this later
+			portraitLeft.animation.addByPrefix('enter', 'TAI Portrait Enter', 24, false);
+			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.2));
 			portraitLeft.updateHitbox();
 			portraitLeft.scrollFactor.set();
 			add(portraitLeft);

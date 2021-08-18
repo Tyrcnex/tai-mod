@@ -154,11 +154,11 @@ static const int _hx_array_data_ffc81fb3_8[] = {
 static const int _hx_array_data_ffc81fb3_9[] = {
 	(int)11,
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_223_update,"DialogueBox","update",0x23306964,"DialogueBox.update","DialogueBox.hx",223,0x0149b4eb)
-HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_267_update,"DialogueBox","update",0x23306964,"DialogueBox.update","DialogueBox.hx",267,0x0149b4eb)
-HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_277_update,"DialogueBox","update",0x23306964,"DialogueBox.update","DialogueBox.hx",277,0x0149b4eb)
-HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_296_startDialogue,"DialogueBox","startDialogue",0x59859d9f,"DialogueBox.startDialogue","DialogueBox.hx",296,0x0149b4eb)
-HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_338_cleanDialog,"DialogueBox","cleanDialog",0x0fc249f6,"DialogueBox.cleanDialog","DialogueBox.hx",338,0x0149b4eb)
+HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_225_update,"DialogueBox","update",0x23306964,"DialogueBox.update","DialogueBox.hx",225,0x0149b4eb)
+HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_269_update,"DialogueBox","update",0x23306964,"DialogueBox.update","DialogueBox.hx",269,0x0149b4eb)
+HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_279_update,"DialogueBox","update",0x23306964,"DialogueBox.update","DialogueBox.hx",279,0x0149b4eb)
+HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_298_startDialogue,"DialogueBox","startDialogue",0x59859d9f,"DialogueBox.startDialogue","DialogueBox.hx",298,0x0149b4eb)
+HX_LOCAL_STACK_FRAME(_hx_pos_abff9fa8c13cc7a0_340_cleanDialog,"DialogueBox","cleanDialog",0x0fc249f6,"DialogueBox.cleanDialog","DialogueBox.hx",340,0x0149b4eb)
 
 void DialogueBox_obj::__construct(::hx::Null< bool >  __o_talkingRight,::Array< ::String > dialogueList){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::DialogueBox,_gthis) HXARGC(1)
@@ -176,9 +176,9 @@ HXLINE(  69)				_gthis->bgFade->set_alpha(((Float)0.7));
 
             		bool talkingRight = __o_talkingRight.Default(true);
             	HX_GC_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_15_new)
-HXLINE( 293)		this->isEnding = false;
-HXLINE( 220)		this->dialogueStarted = false;
-HXLINE( 219)		this->dialogueOpened = false;
+HXLINE( 295)		this->isEnding = false;
+HXLINE( 222)		this->dialogueStarted = false;
+HXLINE( 221)		this->dialogueOpened = false;
 HXLINE(  22)		this->dialogueList = ::Array_obj< ::String >::__new(0);
 HXLINE(  19)		this->curCharacter = HX_("",00,00,00,00);
 HXLINE(  37)		 ::DialogueBox _gthis = ::hx::ObjectPtr<OBJ_>(this);
@@ -407,132 +407,140 @@ HXDLIN( 143)			if (_hx_tmp) {
 HXLINE( 144)				this->portraitLeft =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-20,40,null());
 HXLINE( 145)				 ::flixel::FlxSprite _hx_tmp = this->portraitLeft;
 HXDLIN( 145)				::String library = null();
-HXDLIN( 145)				::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiPortrait",9b,ed,4f,6d)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
-HXDLIN( 145)				_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiPortrait",9b,ed,4f,6d)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
-HXLINE( 146)				this->portraitLeft->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("Senpai Portrait Enter",d7,e0,09,14),24,false,null(),null());
+HXDLIN( 145)				::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/taiPortrait",73,28,45,4b)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
+HXDLIN( 145)				_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/taiPortrait",73,28,45,4b)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
+HXLINE( 146)				this->portraitLeft->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("TAI Portrait Enter",f7,79,b6,20),24,false,null(),null());
 HXLINE( 147)				 ::flixel::FlxSprite _hx_tmp2 = this->portraitLeft;
 HXDLIN( 147)				Float _hx_tmp3 = this->portraitLeft->get_width();
-HXDLIN( 147)				_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.9))),null());
+HXDLIN( 147)				_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.2))),null());
 HXLINE( 148)				this->portraitLeft->updateHitbox();
 HXLINE( 149)				this->portraitLeft->scrollFactor->set(null(),null());
-HXLINE( 150)				this->add(this->portraitLeft);
-HXLINE( 151)				this->portraitLeft->set_visible(false);
+HXLINE( 150)				{
+HXLINE( 150)					 ::flixel::FlxSprite _g = this->portraitLeft;
+HXDLIN( 150)					_g->set_y((_g->y + 111));
+            				}
+HXLINE( 151)				{
+HXLINE( 151)					 ::flixel::FlxSprite _g1 = this->portraitLeft;
+HXDLIN( 151)					_g1->set_x((_g1->x - ( (Float)(315) )));
+            				}
+HXLINE( 152)				this->add(this->portraitLeft);
+HXLINE( 153)				this->portraitLeft->set_visible(false);
             			}
             			else {
-HXLINE( 152)				if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("loss",e3,a9,b7,47))) {
-HXLINE( 153)					this->portraitLeft =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-20,40,null());
-HXLINE( 154)					{
-HXLINE( 154)						 ::flixel::FlxSprite _g = this->portraitLeft;
-HXDLIN( 154)						_g->set_y((_g->y + 30));
+HXLINE( 154)				if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("loss",e3,a9,b7,47))) {
+HXLINE( 155)					this->portraitLeft =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,-20,40,null());
+HXLINE( 156)					{
+HXLINE( 156)						 ::flixel::FlxSprite _g = this->portraitLeft;
+HXDLIN( 156)						_g->set_y((_g->y + 30));
             					}
-HXLINE( 155)					 ::flixel::FlxSprite _hx_tmp = this->portraitLeft;
-HXDLIN( 155)					::String library = null();
-HXDLIN( 155)					::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiPortrait",9b,ed,4f,6d)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
-HXDLIN( 155)					_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/senpaiPortrait",9b,ed,4f,6d)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
-HXLINE( 156)					this->portraitLeft->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("Senpai Portrait Enter",d7,e0,09,14),24,false,null(),null());
-HXLINE( 157)					 ::flixel::FlxSprite _hx_tmp2 = this->portraitLeft;
-HXDLIN( 157)					Float _hx_tmp3 = this->portraitLeft->get_width();
-HXDLIN( 157)					_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.9))),null());
-HXLINE( 158)					this->portraitLeft->updateHitbox();
-HXLINE( 159)					this->portraitLeft->scrollFactor->set(null(),null());
-HXLINE( 160)					this->add(this->portraitLeft);
-HXLINE( 161)					this->portraitLeft->set_visible(false);
+HXLINE( 157)					 ::flixel::FlxSprite _hx_tmp = this->portraitLeft;
+HXDLIN( 157)					::String library = null();
+HXDLIN( 157)					::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/taiDemonPortrait",4e,28,92,0a)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
+HXDLIN( 157)					_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/taiDemonPortrait",4e,28,92,0a)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
+HXLINE( 158)					this->portraitLeft->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("TAI Portrait Enter",f7,79,b6,20),24,false,null(),null());
+HXLINE( 159)					 ::flixel::FlxSprite _hx_tmp2 = this->portraitLeft;
+HXDLIN( 159)					Float _hx_tmp3 = this->portraitLeft->get_width();
+HXDLIN( 159)					_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.2))),null());
+HXLINE( 160)					this->portraitLeft->updateHitbox();
+HXLINE( 161)					this->portraitLeft->scrollFactor->set(null(),null());
+HXLINE( 162)					this->add(this->portraitLeft);
+HXLINE( 163)					this->portraitLeft->set_visible(false);
             				}
             			}
             		}
-HXLINE( 164)		bool _hx_tmp4;
-HXDLIN( 164)		bool _hx_tmp5;
-HXDLIN( 164)		if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() != HX_("senpai",3c,df,8d,6b))) {
-HXLINE( 164)			_hx_tmp5 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("roses",04,6c,64,ed));
+HXLINE( 166)		bool _hx_tmp4;
+HXDLIN( 166)		bool _hx_tmp5;
+HXDLIN( 166)		if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() != HX_("senpai",3c,df,8d,6b))) {
+HXLINE( 166)			_hx_tmp5 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("roses",04,6c,64,ed));
             		}
             		else {
-HXLINE( 164)			_hx_tmp5 = true;
+HXLINE( 166)			_hx_tmp5 = true;
             		}
-HXDLIN( 164)		if (!(_hx_tmp5)) {
-HXLINE( 164)			_hx_tmp4 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("thorns",9c,bf,c7,8c));
-            		}
-            		else {
-HXLINE( 164)			_hx_tmp4 = true;
-            		}
-HXDLIN( 164)		if (_hx_tmp4) {
-HXLINE( 165)			this->portraitRight =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,40,null());
-HXLINE( 166)			 ::flixel::FlxSprite _hx_tmp = this->portraitRight;
-HXDLIN( 166)			::String library = null();
-HXDLIN( 166)			::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/bfPortrait",23,ea,7a,a3)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
-HXDLIN( 166)			_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/bfPortrait",23,ea,7a,a3)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
-HXLINE( 167)			this->portraitRight->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("Boyfriend portrait enter",a9,02,f8,de),24,false,null(),null());
-HXLINE( 168)			 ::flixel::FlxSprite _hx_tmp2 = this->portraitRight;
-HXDLIN( 168)			Float _hx_tmp3 = this->portraitRight->get_width();
-HXDLIN( 168)			_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.9))),null());
-HXLINE( 169)			this->portraitRight->updateHitbox();
-HXLINE( 170)			this->portraitRight->scrollFactor->set(null(),null());
-HXLINE( 171)			this->add(this->portraitRight);
-HXLINE( 172)			this->portraitRight->set_visible(false);
+HXDLIN( 166)		if (!(_hx_tmp5)) {
+HXLINE( 166)			_hx_tmp4 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("thorns",9c,bf,c7,8c));
             		}
             		else {
-HXLINE( 173)			bool _hx_tmp;
-HXDLIN( 173)			bool _hx_tmp1;
-HXDLIN( 173)			if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() != HX_("shift",82,ec,22,7c))) {
-HXLINE( 173)				_hx_tmp1 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("brave",00,2e,e9,b8));
+HXLINE( 166)			_hx_tmp4 = true;
+            		}
+HXDLIN( 166)		if (_hx_tmp4) {
+HXLINE( 167)			this->portraitRight =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,40,null());
+HXLINE( 168)			 ::flixel::FlxSprite _hx_tmp = this->portraitRight;
+HXDLIN( 168)			::String library = null();
+HXDLIN( 168)			::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/bfPortrait",23,ea,7a,a3)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
+HXDLIN( 168)			_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/bfPortrait",23,ea,7a,a3)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
+HXLINE( 169)			this->portraitRight->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("Boyfriend portrait enter",a9,02,f8,de),24,false,null(),null());
+HXLINE( 170)			 ::flixel::FlxSprite _hx_tmp2 = this->portraitRight;
+HXDLIN( 170)			Float _hx_tmp3 = this->portraitRight->get_width();
+HXDLIN( 170)			_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.9))),null());
+HXLINE( 171)			this->portraitRight->updateHitbox();
+HXLINE( 172)			this->portraitRight->scrollFactor->set(null(),null());
+HXLINE( 173)			this->add(this->portraitRight);
+HXLINE( 174)			this->portraitRight->set_visible(false);
+            		}
+            		else {
+HXLINE( 175)			bool _hx_tmp;
+HXDLIN( 175)			bool _hx_tmp1;
+HXDLIN( 175)			if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() != HX_("shift",82,ec,22,7c))) {
+HXLINE( 175)				_hx_tmp1 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("brave",00,2e,e9,b8));
             			}
             			else {
-HXLINE( 173)				_hx_tmp1 = true;
+HXLINE( 175)				_hx_tmp1 = true;
             			}
-HXDLIN( 173)			if (!(_hx_tmp1)) {
-HXLINE( 173)				_hx_tmp = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("loss",e3,a9,b7,47));
+HXDLIN( 175)			if (!(_hx_tmp1)) {
+HXLINE( 175)				_hx_tmp = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("loss",e3,a9,b7,47));
             			}
             			else {
-HXLINE( 173)				_hx_tmp = true;
+HXLINE( 175)				_hx_tmp = true;
             			}
-HXDLIN( 173)			if (_hx_tmp) {
-HXLINE( 174)				this->portraitRight =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,40,null());
-HXLINE( 175)				{
-HXLINE( 175)					 ::flixel::FlxSprite _g = this->portraitRight;
-HXDLIN( 175)					_g->set_y((_g->y + 92));
+HXDLIN( 175)			if (_hx_tmp) {
+HXLINE( 176)				this->portraitRight =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,40,null());
+HXLINE( 177)				{
+HXLINE( 177)					 ::flixel::FlxSprite _g = this->portraitRight;
+HXDLIN( 177)					_g->set_y((_g->y + 92));
             				}
-HXLINE( 176)				{
-HXLINE( 176)					 ::flixel::FlxSprite _g1 = this->portraitRight;
-HXDLIN( 176)					_g1->set_x((_g1->x + 677));
+HXLINE( 178)				{
+HXLINE( 178)					 ::flixel::FlxSprite _g1 = this->portraitRight;
+HXDLIN( 178)					_g1->set_x((_g1->x + 677));
             				}
-HXLINE( 177)				 ::flixel::FlxSprite _hx_tmp = this->portraitRight;
-HXDLIN( 177)				::String library = null();
-HXDLIN( 177)				::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/boyfriendPort",a7,69,fb,e0)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
-HXDLIN( 177)				_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/boyfriendPort",a7,69,fb,e0)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
-HXLINE( 178)				this->portraitRight->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("BF Portrait Enter",6f,6f,4f,45),24,false,null(),null());
-HXLINE( 179)				 ::flixel::FlxSprite _hx_tmp2 = this->portraitRight;
-HXDLIN( 179)				Float _hx_tmp3 = this->portraitRight->get_width();
-HXDLIN( 179)				_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.2))),null());
-HXLINE( 180)				this->portraitRight->updateHitbox();
-HXLINE( 181)				this->portraitRight->scrollFactor->set(null(),null());
-HXLINE( 182)				this->add(this->portraitRight);
-HXLINE( 183)				this->portraitRight->set_visible(false);
+HXLINE( 179)				 ::flixel::FlxSprite _hx_tmp = this->portraitRight;
+HXDLIN( 179)				::String library = null();
+HXDLIN( 179)				::String _hx_tmp1 = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/boyfriendPort",a7,69,fb,e0)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
+HXDLIN( 179)				_hx_tmp->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp1,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/boyfriendPort",a7,69,fb,e0)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
+HXLINE( 180)				this->portraitRight->animation->addByPrefix(HX_("enter",18,6d,86,70),HX_("BF Portrait Enter",6f,6f,4f,45),24,false,null(),null());
+HXLINE( 181)				 ::flixel::FlxSprite _hx_tmp2 = this->portraitRight;
+HXDLIN( 181)				Float _hx_tmp3 = this->portraitRight->get_width();
+HXDLIN( 181)				_hx_tmp2->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp3 * ::PlayState_obj::daPixelZoom) * ((Float)0.2))),null());
+HXLINE( 182)				this->portraitRight->updateHitbox();
+HXLINE( 183)				this->portraitRight->scrollFactor->set(null(),null());
+HXLINE( 184)				this->add(this->portraitRight);
+HXLINE( 185)				this->portraitRight->set_visible(false);
             			}
             		}
-HXLINE( 186)		this->box->animation->play(HX_("normalOpen",91,41,38,70),null(),null(),null());
-HXLINE( 187)		 ::flixel::FlxSprite _hx_tmp6 = this->box;
-HXDLIN( 187)		Float _hx_tmp7 = this->box->get_width();
-HXDLIN( 187)		_hx_tmp6->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp7 * ::PlayState_obj::daPixelZoom) * ((Float)0.9))),null());
-HXLINE( 188)		this->box->updateHitbox();
-HXLINE( 189)		this->add(this->box);
-HXLINE( 191)		this->box->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
-HXLINE( 192)		this->portraitLeft->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
-HXLINE( 194)		 ::flixel::FlxSprite _hx_tmp8 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.9)),(( (Float)(::flixel::FlxG_obj::height) ) * ((Float)0.9)),null());
-HXDLIN( 194)		::String library = null();
-HXDLIN( 194)		this->handSelect = _hx_tmp8->loadGraphic(::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/pixelUI/hand_textbox",67,1b,cd,60)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library),null(),null(),null(),null(),null());
-HXLINE( 195)		this->add(this->handSelect);
-HXLINE( 198)		bool _hx_tmp9 = !(talkingRight);
-HXLINE( 203)		this->dropText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,242,502,::Std_obj::_hx_int((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.6))),HX_("",00,00,00,00),32,null());
-HXLINE( 204)		this->dropText->set_font(HX_("Pixel Arial 11 Bold",ae,17,c6,45));
-HXLINE( 205)		this->dropText->set_color(-2583404);
-HXLINE( 206)		this->add(this->dropText);
-HXLINE( 208)		this->swagDialogue =  ::flixel::addons::text::FlxTypeText_obj::__alloc( HX_CTX ,( (Float)(240) ),( (Float)(500) ),::Std_obj::_hx_int((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.6))),HX_("",00,00,00,00),32,null());
-HXLINE( 209)		this->swagDialogue->set_font(HX_("Pixel Arial 11 Bold",ae,17,c6,45));
-HXLINE( 210)		this->swagDialogue->set_color(-12640223);
-HXLINE( 211)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp10 = ::flixel::FlxG_obj::sound;
-HXDLIN( 211)		 ::flixel::_hx_system::FlxSound _hx_tmp11 = _hx_tmp10->load(::Paths_obj::sound(HX_("pixelText",53,7a,83,06),null()),((Float)0.6),null(),null(),null(),null(),null(),null(),null());
-HXDLIN( 211)		this->swagDialogue->sounds = ::Array_obj< ::Dynamic>::__new(1)->init(0,_hx_tmp11);
-HXLINE( 212)		this->add(this->swagDialogue);
-HXLINE( 214)		this->dialogue =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(80) ),HX_("",00,00,00,00),false,true);
+HXLINE( 188)		this->box->animation->play(HX_("normalOpen",91,41,38,70),null(),null(),null());
+HXLINE( 189)		 ::flixel::FlxSprite _hx_tmp6 = this->box;
+HXDLIN( 189)		Float _hx_tmp7 = this->box->get_width();
+HXDLIN( 189)		_hx_tmp6->setGraphicSize(::Std_obj::_hx_int(((_hx_tmp7 * ::PlayState_obj::daPixelZoom) * ((Float)0.9))),null());
+HXLINE( 190)		this->box->updateHitbox();
+HXLINE( 191)		this->add(this->box);
+HXLINE( 193)		this->box->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
+HXLINE( 194)		this->portraitLeft->screenCenter(::flixel::util::FlxAxes_obj::X_dyn());
+HXLINE( 196)		 ::flixel::FlxSprite _hx_tmp8 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.9)),(( (Float)(::flixel::FlxG_obj::height) ) * ((Float)0.9)),null());
+HXDLIN( 196)		::String library = null();
+HXDLIN( 196)		this->handSelect = _hx_tmp8->loadGraphic(::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/pixelUI/hand_textbox",67,1b,cd,60)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library),null(),null(),null(),null(),null());
+HXLINE( 197)		this->add(this->handSelect);
+HXLINE( 200)		bool _hx_tmp9 = !(talkingRight);
+HXLINE( 205)		this->dropText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,242,502,::Std_obj::_hx_int((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.6))),HX_("",00,00,00,00),32,null());
+HXLINE( 206)		this->dropText->set_font(HX_("Pixel Arial 11 Bold",ae,17,c6,45));
+HXLINE( 207)		this->dropText->set_color(-2583404);
+HXLINE( 208)		this->add(this->dropText);
+HXLINE( 210)		this->swagDialogue =  ::flixel::addons::text::FlxTypeText_obj::__alloc( HX_CTX ,( (Float)(240) ),( (Float)(500) ),::Std_obj::_hx_int((( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.6))),HX_("",00,00,00,00),32,null());
+HXLINE( 211)		this->swagDialogue->set_font(HX_("Pixel Arial 11 Bold",ae,17,c6,45));
+HXLINE( 212)		this->swagDialogue->set_color(-12640223);
+HXLINE( 213)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp10 = ::flixel::FlxG_obj::sound;
+HXDLIN( 213)		 ::flixel::_hx_system::FlxSound _hx_tmp11 = _hx_tmp10->load(::Paths_obj::sound(HX_("pixelText",53,7a,83,06),null()),((Float)0.6),null(),null(),null(),null(),null(),null(),null());
+HXDLIN( 213)		this->swagDialogue->sounds = ::Array_obj< ::Dynamic>::__new(1)->init(0,_hx_tmp11);
+HXLINE( 214)		this->add(this->swagDialogue);
+HXLINE( 216)		this->dialogue =  ::Alphabet_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(80) ),HX_("",00,00,00,00),false,true);
             	}
 
 Dynamic DialogueBox_obj::__CreateEmpty() { return new DialogueBox_obj; }
@@ -563,182 +571,182 @@ bool DialogueBox_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void DialogueBox_obj::update(Float elapsed){
-            	HX_GC_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_223_update)
-HXLINE( 222)		 ::DialogueBox _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 225)		if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("roses",04,6c,64,ed))) {
-HXLINE( 226)			this->portraitLeft->set_visible(false);
+            	HX_GC_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_225_update)
+HXLINE( 224)		 ::DialogueBox _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 227)		if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("roses",04,6c,64,ed))) {
+HXLINE( 228)			this->portraitLeft->set_visible(false);
             		}
-HXLINE( 227)		if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("thorns",9c,bf,c7,8c))) {
-HXLINE( 229)			this->portraitLeft->set_color(-16777216);
-HXLINE( 230)			this->swagDialogue->set_color(-1);
-HXLINE( 231)			this->dropText->set_color(-16777216);
+HXLINE( 229)		if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("thorns",9c,bf,c7,8c))) {
+HXLINE( 231)			this->portraitLeft->set_color(-16777216);
+HXLINE( 232)			this->swagDialogue->set_color(-1);
+HXLINE( 233)			this->dropText->set_color(-16777216);
             		}
-HXLINE( 234)		this->dropText->set_text(this->swagDialogue->text);
-HXLINE( 236)		if (::hx::IsNotNull( this->box->animation->_curAnim )) {
-HXLINE( 238)			bool _hx_tmp;
-HXDLIN( 238)			if ((this->box->animation->_curAnim->name == HX_("normalOpen",91,41,38,70))) {
-HXLINE( 238)				_hx_tmp = this->box->animation->_curAnim->finished;
+HXLINE( 236)		this->dropText->set_text(this->swagDialogue->text);
+HXLINE( 238)		if (::hx::IsNotNull( this->box->animation->_curAnim )) {
+HXLINE( 240)			bool _hx_tmp;
+HXDLIN( 240)			if ((this->box->animation->_curAnim->name == HX_("normalOpen",91,41,38,70))) {
+HXLINE( 240)				_hx_tmp = this->box->animation->_curAnim->finished;
             			}
             			else {
-HXLINE( 238)				_hx_tmp = false;
+HXLINE( 240)				_hx_tmp = false;
             			}
-HXDLIN( 238)			if (_hx_tmp) {
-HXLINE( 240)				this->box->animation->play(HX_("normal",27,72,69,30),null(),null(),null());
-HXLINE( 241)				this->dialogueOpened = true;
+HXDLIN( 240)			if (_hx_tmp) {
+HXLINE( 242)				this->box->animation->play(HX_("normal",27,72,69,30),null(),null(),null());
+HXLINE( 243)				this->dialogueOpened = true;
             			}
             		}
-HXLINE( 245)		bool _hx_tmp;
-HXDLIN( 245)		if (this->dialogueOpened) {
-HXLINE( 245)			_hx_tmp = !(this->dialogueStarted);
+HXLINE( 247)		bool _hx_tmp;
+HXDLIN( 247)		if (this->dialogueOpened) {
+HXLINE( 247)			_hx_tmp = !(this->dialogueStarted);
             		}
             		else {
-HXLINE( 245)			_hx_tmp = false;
+HXLINE( 247)			_hx_tmp = false;
             		}
-HXDLIN( 245)		if (_hx_tmp) {
-HXLINE( 247)			this->startDialogue();
-HXLINE( 248)			this->dialogueStarted = true;
+HXDLIN( 247)		if (_hx_tmp) {
+HXLINE( 249)			this->startDialogue();
+HXLINE( 250)			this->dialogueStarted = true;
             		}
-HXLINE( 251)		bool _hx_tmp1;
-HXDLIN( 251)		if (( ( ::flixel::input::FlxBaseKeyList)(::flixel::FlxG_obj::keys->justPressed) )->get_ANY()) {
-HXLINE( 251)			_hx_tmp1 = (this->dialogueStarted == true);
+HXLINE( 253)		bool _hx_tmp1;
+HXDLIN( 253)		if (( ( ::flixel::input::FlxBaseKeyList)(::flixel::FlxG_obj::keys->justPressed) )->get_ANY()) {
+HXLINE( 253)			_hx_tmp1 = (this->dialogueStarted == true);
             		}
             		else {
-HXLINE( 251)			_hx_tmp1 = false;
+HXLINE( 253)			_hx_tmp1 = false;
             		}
-HXDLIN( 251)		if (_hx_tmp1) {
-HXLINE( 253)			this->remove(this->dialogue,null());
-HXLINE( 255)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 255)			_hx_tmp->play(::Paths_obj::sound(HX_("clickText",15,39,f9,2b),null()),((Float)0.8),null(),null(),null(),null());
-HXLINE( 257)			bool _hx_tmp1;
-HXDLIN( 257)			if (::hx::IsNull( this->dialogueList->__get(1) )) {
-HXLINE( 257)				_hx_tmp1 = ::hx::IsNotNull( this->dialogueList->__get(0) );
+HXDLIN( 253)		if (_hx_tmp1) {
+HXLINE( 255)			this->remove(this->dialogue,null());
+HXLINE( 257)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 257)			_hx_tmp->play(::Paths_obj::sound(HX_("clickText",15,39,f9,2b),null()),((Float)0.8),null(),null(),null(),null());
+HXLINE( 259)			bool _hx_tmp1;
+HXDLIN( 259)			if (::hx::IsNull( this->dialogueList->__get(1) )) {
+HXLINE( 259)				_hx_tmp1 = ::hx::IsNotNull( this->dialogueList->__get(0) );
             			}
             			else {
-HXLINE( 257)				_hx_tmp1 = false;
+HXLINE( 259)				_hx_tmp1 = false;
             			}
-HXDLIN( 257)			if (_hx_tmp1) {
-HXLINE( 259)				if (!(this->isEnding)) {
+HXDLIN( 259)			if (_hx_tmp1) {
+HXLINE( 261)				if (!(this->isEnding)) {
             					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::DialogueBox,_gthis) HXARGC(1)
             					void _hx_run( ::flixel::util::FlxTimer tmr){
-            						HX_GC_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_267_update)
-HXLINE( 268)						{
-HXLINE( 268)							 ::flixel::FlxSprite _g = _gthis->box;
-HXDLIN( 268)							_g->set_alpha((_g->alpha - ((Float)0.2)));
+            						HX_GC_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_269_update)
+HXLINE( 270)						{
+HXLINE( 270)							 ::flixel::FlxSprite _g = _gthis->box;
+HXDLIN( 270)							_g->set_alpha((_g->alpha - ((Float)0.2)));
             						}
-HXLINE( 269)						{
-HXLINE( 269)							 ::flixel::FlxSprite _g1 = _gthis->bgFade;
-HXDLIN( 269)							_g1->set_alpha((_g1->alpha - ((Float)0.139999999999999986)));
+HXLINE( 271)						{
+HXLINE( 271)							 ::flixel::FlxSprite _g1 = _gthis->bgFade;
+HXDLIN( 271)							_g1->set_alpha((_g1->alpha - ((Float)0.139999999999999986)));
             						}
-HXLINE( 270)						_gthis->portraitLeft->set_visible(false);
-HXLINE( 271)						_gthis->portraitRight->set_visible(false);
-HXLINE( 272)						{
-HXLINE( 272)							 ::flixel::addons::text::FlxTypeText _g2 = _gthis->swagDialogue;
-HXDLIN( 272)							_g2->set_alpha((_g2->alpha - ((Float)0.2)));
+HXLINE( 272)						_gthis->portraitLeft->set_visible(false);
+HXLINE( 273)						_gthis->portraitRight->set_visible(false);
+HXLINE( 274)						{
+HXLINE( 274)							 ::flixel::addons::text::FlxTypeText _g2 = _gthis->swagDialogue;
+HXDLIN( 274)							_g2->set_alpha((_g2->alpha - ((Float)0.2)));
             						}
-HXLINE( 273)						_gthis->dropText->set_alpha(_gthis->swagDialogue->alpha);
+HXLINE( 275)						_gthis->dropText->set_alpha(_gthis->swagDialogue->alpha);
             					}
             					HX_END_LOCAL_FUNC1((void))
 
             					HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::DialogueBox,_gthis) HXARGC(1)
             					void _hx_run( ::flixel::util::FlxTimer tmr){
-            						HX_GC_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_277_update)
-HXLINE( 278)						_gthis->finishThing();
-HXLINE( 279)						_gthis->kill();
+            						HX_GC_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_279_update)
+HXLINE( 280)						_gthis->finishThing();
+HXLINE( 281)						_gthis->kill();
             					}
             					HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 261)					this->isEnding = true;
-HXLINE( 263)					bool _hx_tmp;
-HXDLIN( 263)					bool _hx_tmp1;
-HXDLIN( 263)					bool _hx_tmp2;
-HXDLIN( 263)					bool _hx_tmp3;
-HXDLIN( 263)					if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() != HX_("senpai",3c,df,8d,6b))) {
-HXLINE( 263)						_hx_tmp3 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("thorns",9c,bf,c7,8c));
+HXLINE( 263)					this->isEnding = true;
+HXLINE( 265)					bool _hx_tmp;
+HXDLIN( 265)					bool _hx_tmp1;
+HXDLIN( 265)					bool _hx_tmp2;
+HXDLIN( 265)					bool _hx_tmp3;
+HXDLIN( 265)					if ((( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() != HX_("senpai",3c,df,8d,6b))) {
+HXLINE( 265)						_hx_tmp3 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("thorns",9c,bf,c7,8c));
             					}
             					else {
-HXLINE( 263)						_hx_tmp3 = true;
+HXLINE( 265)						_hx_tmp3 = true;
             					}
-HXDLIN( 263)					if (!(_hx_tmp3)) {
-HXLINE( 263)						_hx_tmp2 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("shift",82,ec,22,7c));
-            					}
-            					else {
-HXLINE( 263)						_hx_tmp2 = true;
-            					}
-HXDLIN( 263)					if (!(_hx_tmp2)) {
-HXLINE( 263)						_hx_tmp1 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("brave",00,2e,e9,b8));
+HXDLIN( 265)					if (!(_hx_tmp3)) {
+HXLINE( 265)						_hx_tmp2 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("shift",82,ec,22,7c));
             					}
             					else {
-HXLINE( 263)						_hx_tmp1 = true;
+HXLINE( 265)						_hx_tmp2 = true;
             					}
-HXDLIN( 263)					if (!(_hx_tmp1)) {
-HXLINE( 263)						_hx_tmp = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("loss",e3,a9,b7,47));
+HXDLIN( 265)					if (!(_hx_tmp2)) {
+HXLINE( 265)						_hx_tmp1 = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("brave",00,2e,e9,b8));
             					}
             					else {
-HXLINE( 263)						_hx_tmp = true;
+HXLINE( 265)						_hx_tmp1 = true;
             					}
-HXDLIN( 263)					if (_hx_tmp) {
-HXLINE( 264)						 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 264)						 ::Dynamic To = 0;
-HXDLIN( 264)						 ::Dynamic onComplete = null();
-HXDLIN( 264)						if (::hx::IsNull( To )) {
-HXLINE( 264)							To = 0;
+HXDLIN( 265)					if (!(_hx_tmp1)) {
+HXLINE( 265)						_hx_tmp = (( (::String)(::PlayState_obj::SONG->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() == HX_("loss",e3,a9,b7,47));
+            					}
+            					else {
+HXLINE( 265)						_hx_tmp = true;
+            					}
+HXDLIN( 265)					if (_hx_tmp) {
+HXLINE( 266)						 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 266)						 ::Dynamic To = 0;
+HXDLIN( 266)						 ::Dynamic onComplete = null();
+HXDLIN( 266)						if (::hx::IsNull( To )) {
+HXLINE( 266)							To = 0;
             						}
-HXDLIN( 264)						if (::hx::IsNotNull( _this->fadeTween )) {
-HXLINE( 264)							_this->fadeTween->cancel();
+HXDLIN( 266)						if (::hx::IsNotNull( _this->fadeTween )) {
+HXLINE( 266)							_this->fadeTween->cancel();
             						}
-HXDLIN( 264)						_this->fadeTween = ::flixel::tweens::FlxTween_obj::num(_this->_volume,( (Float)(To) ),((Float)2.2), ::Dynamic(::hx::Anon_obj::Create(1)
+HXDLIN( 266)						_this->fadeTween = ::flixel::tweens::FlxTween_obj::num(_this->_volume,( (Float)(To) ),((Float)2.2), ::Dynamic(::hx::Anon_obj::Create(1)
             							->setFixed(0,HX_("onComplete",f8,d4,7e,5d),onComplete)),_this->volumeTween_dyn());
             					}
-HXLINE( 266)					 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.2), ::Dynamic(new _hx_Closure_0(_gthis)),5);
-HXLINE( 276)					 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)1.2), ::Dynamic(new _hx_Closure_1(_gthis)),null());
+HXLINE( 268)					 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)0.2), ::Dynamic(new _hx_Closure_0(_gthis)),5);
+HXLINE( 278)					 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(((Float)1.2), ::Dynamic(new _hx_Closure_1(_gthis)),null());
             				}
             			}
             			else {
-HXLINE( 285)				this->dialogueList->remove(this->dialogueList->__get(0));
-HXLINE( 286)				this->startDialogue();
+HXLINE( 287)				this->dialogueList->remove(this->dialogueList->__get(0));
+HXLINE( 288)				this->startDialogue();
             			}
             		}
-HXLINE( 290)		this->super::update(elapsed);
+HXLINE( 292)		this->super::update(elapsed);
             	}
 
 
 void DialogueBox_obj::startDialogue(){
-            	HX_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_296_startDialogue)
-HXLINE( 297)		this->cleanDialog();
-HXLINE( 303)		this->swagDialogue->resetText(this->dialogueList->__get(0));
-HXLINE( 304)		this->swagDialogue->start(((Float)0.04),true,null(),null(),null());
-HXLINE( 306)		::String _hx_switch_0 = this->curCharacter;
+            	HX_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_298_startDialogue)
+HXLINE( 299)		this->cleanDialog();
+HXLINE( 305)		this->swagDialogue->resetText(this->dialogueList->__get(0));
+HXLINE( 306)		this->swagDialogue->start(((Float)0.04),true,null(),null(),null());
+HXLINE( 308)		::String _hx_switch_0 = this->curCharacter;
             		if (  (_hx_switch_0==HX_("bf",c4,55,00,00)) ){
-HXLINE( 316)			this->portraitLeft->set_visible(false);
-HXLINE( 317)			if (!(this->portraitRight->visible)) {
-HXLINE( 319)				this->portraitRight->set_visible(true);
-HXLINE( 320)				this->portraitRight->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
+HXLINE( 318)			this->portraitLeft->set_visible(false);
+HXLINE( 319)			if (!(this->portraitRight->visible)) {
+HXLINE( 321)				this->portraitRight->set_visible(true);
+HXLINE( 322)				this->portraitRight->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
             			}
-HXLINE( 315)			goto _hx_goto_13;
+HXLINE( 317)			goto _hx_goto_13;
             		}
             		if (  (_hx_switch_0==HX_("dad",47,36,4c,00)) ){
-HXLINE( 309)			this->portraitRight->set_visible(false);
-HXLINE( 310)			if (!(this->portraitLeft->visible)) {
-HXLINE( 312)				this->portraitLeft->set_visible(true);
-HXLINE( 313)				this->portraitLeft->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
+HXLINE( 311)			this->portraitRight->set_visible(false);
+HXLINE( 312)			if (!(this->portraitLeft->visible)) {
+HXLINE( 314)				this->portraitLeft->set_visible(true);
+HXLINE( 315)				this->portraitLeft->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
             			}
-HXLINE( 308)			goto _hx_goto_13;
+HXLINE( 310)			goto _hx_goto_13;
             		}
             		if (  (_hx_switch_0==HX_("tai",5c,5a,58,00)) ){
-HXLINE( 323)			this->portraitRight->set_visible(false);
-HXLINE( 324)			if (!(this->portraitLeft->visible)) {
-HXLINE( 325)				this->portraitLeft->set_visible(true);
-HXLINE( 326)				this->portraitLeft->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
+HXLINE( 325)			this->portraitRight->set_visible(false);
+HXLINE( 326)			if (!(this->portraitLeft->visible)) {
+HXLINE( 327)				this->portraitLeft->set_visible(true);
+HXLINE( 328)				this->portraitLeft->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
             			}
-HXLINE( 322)			goto _hx_goto_13;
+HXLINE( 324)			goto _hx_goto_13;
             		}
             		if (  (_hx_switch_0==HX_("tai-demon",fa,69,05,25)) ){
-HXLINE( 329)			this->portraitRight->set_visible(false);
-HXLINE( 330)			if (!(this->portraitLeft->visible)) {
-HXLINE( 331)				this->portraitLeft->set_visible(true);
-HXLINE( 332)				this->portraitLeft->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
+HXLINE( 331)			this->portraitRight->set_visible(false);
+HXLINE( 332)			if (!(this->portraitLeft->visible)) {
+HXLINE( 333)				this->portraitLeft->set_visible(true);
+HXLINE( 334)				this->portraitLeft->animation->play(HX_("enter",18,6d,86,70),null(),null(),null());
             			}
-HXLINE( 328)			goto _hx_goto_13;
+HXLINE( 330)			goto _hx_goto_13;
             		}
             		_hx_goto_13:;
             	}
@@ -747,10 +755,10 @@ HXLINE( 328)			goto _hx_goto_13;
 HX_DEFINE_DYNAMIC_FUNC0(DialogueBox_obj,startDialogue,(void))
 
 void DialogueBox_obj::cleanDialog(){
-            	HX_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_338_cleanDialog)
-HXLINE( 339)		::Array< ::String > splitName = this->dialogueList->__get(0).split(HX_(":",3a,00,00,00));
-HXLINE( 340)		this->curCharacter = splitName->__get(1);
-HXLINE( 341)		this->dialogueList[0] = ::StringTools_obj::trim(this->dialogueList->__get(0).substr((splitName->__get(1).length + 2),null()));
+            	HX_STACKFRAME(&_hx_pos_abff9fa8c13cc7a0_340_cleanDialog)
+HXLINE( 341)		::Array< ::String > splitName = this->dialogueList->__get(0).split(HX_(":",3a,00,00,00));
+HXLINE( 342)		this->curCharacter = splitName->__get(1);
+HXLINE( 343)		this->dialogueList[0] = ::StringTools_obj::trim(this->dialogueList->__get(0).substr((splitName->__get(1).length + 2),null()));
             	}
 
 

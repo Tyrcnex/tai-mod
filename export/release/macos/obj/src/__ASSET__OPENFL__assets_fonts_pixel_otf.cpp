@@ -14,12 +14,12 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_f9bd248e8c37eaa1_708_new,"__ASSET__OPENFL__assets_fonts_pixel_otf","new",0xd7ddf5a3,"__ASSET__OPENFL__assets_fonts_pixel_otf.new","ManifestResources.hx",708,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_f9bd248e8c37eaa1_710_new,"__ASSET__OPENFL__assets_fonts_pixel_otf","new",0xd7ddf5a3,"__ASSET__OPENFL__assets_fonts_pixel_otf.new","ManifestResources.hx",710,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_pixel_otf_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_f9bd248e8c37eaa1_708_new)
-HXDLIN( 708)		this->_hx___fromLimeFont( ::__ASSET__assets_fonts_pixel_otf_obj::__alloc( HX_CTX ));
-HXDLIN( 708)		super::__construct(null());
+            	HX_GC_STACKFRAME(&_hx_pos_f9bd248e8c37eaa1_710_new)
+HXDLIN( 710)		this->_hx___fromLimeFont( ::__ASSET__assets_fonts_pixel_otf_obj::__alloc( HX_CTX ));
+HXDLIN( 710)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_pixel_otf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_pixel_otf_obj; }

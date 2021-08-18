@@ -15,7 +15,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_b2ff2ad71752a816_307_new,"__ASSET__assets_fonts_vcr_ttf","new",0xbb14ed97,"__ASSET__assets_fonts_vcr_ttf.new","lime/_internal/macros/AssetsMacro.hx",307,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_a412f7bc953955ad_649_boot,"__ASSET__assets_fonts_vcr_ttf","boot",0xef53f71b,"__ASSET__assets_fonts_vcr_ttf.boot","ManifestResources.hx",649,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_a412f7bc953955ad_651_boot,"__ASSET__assets_fonts_vcr_ttf","boot",0xef53f71b,"__ASSET__assets_fonts_vcr_ttf.boot","ManifestResources.hx",651,0xf77aa668)
 
 void __ASSET__assets_fonts_vcr_ttf_obj::__construct(){
             	HX_STACKFRAME(&_hx_pos_b2ff2ad71752a816_307_new)
@@ -136,8 +136,8 @@ void __ASSET__assets_fonts_vcr_ttf_obj::__register()
 void __ASSET__assets_fonts_vcr_ttf_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_a412f7bc953955ad_649_boot)
-HXDLIN( 649)		resourceName = HX_("LIME_font___ASSET__assets_fonts_vcr_ttf",9f,aa,95,e0);
+            	HX_STACKFRAME(&_hx_pos_a412f7bc953955ad_651_boot)
+HXDLIN( 651)		resourceName = HX_("LIME_font___ASSET__assets_fonts_vcr_ttf",9f,aa,95,e0);
             	}
 }
 

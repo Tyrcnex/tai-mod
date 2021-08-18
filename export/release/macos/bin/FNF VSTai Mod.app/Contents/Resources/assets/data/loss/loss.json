@@ -2882,6 +2882,7 @@
             }
         ],
         "song": "Loss",
+        "stage": "sidewalk",
         "validScore": true,
         "sections": 0,
         "needsVoices": true,
