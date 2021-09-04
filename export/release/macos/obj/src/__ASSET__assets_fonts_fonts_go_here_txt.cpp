@@ -12,7 +12,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_d86b46f3ef9633b7_34_new,"__ASSET__assets_fonts_fonts_go_here_txt","new",0x80de33a8,"__ASSET__assets_fonts_fonts_go_here_txt.new","lime/_internal/macros/AssetsMacro.hx",34,0xc651f030)
-HX_LOCAL_STACK_FRAME(_hx_pos_b532cc9b6989689f_649_boot,"__ASSET__assets_fonts_fonts_go_here_txt","boot",0x39a7ffea,"__ASSET__assets_fonts_fonts_go_here_txt.boot","ManifestResources.hx",649,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_b532cc9b6989689f_660_boot,"__ASSET__assets_fonts_fonts_go_here_txt","boot",0x39a7ffea,"__ASSET__assets_fonts_fonts_go_here_txt.boot","ManifestResources.hx",660,0xf77aa668)
 
 void __ASSET__assets_fonts_fonts_go_here_txt_obj::__construct( ::Dynamic length,::Array< unsigned char > bytesData){
             	HX_STACKFRAME(&_hx_pos_d86b46f3ef9633b7_34_new)
@@ -133,8 +133,8 @@ void __ASSET__assets_fonts_fonts_go_here_txt_obj::__register()
 void __ASSET__assets_fonts_fonts_go_here_txt_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_b532cc9b6989689f_649_boot)
-HXDLIN( 649)		resourceName = HX_("__ASSET__:file___ASSET__assets_fonts_fonts_go_here_txt",1d,b3,63,d8);
+            	HX_STACKFRAME(&_hx_pos_b532cc9b6989689f_660_boot)
+HXDLIN( 660)		resourceName = HX_("__ASSET__:file___ASSET__assets_fonts_fonts_go_here_txt",1d,b3,63,d8);
             	}
 }
 

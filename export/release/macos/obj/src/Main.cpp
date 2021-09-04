@@ -5,6 +5,9 @@
 #define INCLUDED_95f339a1d026d52c
 #include "hxMath.h"
 #endif
+#ifndef INCLUDED_GlobalVideo
+#include <GlobalVideo.h>
+#endif
 #ifndef INCLUDED_Main
 #include <Main.h>
 #endif
@@ -13,6 +16,9 @@
 #endif
 #ifndef INCLUDED_TitleState
 #include <TitleState.h>
+#endif
+#ifndef INCLUDED_WebmHandler
+#include <WebmHandler.h>
 #endif
 #ifndef INCLUDED_flixel_FlxBasic
 #include <flixel/FlxBasic.h>
@@ -53,6 +59,9 @@
 #ifndef INCLUDED_openfl_Lib
 #include <openfl/Lib.h>
 #endif
+#ifndef INCLUDED_openfl_display_Bitmap
+#include <openfl/display/Bitmap.h>
+#endif
 #ifndef INCLUDED_openfl_display_DisplayObject
 #include <openfl/display/DisplayObject.h>
 #endif
@@ -89,15 +98,18 @@
 #ifndef INCLUDED_openfl_text_TextField
 #include <openfl/text/TextField.h>
 #endif
+#ifndef INCLUDED_webm_WebmPlayer
+#include <webm/WebmPlayer.h>
+#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_e47a9afac0942eb9_16_new,"Main","new",0x6616a5cb,"Main.new","Main.hx",16,0x087e5c05)
 HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_53_init,"Main","init",0xea732345,"Main.init","Main.hx",53,0x087e5c05)
 HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_63_setupGame,"Main","setupGame",0x7f7688ba,"Main.setupGame","Main.hx",63,0x087e5c05)
-HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_97_toggleFPS,"Main","toggleFPS",0x9eefd060,"Main.toggleFPS","Main.hx",97,0x087e5c05)
-HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_102_changeFPSColor,"Main","changeFPSColor",0xbde8c2bf,"Main.changeFPSColor","Main.hx",102,0x087e5c05)
-HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_107_setFPSCap,"Main","setFPSCap",0x4fb5c496,"Main.setFPSCap","Main.hx",107,0x087e5c05)
-HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_112_getFPSCap,"Main","getFPSCap",0x6c64d88a,"Main.getFPSCap","Main.hx",112,0x087e5c05)
-HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_117_getFPS,"Main","getFPS",0xd3c70468,"Main.getFPS","Main.hx",117,0x087e5c05)
+HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_118_toggleFPS,"Main","toggleFPS",0x9eefd060,"Main.toggleFPS","Main.hx",118,0x087e5c05)
+HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_123_changeFPSColor,"Main","changeFPSColor",0xbde8c2bf,"Main.changeFPSColor","Main.hx",123,0x087e5c05)
+HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_128_setFPSCap,"Main","setFPSCap",0x4fb5c496,"Main.setFPSCap","Main.hx",128,0x087e5c05)
+HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_133_getFPSCap,"Main","getFPSCap",0x6c64d88a,"Main.getFPSCap","Main.hx",133,0x087e5c05)
+HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_138_getFPS,"Main","getFPS",0xd3c70468,"Main.getFPS","Main.hx",138,0x087e5c05)
 HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_35_main,"Main","main",0xed0e206e,"Main.main","Main.hx",35,0x087e5c05)
 HX_LOCAL_STACK_FRAME(_hx_pos_e47a9afac0942eb9_26_boot,"Main","boot",0xe5d36c67,"Main.boot","Main.hx",26,0x087e5c05)
 
@@ -175,49 +187,57 @@ HXLINE(  73)			this->gameHeight = ::Math_obj::ceil((( (Float)(stageHeight) ) / t
 HXLINE(  77)		this->initialState = ::hx::ClassOf< ::TitleState >();
 HXLINE(  80)		this->game =  ::flixel::FlxGame_obj::__alloc( HX_CTX ,this->gameWidth,this->gameHeight,this->initialState,this->zoom,this->framerate,this->framerate,this->skipSplash,this->startFullscreen);
 HXLINE(  82)		this->addChild(this->game);
-HXLINE(  85)		this->fpsCounter =  ::openfl::display::FPS_obj::__alloc( HX_CTX ,10,3,16777215);
-HXLINE(  86)		this->addChild(this->fpsCounter);
-HXLINE(  87)		this->toggleFPS(( (bool)(::flixel::FlxG_obj::save->data->__Field(HX_("fps",e9,c7,4d,00),::hx::paccDynamic)) ));
+HXLINE(  84)		::String ourSource = HX_("assets/videos/DO NOT DELETE OR GAME WILL CRASH/dontDelete.webm",a4,1f,1a,38);
+HXLINE(  96)		::String str1 = HX_("WEBM SHIT",e7,ff,8c,40);
+HXLINE(  97)		 ::WebmHandler webmHandle =  ::WebmHandler_obj::__alloc( HX_CTX );
+HXLINE(  98)		webmHandle->source(ourSource);
+HXLINE(  99)		webmHandle->makePlayer();
+HXLINE( 100)		webmHandle->webm->set_name(str1);
+HXLINE( 101)		this->addChild(webmHandle->webm);
+HXLINE( 102)		::GlobalVideo_obj::setWebm(webmHandle);
+HXLINE( 106)		this->fpsCounter =  ::openfl::display::FPS_obj::__alloc( HX_CTX ,10,3,16777215);
+HXLINE( 107)		this->addChild(this->fpsCounter);
+HXLINE( 108)		this->toggleFPS(( (bool)(::flixel::FlxG_obj::save->data->__Field(HX_("fps",e9,c7,4d,00),::hx::paccDynamic)) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Main_obj,setupGame,(void))
 
 void Main_obj::toggleFPS(bool fpsEnabled){
-            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_97_toggleFPS)
-HXDLIN(  97)		this->fpsCounter->set_visible(fpsEnabled);
+            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_118_toggleFPS)
+HXDLIN( 118)		this->fpsCounter->set_visible(fpsEnabled);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Main_obj,toggleFPS,(void))
 
 void Main_obj::changeFPSColor(int color){
-            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_102_changeFPSColor)
-HXDLIN( 102)		this->fpsCounter->set_textColor(color);
+            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_123_changeFPSColor)
+HXDLIN( 123)		this->fpsCounter->set_textColor(color);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Main_obj,changeFPSColor,(void))
 
 void Main_obj::setFPSCap(Float cap){
-            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_107_setFPSCap)
-HXDLIN( 107)		::openfl::Lib_obj::get_current()->stage->set_frameRate(cap);
+            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_128_setFPSCap)
+HXDLIN( 128)		::openfl::Lib_obj::get_current()->stage->set_frameRate(cap);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Main_obj,setFPSCap,(void))
 
 Float Main_obj::getFPSCap(){
-            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_112_getFPSCap)
-HXDLIN( 112)		return ::openfl::Lib_obj::get_current()->stage->get_frameRate();
+            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_133_getFPSCap)
+HXDLIN( 133)		return ::openfl::Lib_obj::get_current()->stage->get_frameRate();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Main_obj,getFPSCap,return )
 
 Float Main_obj::getFPS(){
-            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_117_getFPS)
-HXDLIN( 117)		return ( (Float)(this->fpsCounter->currentFPS) );
+            	HX_STACKFRAME(&_hx_pos_e47a9afac0942eb9_138_getFPS)
+HXDLIN( 138)		return ( (Float)(this->fpsCounter->currentFPS) );
             	}
 
 

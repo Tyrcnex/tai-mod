@@ -19,11 +19,16 @@
 #ifndef INCLUDED_sys_io_FileInput
 #include <sys/io/FileInput.h>
 #endif
+#ifndef INCLUDED_sys_io_FileSeek
+#include <sys/io/FileSeek.h>
+#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_1cbd96634e6b00f3_33_new,"sys.io.FileInput","new",0x565591b9,"sys.io.FileInput.new","/usr/local/lib/haxe/std/cpp/_std/sys/io/FileInput.hx",33,0x0a6b0235)
 HX_LOCAL_STACK_FRAME(_hx_pos_1cbd96634e6b00f3_37_readByte,"sys.io.FileInput","readByte",0x25e0b585,"sys.io.FileInput.readByte","/usr/local/lib/haxe/std/cpp/_std/sys/io/FileInput.hx",37,0x0a6b0235)
 HX_LOCAL_STACK_FRAME(_hx_pos_1cbd96634e6b00f3_48_readBytes,"sys.io.FileInput","readBytes",0xfebe1f4e,"sys.io.FileInput.readBytes","/usr/local/lib/haxe/std/cpp/_std/sys/io/FileInput.hx",48,0x0a6b0235)
 HX_LOCAL_STACK_FRAME(_hx_pos_1cbd96634e6b00f3_58_close,"sys.io.FileInput","close",0x735aa151,"sys.io.FileInput.close","/usr/local/lib/haxe/std/cpp/_std/sys/io/FileInput.hx",58,0x0a6b0235)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbd96634e6b00f3_64_seek,"sys.io.FileInput","seek",0x37d7f1ff,"sys.io.FileInput.seek","/usr/local/lib/haxe/std/cpp/_std/sys/io/FileInput.hx",64,0x0a6b0235)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbd96634e6b00f3_68_tell,"sys.io.FileInput","tell",0x38812eb8,"sys.io.FileInput.tell","/usr/local/lib/haxe/std/cpp/_std/sys/io/FileInput.hx",68,0x0a6b0235)
 namespace sys{
 namespace io{
 
@@ -114,6 +119,34 @@ HXLINE(  60)		_hx_std_file_close(this->_hx___f);
             	}
 
 
+void FileInput_obj::seek(int p, ::sys::io::FileSeek pos){
+            	HX_STACKFRAME(&_hx_pos_1cbd96634e6b00f3_64_seek)
+HXDLIN(  64)		int _hx_tmp;
+HXDLIN(  64)		if (::hx::IsEq( pos,::sys::io::FileSeek_obj::SeekBegin_dyn() )) {
+HXDLIN(  64)			_hx_tmp = 0;
+            		}
+            		else {
+HXDLIN(  64)			if (::hx::IsEq( pos,::sys::io::FileSeek_obj::SeekCur_dyn() )) {
+HXDLIN(  64)				_hx_tmp = 1;
+            			}
+            			else {
+HXDLIN(  64)				_hx_tmp = 2;
+            			}
+            		}
+HXDLIN(  64)		_hx_std_file_seek(this->_hx___f,p,_hx_tmp);
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC2(FileInput_obj,seek,(void))
+
+int FileInput_obj::tell(){
+            	HX_STACKFRAME(&_hx_pos_1cbd96634e6b00f3_68_tell)
+HXDLIN(  68)		return _hx_std_file_tell(this->_hx___f);
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(FileInput_obj,tell,return )
+
 
 ::hx::ObjectPtr< FileInput_obj > FileInput_obj::__new( ::Dynamic f) {
 	::hx::ObjectPtr< FileInput_obj > __this = new FileInput_obj();
@@ -149,6 +182,10 @@ void FileInput_obj::__Visit(HX_VISIT_PARAMS)
 	switch(inName.length) {
 	case 3:
 		if (HX_FIELD_EQ(inName,"__f") ) { return ::hx::Val( _hx___f ); }
+		break;
+	case 4:
+		if (HX_FIELD_EQ(inName,"seek") ) { return ::hx::Val( seek_dyn() ); }
+		if (HX_FIELD_EQ(inName,"tell") ) { return ::hx::Val( tell_dyn() ); }
 		break;
 	case 5:
 		if (HX_FIELD_EQ(inName,"close") ) { return ::hx::Val( close_dyn() ); }
@@ -190,6 +227,8 @@ static ::String FileInput_obj_sMemberFields[] = {
 	HX_("readByte",7e,f9,1a,69),
 	HX_("readBytes",35,55,7f,8e),
 	HX_("close",b8,17,63,48),
+	HX_("seek",78,85,50,4c),
+	HX_("tell",31,c2,f9,4c),
 	::String(null()) };
 
 ::hx::Class FileInput_obj::__mClass;

@@ -30,6 +30,18 @@ class DialogueBox extends FlxSpriteGroup
 
 	var portraitLeft:FlxSprite;
 	var portraitRight:FlxSprite;
+	var portraitLeftTAI:FlxSprite;
+	var portraitLeftTAIANNOY:FlxSprite;
+	var portraitLeftTAIRAGE:FlxSprite;
+	var portraitLeftTAIDEMON:FlxSprite;
+	var portraitLeftTAICHEER:FlxSprite;
+
+	var portraitRightBF:FlxSprite;
+	var portraitRightGF:FlxSprite;
+	var portraitRightGFOH:FlxSprite;
+	var portraitRightGFANNOY:FlxSprite;
+
+	var daPortraits:Array<FlxSprite> = [];
 
 	var handSelect:FlxSprite;
 	var bgFade:FlxSprite;
@@ -44,15 +56,6 @@ class DialogueBox extends FlxSpriteGroup
 				FlxG.sound.playMusic(Paths.music('Lunchbox'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 			case 'thorns':
-				FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
-			case 'shift':
-				FlxG.sound.playMusic(Paths.music('Lunchbox'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
-			case 'brave':
-				FlxG.sound.playMusic(Paths.music('Lunchbox'), 0);
-				FlxG.sound.music.fadeIn(1, 0, 0.8);
-			case 'loss':
 				FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
 				FlxG.sound.music.fadeIn(1, 0, 0.8);
 		}
@@ -97,93 +100,104 @@ class DialogueBox extends FlxSpriteGroup
 				face.setGraphicSize(Std.int(face.width * 6));
 				add(face);
 
-			case 'shift':
+			case 'shift' | 'brave' | 'loss':
 				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('speech_bubble_talking', 'shared');
+				box.frames = Paths.getSparrowAtlas('speech_bubble_talking');
 				box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
-				box.animation.addByIndices('normal', 'speech bubble normal', [4], "", 24);
-				box.width = 200;
-				box.height = 200;
-				box.x = -100;
-				box.y = 375;
-			case 'brave':
-				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('speech_bubble_talking', 'shared');
-				box.animation.addByPrefix('normalOpen', 'Speech Bubble Normal Open', 24, false);
-				box.animation.addByIndices('normal', 'speech bubble normal', [4], "", 24);
-				box.width = 200;
-				box.height = 200;
-				box.x = -100;
-				box.y = 375;
-			case 'loss':
-				hasDialog = true;
-				box.frames = Paths.getSparrowAtlas('speech_bubble_talking', 'shared');
-				box.animation.addByPrefix('normalOpen', 'AHH speech bubble', 24, false);
-				box.animation.addByIndices('normal', 'speech bubble loud open', [4], "", 24);
+				box.animation.addByPrefix('normal', 'speech bubble normal', 24, true);
 				box.width = 230;
 				box.height = 230;
 				box.x = -100;
-				box.y = 300;
+				box.y = 375;
 		}
 
 		this.dialogueList = dialogueList;
 		
 		if (!hasDialog)
 			return;
+		
+		var prefix:String = "tai/dialogue/Dialog icons/";
 
-		if (PlayState.SONG.song.toLowerCase() == 'senpai' || PlayState.SONG.song.toLowerCase() == 'roses' || PlayState.SONG.song.toLowerCase() == 'thorns') {
-			portraitLeft = new FlxSprite(-20, 40);
-			portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait');
-			portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
-			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.9));
-			portraitLeft.updateHitbox();
-			portraitLeft.scrollFactor.set();
-			add(portraitLeft);
-			portraitLeft.visible = false;
-		} else if (PlayState.SONG.song.toLowerCase() == 'shift' || PlayState.SONG.song.toLowerCase() == 'brave') {
-			portraitLeft = new FlxSprite(-20, 40);
-			portraitLeft.frames = Paths.getSparrowAtlas('weeb/taiPortrait'); // Do this later
-			portraitLeft.animation.addByPrefix('enter', 'TAI Portrait Enter', 24, false);
-			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.2));
-			portraitLeft.updateHitbox();
-			portraitLeft.scrollFactor.set();
-			portraitLeft.y += 111;
-			portraitLeft.x -= 315;
-			add(portraitLeft);
-			portraitLeft.visible = false;
-		} else if (PlayState.SONG.song.toLowerCase() == 'loss') {
-			portraitLeft = new FlxSprite(-20, 40);
-			portraitLeft.y += 30;
-			portraitLeft.frames = Paths.getSparrowAtlas('weeb/taiDemonPortrait'); // Also do this later
-			portraitLeft.animation.addByPrefix('enter', 'TAI Portrait Enter', 24, false);
-			portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.2));
-			portraitLeft.updateHitbox();
-			portraitLeft.scrollFactor.set();
-			add(portraitLeft);
-			portraitLeft.visible = false;
-		}
+		portraitLeft = new FlxSprite(box.x + 100, box.y + 100);
+		portraitLeft.frames = Paths.getSparrowAtlas('weeb/senpaiPortrait');
+		portraitLeft.animation.addByPrefix('enter', 'Senpai Portrait Enter', 24, false);
+		portraitLeft.setGraphicSize(Std.int(portraitLeft.width * PlayState.daPixelZoom * 0.9));
+		portraitLeft.updateHitbox();
+		portraitLeft.scrollFactor.set();
+		add(portraitLeft);
+		portraitLeft.visible = false;
 
-		if (PlayState.SONG.song.toLowerCase() == 'senpai' || PlayState.SONG.song.toLowerCase() == 'roses' || PlayState.SONG.song.toLowerCase() == 'thorns') {
-			portraitRight = new FlxSprite(0, 40);
-			portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait');
-			portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
-			portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.9));
-			portraitRight.updateHitbox();
-			portraitRight.scrollFactor.set();
-			add(portraitRight);
-			portraitRight.visible = false;
-		} else if (PlayState.SONG.song.toLowerCase() == 'shift' || PlayState.SONG.song.toLowerCase() == 'brave' || PlayState.SONG.song.toLowerCase() == 'loss') {
-			portraitRight = new FlxSprite(0, 40);
-			portraitRight.y += 92;
-			portraitRight.x += 677;
-			portraitRight.frames = Paths.getSparrowAtlas('weeb/boyfriendPort');
-			portraitRight.animation.addByPrefix('enter', 'BF Portrait Enter', 24, false);
-			portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.2));
-			portraitRight.updateHitbox();
-			portraitRight.scrollFactor.set();
-			add(portraitRight);
-			portraitRight.visible = false;
-		}
+		portraitRight = new FlxSprite(0, 40);
+		portraitRight.frames = Paths.getSparrowAtlas('weeb/bfPortrait');
+		portraitRight.animation.addByPrefix('enter', 'Boyfriend portrait enter', 24, false);
+		portraitRight.setGraphicSize(Std.int(portraitRight.width * PlayState.daPixelZoom * 0.9));
+		portraitRight.updateHitbox();
+		portraitRight.scrollFactor.set();
+		add(portraitRight);
+		portraitRight.visible = false;
+
+			portraitLeftTAI = new FlxSprite(box.x + 200, box.y - 300).loadGraphic(Paths.image(prefix + 'taiPortrait'));
+			portraitLeftTAI.updateHitbox();
+			portraitLeftTAI.scrollFactor.set();
+			daPortraits.push(portraitLeftTAI);
+			add(portraitLeftTAI);
+			portraitLeftTAI.visible = false;
+
+			portraitLeftTAIANNOY = new FlxSprite(box.x + 200, box.y - 300).loadGraphic(Paths.image(prefix + 'taiPortraitAnnoy'));
+			portraitLeftTAIANNOY.updateHitbox();
+			portraitLeftTAIANNOY.scrollFactor.set();
+			daPortraits.push(portraitLeftTAIANNOY);
+			add(portraitLeftTAIANNOY);
+			portraitLeftTAIANNOY.visible = false;
+
+			portraitLeftTAIRAGE = new FlxSprite(box.x + 200, box.y - 300).loadGraphic(Paths.image(prefix + 'taiPortraitRage'));
+			portraitLeftTAIRAGE.updateHitbox();
+			portraitLeftTAIRAGE.scrollFactor.set();
+			daPortraits.push(portraitLeftTAIRAGE);
+			add(portraitLeftTAIRAGE);
+			portraitLeftTAIRAGE.visible = false;
+
+			portraitLeftTAICHEER = new FlxSprite(box.x + 200, box.y - 300).loadGraphic(Paths.image(prefix + 'taiPortraitRage'));
+			portraitLeftTAICHEER.updateHitbox();
+			portraitLeftTAICHEER.scrollFactor.set();
+			daPortraits.push(portraitLeftTAICHEER);
+			add(portraitLeftTAICHEER);
+			portraitLeftTAICHEER.visible = false;
+
+			portraitLeftTAIDEMON = new FlxSprite(box.x + 200, box.y - 300).loadGraphic(Paths.image(prefix + 'taiDemonPortrait'));
+			portraitLeftTAIDEMON.updateHitbox();
+			portraitLeftTAIDEMON.scrollFactor.set();
+			daPortraits.push(portraitLeftTAIDEMON);
+			add(portraitLeftTAIDEMON);
+			portraitLeftTAIDEMON.visible = false;
+			
+			portraitRightBF = new FlxSprite(box.x + 720, box.y - 300).loadGraphic(Paths.image(prefix + 'bfCartoon'));
+			portraitRightBF.updateHitbox();
+			portraitRightBF.scrollFactor.set();
+			daPortraits.push(portraitRightBF);
+			add(portraitRightBF);
+			portraitRightBF.visible = false;
+
+			portraitRightGF = new FlxSprite(box.x + 720, box.y - 240).loadGraphic(Paths.image(prefix + 'gfPortrait'));
+			portraitRightGF.updateHitbox();
+			portraitRightGF.scrollFactor.set();
+			daPortraits.push(portraitRightGF);
+			add(portraitRightGF);
+			portraitRightGF.visible = false;
+
+			portraitRightGFOH = new FlxSprite(box.x + 720, box.y - 240).loadGraphic(Paths.image(prefix + 'gfPortraitOh'));
+			portraitRightGFOH.updateHitbox();
+			portraitRightGFOH.scrollFactor.set();
+			daPortraits.push(portraitRightGFOH);
+			add(portraitRightGFOH);
+			portraitRightGFOH.visible = false;
+
+			portraitRightGFANNOY = new FlxSprite(box.x + 720, box.y - 240).loadGraphic(Paths.image(prefix + 'gfPortraitAnnoy'));
+			portraitRightGFANNOY.updateHitbox();
+			portraitRightGFANNOY.scrollFactor.set();
+			daPortraits.push(portraitRightGFANNOY);
+			add(portraitRightGFANNOY);
+			portraitRightGFANNOY.visible = false;
 		
 		box.animation.play('normalOpen');
 		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
@@ -291,6 +305,17 @@ class DialogueBox extends FlxSpriteGroup
 		
 		super.update(elapsed);
 	}
+	
+	function hidePortraits():Void
+		{
+			portraitLeft.visible = false;
+			portraitRight.visible = false;
+			for (shit in daPortraits)
+			{
+				shit.visible = false;
+			}
+		}
+	
 
 	var isEnding:Bool = false;
 
@@ -308,31 +333,50 @@ class DialogueBox extends FlxSpriteGroup
 		switch (curCharacter)
 		{
 			case 'dad':
-				portraitRight.visible = false;
-				if (!portraitLeft.visible)
-				{
-					portraitLeft.visible = true;
-					portraitLeft.animation.play('enter');
-				}
+				hidePortraits();
+				portraitLeft.visible = true;
+				portraitLeft.animation.play('enter');
+				box.flipX = true;
 			case 'bf':
-				portraitLeft.visible = false;
-				if (!portraitRight.visible)
-				{
-					portraitRight.visible = true;
-					portraitRight.animation.play('enter');
-				}
+				hidePortraits();
+				portraitRightBF.visible = true;
+				portraitRightBF.animation.play('enter');
+				box.flipX = false;
+			case 'gf':
+				hidePortraits();
+				portraitRightGF.visible = true;
+				portraitRightGF.animation.play('enter');
+				box.flipX = false;
+			case 'gf-annoy':
+				hidePortraits();
+				portraitRightGFANNOY.visible = true;
+				portraitRightGFANNOY.animation.play('enter');
+				box.flipX = false;
+			case 'gf-oh':
+				hidePortraits();
+				portraitRightGFOH.visible = true;
+				portraitRightGFOH.animation.play('enter');
+				box.flipX = false;
 			case 'tai':
-				portraitRight.visible = false;
-				if (!portraitLeft.visible) {
-					portraitLeft.visible = true;
-					portraitLeft.animation.play('enter');
-				}
+				hidePortraits();
+				portraitLeftTAI.visible = true;
+				box.flipX = true;
+			case 'tai-annoyed':
+				hidePortraits();
+				portraitLeftTAIANNOY.visible = true;
+				box.flipX = true;
+			case 'tai-rage':
+				hidePortraits();
+				portraitLeftTAIRAGE.visible = true;
+				box.flipX = true;
+			case 'tai-cheer':
+				hidePortraits();
+				portraitLeftTAICHEER.visible = true;
+				box.flipX = true;
 			case 'tai-demon':
-				portraitRight.visible = false;
-				if (!portraitLeft.visible) {
-					portraitLeft.visible = true;
-					portraitLeft.animation.play('enter');
-				}
+				hidePortraits();
+				portraitLeftTAIDEMON.visible = true;
+				box.flipX = true;
 		}
 	}
 

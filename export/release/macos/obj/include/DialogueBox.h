@@ -63,11 +63,24 @@ class HXCPP_CLASS_ATTRIBUTES DialogueBox_obj : public  ::flixel::group::FlxTyped
 		Dynamic finishThing_dyn() { return finishThing;}
 		 ::flixel::FlxSprite portraitLeft;
 		 ::flixel::FlxSprite portraitRight;
+		 ::flixel::FlxSprite portraitLeftTAI;
+		 ::flixel::FlxSprite portraitLeftTAIANNOY;
+		 ::flixel::FlxSprite portraitLeftTAIRAGE;
+		 ::flixel::FlxSprite portraitLeftTAIDEMON;
+		 ::flixel::FlxSprite portraitLeftTAICHEER;
+		 ::flixel::FlxSprite portraitRightBF;
+		 ::flixel::FlxSprite portraitRightGF;
+		 ::flixel::FlxSprite portraitRightGFOH;
+		 ::flixel::FlxSprite portraitRightGFANNOY;
+		::Array< ::Dynamic> daPortraits;
 		 ::flixel::FlxSprite handSelect;
 		 ::flixel::FlxSprite bgFade;
 		bool dialogueOpened;
 		bool dialogueStarted;
 		void update(Float elapsed);
+
+		void hidePortraits();
+		::Dynamic hidePortraits_dyn();
 
 		bool isEnding;
 		void startDialogue();

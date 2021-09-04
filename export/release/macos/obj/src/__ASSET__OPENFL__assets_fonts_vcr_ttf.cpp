@@ -14,12 +14,12 @@
 #include <openfl/text/Font.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_57a6f60f6ddd8c51_711_new,"__ASSET__OPENFL__assets_fonts_vcr_ttf","new",0x6b4c3447,"__ASSET__OPENFL__assets_fonts_vcr_ttf.new","ManifestResources.hx",711,0xf77aa668)
+HX_DEFINE_STACK_FRAME(_hx_pos_57a6f60f6ddd8c51_722_new,"__ASSET__OPENFL__assets_fonts_vcr_ttf","new",0x6b4c3447,"__ASSET__OPENFL__assets_fonts_vcr_ttf.new","ManifestResources.hx",722,0xf77aa668)
 
 void __ASSET__OPENFL__assets_fonts_vcr_ttf_obj::__construct(){
-            	HX_GC_STACKFRAME(&_hx_pos_57a6f60f6ddd8c51_711_new)
-HXDLIN( 711)		this->_hx___fromLimeFont( ::__ASSET__assets_fonts_vcr_ttf_obj::__alloc( HX_CTX ));
-HXDLIN( 711)		super::__construct(null());
+            	HX_GC_STACKFRAME(&_hx_pos_57a6f60f6ddd8c51_722_new)
+HXDLIN( 722)		this->_hx___fromLimeFont( ::__ASSET__assets_fonts_vcr_ttf_obj::__alloc( HX_CTX ));
+HXDLIN( 722)		super::__construct(null());
             	}
 
 Dynamic __ASSET__OPENFL__assets_fonts_vcr_ttf_obj::__CreateEmpty() { return new __ASSET__OPENFL__assets_fonts_vcr_ttf_obj; }

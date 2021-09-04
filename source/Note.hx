@@ -27,6 +27,8 @@ class Note extends FlxSprite
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
 
+	public var noteStyle:String = 'normal';
+
 	public var noteScore:Float = 1;
 
 	public static var swagWidth:Float = 160 * 0.7;
@@ -37,9 +39,11 @@ class Note extends FlxSprite
 
 	public var rating:String = "shit";
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, noteStyle:String = 'normal')
 	{
 		super();
+
+		this.noteStyle = noteStyle;
 
 		if (prevNote == null)
 			prevNote = this;
@@ -87,6 +91,14 @@ class Note extends FlxSprite
 				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
 				updateHitbox();
 			default:
+				var daPath:String = "NOTE_assets";
+				switch (noteStyle) {
+					case 'taiNote':
+						daPath = "NOTE_tai";
+					default:
+						daPath = "NOTE_assets";
+				}
+				
 				frames = Paths.getSparrowAtlas('NOTE_assets');
 
 				animation.addByPrefix('greenScroll', 'green0');

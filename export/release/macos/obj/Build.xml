@@ -2,6 +2,61 @@
 <set name="HXCPP_API_LEVEL" value="400" />
 <files id="haxe">
 <compilerflag value="-Iinclude"/>
+  <file name="src/webm/WebmPlayer.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/cpp/Lib.h"/>
+   <depend name="include/haxe/io/Bytes.h"/>
+   <depend name="include/lime/system/System.h"/>
+   <depend name="include/openfl/display/Bitmap.h"/>
+   <depend name="include/openfl/display/BitmapData.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/events/Event.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+   <depend name="include/openfl/events/SampleDataEvent.h"/>
+   <depend name="include/openfl/media/Sound.h"/>
+   <depend name="include/openfl/media/SoundChannel.h"/>
+   <depend name="include/openfl/media/SoundLoaderContext.h"/>
+   <depend name="include/openfl/media/SoundTransform.h"/>
+   <depend name="include/openfl/net/URLRequest.h"/>
+   <depend name="include/openfl/utils/ByteArrayData.h"/>
+   <depend name="include/openfl/utils/IDataInput.h"/>
+   <depend name="include/openfl/utils/IDataOutput.h"/>
+   <depend name="include/openfl/utils/_ByteArray/ByteArray_Impl_.h"/>
+   <depend name="include/webm/VpxDecoder.h"/>
+   <depend name="include/webm/WebmEvent.h"/>
+   <depend name="include/webm/WebmIo.h"/>
+   <depend name="include/webm/WebmPlayer.h"/>
+  </file>
+  <file name="src/webm/WebmIoFile.cpp" >
+   <depend name="include/Std.h"/>
+   <depend name="include/haxe/io/Bytes.h"/>
+   <depend name="include/haxe/io/Input.h"/>
+   <depend name="include/sys/io/File.h"/>
+   <depend name="include/sys/io/FileInput.h"/>
+   <depend name="include/sys/io/FileSeek.h"/>
+   <depend name="include/webm/WebmIo.h"/>
+   <depend name="include/webm/WebmIoFile.h"/>
+  </file>
+  <file name="src/webm/WebmIo.cpp" >
+   <depend name="include/cpp/Lib.h"/>
+   <depend name="include/webm/WebmIo.h"/>
+  </file>
+  <file name="src/webm/WebmEvent.cpp" >
+   <depend name="include/openfl/events/Event.h"/>
+   <depend name="include/webm/WebmEvent.h"/>
+  </file>
+  <file name="src/webm/VpxDecoder.cpp" >
+   <depend name="include/cpp/Lib.h"/>
+   <depend name="include/haxe/io/Bytes.h"/>
+   <depend name="include/lime/graphics/Image.h"/>
+   <depend name="include/lime/graphics/ImageBuffer.h"/>
+   <depend name="include/lime/utils/ArrayBufferView.h"/>
+   <depend name="include/openfl/display/BitmapData.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/webm/VpxDecoder.h"/>
+  </file>
   <file name="src/sys/thread/_Thread/Thread_Impl_.cpp" >
    <depend name="include/sys/thread/_Thread/Thread_Impl_.h"/>
   </file>
@@ -104,6 +159,9 @@
    <depend name="include/haxe/io/Output.h"/>
    <depend name="include/sys/io/_Process/Stdin.h"/>
   </file>
+  <file name="src/sys/io/FileSeek.cpp" >
+   <depend name="include/sys/io/FileSeek.h"/>
+  </file>
   <file name="src/sys/io/FileOutput.cpp" >
    <depend name="include/haxe/Exception.h"/>
    <depend name="include/haxe/io/Bytes.h"/>
@@ -118,6 +176,7 @@
    <depend name="include/haxe/io/Error.h"/>
    <depend name="include/haxe/io/Input.h"/>
    <depend name="include/sys/io/FileInput.h"/>
+   <depend name="include/sys/io/FileSeek.h"/>
   </file>
   <file name="src/sys/io/File.cpp" >
    <depend name="include/haxe/io/Bytes.h"/>
@@ -1119,6 +1178,14 @@
    <depend name="include/openfl/events/SecurityErrorEvent.h"/>
    <depend name="include/openfl/events/TextEvent.h"/>
   </file>
+  <file name="src/openfl/events/SampleDataEvent.cpp" tags="haxe,release">
+   <depend name="include/haxe/io/Bytes.h"/>
+   <depend name="include/openfl/events/Event.h"/>
+   <depend name="include/openfl/events/SampleDataEvent.h"/>
+   <depend name="include/openfl/utils/ByteArrayData.h"/>
+   <depend name="include/openfl/utils/IDataInput.h"/>
+   <depend name="include/openfl/utils/IDataOutput.h"/>
+  </file>
   <file name="src/openfl/events/RenderEvent.cpp" tags="haxe,release">
    <depend name="include/openfl/display/DisplayObjectRenderer.h"/>
    <depend name="include/openfl/events/Event.h"/>
@@ -1190,6 +1257,13 @@
   <file name="src/openfl/events/_EventDispatcher/DispatchIterator.cpp" tags="haxe,release">
    <depend name="include/openfl/events/_EventDispatcher/DispatchIterator.h"/>
    <depend name="include/openfl/events/_EventDispatcher/Listener.h"/>
+  </file>
+  <file name="src/openfl/events/AsyncErrorEvent.cpp" tags="haxe,release">
+   <depend name="include/haxe/io/Error.h"/>
+   <depend name="include/openfl/events/AsyncErrorEvent.h"/>
+   <depend name="include/openfl/events/ErrorEvent.h"/>
+   <depend name="include/openfl/events/Event.h"/>
+   <depend name="include/openfl/events/TextEvent.h"/>
   </file>
   <file name="src/openfl/events/ErrorEvent.cpp" tags="haxe,release">
    <depend name="include/openfl/events/ErrorEvent.h"/>
@@ -3528,6 +3602,195 @@
    <depend name="include/openfl/net/URLLoader.h"/>
    <depend name="include/openfl/net/URLRequest.h"/>
    <depend name="include/openfl/utils/_internal/Lib.h"/>
+  </file>
+  <file name="src/motion/actuators/TransformActuator.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/PropertyDetails.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+   <depend name="include/motion/actuators/TransformActuator.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+   <depend name="include/openfl/geom/ColorTransform.h"/>
+   <depend name="include/openfl/geom/Transform.h"/>
+   <depend name="include/openfl/media/SoundTransform.h"/>
+  </file>
+  <file name="src/motion/actuators/PropertyPathDetails.cpp" >
+   <depend name="include/motion/IComponentPath.h"/>
+   <depend name="include/motion/actuators/PropertyDetails.h"/>
+   <depend name="include/motion/actuators/PropertyPathDetails.h"/>
+  </file>
+  <file name="src/motion/actuators/PropertyDetails.cpp" >
+   <depend name="include/motion/actuators/PropertyDetails.h"/>
+  </file>
+  <file name="src/motion/actuators/MotionPathActuator.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/motion/IComponentPath.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/MotionPathActuator.h"/>
+   <depend name="include/motion/actuators/PropertyDetails.h"/>
+   <depend name="include/motion/actuators/PropertyPathDetails.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+   <depend name="include/motion/easing/IEasing.h"/>
+  </file>
+  <file name="src/motion/actuators/MethodActuator.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/MethodActuator.h"/>
+   <depend name="include/motion/actuators/PropertyDetails.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+  </file>
+  <file name="src/motion/actuators/FilterActuator.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/Type.h"/>
+   <depend name="include/motion/actuators/FilterActuator.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/PropertyDetails.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+   <depend name="include/openfl/filters/BitmapFilter.h"/>
+  </file>
+  <file name="src/motion/_MotionPath/RotationPath.cpp" >
+   <depend name="include/motion/IComponentPath.h"/>
+   <depend name="include/motion/_MotionPath/ComponentPath.h"/>
+   <depend name="include/motion/_MotionPath/RotationPath.h"/>
+  </file>
+  <file name="src/motion/_MotionPath/BezierSplinePath.cpp" >
+   <depend name="include/motion/IComponentPath.h"/>
+   <depend name="include/motion/_MotionPath/BezierPath.h"/>
+   <depend name="include/motion/_MotionPath/BezierSplinePath.h"/>
+   <depend name="include/motion/_MotionPath/ComponentPath.h"/>
+  </file>
+  <file name="src/motion/_MotionPath/BezierPath.cpp" >
+   <depend name="include/motion/IComponentPath.h"/>
+   <depend name="include/motion/_MotionPath/BezierPath.h"/>
+  </file>
+  <file name="src/motion/_MotionPath/ComponentPath.cpp" >
+   <depend name="include/motion/IComponentPath.h"/>
+   <depend name="include/motion/_MotionPath/ComponentPath.h"/>
+  </file>
+  <file name="src/motion/IComponentPath.cpp" >
+   <depend name="include/motion/IComponentPath.h"/>
+  </file>
+  <file name="src/motion/MotionPath.cpp" >
+   <depend name="include/motion/IComponentPath.h"/>
+   <depend name="include/motion/MotionPath.h"/>
+   <depend name="include/motion/_MotionPath/BezierPath.h"/>
+   <depend name="include/motion/_MotionPath/BezierSplinePath.h"/>
+   <depend name="include/motion/_MotionPath/ComponentPath.h"/>
+   <depend name="include/motion/_MotionPath/RotationPath.h"/>
+  </file>
+  <file name="src/motion/_Actuate/TweenTimer.cpp" >
+   <depend name="include/motion/_Actuate/TweenTimer.h"/>
+  </file>
+  <file name="src/motion/_Actuate/TransformOptions.cpp" >
+   <depend name="include/motion/Actuate.h"/>
+   <depend name="include/motion/_Actuate/TransformOptions.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+   <depend name="include/motion/actuators/TransformActuator.h"/>
+  </file>
+  <file name="src/motion/_Actuate/EffectsOptions.cpp" >
+   <depend name="include/motion/Actuate.h"/>
+   <depend name="include/motion/_Actuate/EffectsOptions.h"/>
+   <depend name="include/motion/actuators/FilterActuator.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+  </file>
+  <file name="src/motion/Actuate.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/Type.h"/>
+   <depend name="include/haxe/IMap.h"/>
+   <depend name="include/haxe/ds/ObjectMap.h"/>
+   <depend name="include/motion/Actuate.h"/>
+   <depend name="include/motion/_Actuate/EffectsOptions.h"/>
+   <depend name="include/motion/_Actuate/TransformOptions.h"/>
+   <depend name="include/motion/_Actuate/TweenTimer.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/MethodActuator.h"/>
+   <depend name="include/motion/actuators/MotionPathActuator.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+   <depend name="include/motion/easing/Expo.h"/>
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+  </file>
+  <file name="src/motion/easing/Expo.cpp" >
+   <depend name="include/motion/easing/Expo.h"/>
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/motion/easing/_Expo/ExpoEaseIn.h"/>
+   <depend name="include/motion/easing/_Expo/ExpoEaseInOut.h"/>
+   <depend name="include/motion/easing/_Expo/ExpoEaseOut.h"/>
+  </file>
+  <file name="src/motion/easing/_Expo/ExpoEaseOut.cpp" >
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/motion/easing/_Expo/ExpoEaseOut.h"/>
+  </file>
+  <file name="src/motion/easing/_Expo/ExpoEaseInOut.cpp" >
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/motion/easing/_Expo/ExpoEaseInOut.h"/>
+  </file>
+  <file name="src/motion/easing/_Expo/ExpoEaseIn.cpp" >
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/motion/easing/_Expo/ExpoEaseIn.h"/>
+  </file>
+  <file name="src/motion/easing/IEasing.cpp" >
+   <depend name="include/motion/easing/IEasing.h"/>
+  </file>
+  <file name="src/motion/actuators/SimpleActuator.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/lime/app/IModule.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/actuators/PropertyDetails.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
+   <depend name="include/motion/easing/IEasing.h"/>
+   <depend name="include/openfl/Lib.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/DisplayObjectContainer.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/display/InteractiveObject.h"/>
+   <depend name="include/openfl/display/MovieClip.h"/>
+   <depend name="include/openfl/display/Sprite.h"/>
+   <depend name="include/openfl/display/Stage.h"/>
+   <depend name="include/openfl/events/Event.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+   <depend name="include/openfl/geom/Transform.h"/>
+  </file>
+  <file name="src/motion/actuators/GenericActuator.cpp" >
+   <depend name="include/Reflect.h"/>
+   <depend name="include/motion/Actuate.h"/>
+   <depend name="include/motion/actuators/GenericActuator.h"/>
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/easing/IEasing.h"/>
+  </file>
+  <file name="src/motion/actuators/IGenericActuator.cpp" >
+   <depend name="include/motion/actuators/IGenericActuator.h"/>
+   <depend name="include/motion/easing/IEasing.h"/>
   </file>
   <file name="src/lime/utils/_UInt8ClampedArray/UInt8ClampedArray_Impl_.cpp" >
    <depend name="include/Std.h"/>
@@ -11281,6 +11544,36 @@
   <file name="src/WiggleEffectType.cpp" >
    <depend name="include/WiggleEffectType.h"/>
   </file>
+  <file name="src/WebmHandler.cpp" >
+   <depend name="include/GlobalVideo.h"/>
+   <depend name="include/WebmHandler.h"/>
+   <depend name="include/haxe/Log.h"/>
+   <depend name="include/openfl/display/Bitmap.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+   <depend name="include/webm/WebmIo.h"/>
+   <depend name="include/webm/WebmIoFile.h"/>
+   <depend name="include/webm/WebmPlayer.h"/>
+  </file>
+  <file name="src/VideoHandler.cpp" >
+   <depend name="include/GlobalVideo.h"/>
+   <depend name="include/VideoHandler.h"/>
+   <depend name="include/flixel/FlxG.h"/>
+   <depend name="include/haxe/Log.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/events/AsyncErrorEvent.h"/>
+   <depend name="include/openfl/events/ErrorEvent.h"/>
+   <depend name="include/openfl/events/Event.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+   <depend name="include/openfl/events/NetStatusEvent.h"/>
+   <depend name="include/openfl/events/TextEvent.h"/>
+   <depend name="include/openfl/media/Video.h"/>
+   <depend name="include/openfl/net/NetStream.h"/>
+  </file>
   <file name="src/_UnicodeString/UnicodeString_Impl_.cpp" >
    <depend name="include/_UnicodeString/UnicodeString_Impl_.h"/>
   </file>
@@ -12854,6 +13147,24 @@
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/flixel/util/IFlxPooled.h"/>
   </file>
+  <file name="src/GlobalVideo.cpp" >
+   <depend name="include/GameDimensions.h"/>
+   <depend name="include/GlobalVideo.h"/>
+   <depend name="include/Std.h"/>
+   <depend name="include/VideoHandler.h"/>
+   <depend name="include/WebmHandler.h"/>
+   <depend name="include/lime/app/IModule.h"/>
+   <depend name="include/openfl/Lib.h"/>
+   <depend name="include/openfl/display/DisplayObject.h"/>
+   <depend name="include/openfl/display/DisplayObjectContainer.h"/>
+   <depend name="include/openfl/display/IBitmapDrawable.h"/>
+   <depend name="include/openfl/display/InteractiveObject.h"/>
+   <depend name="include/openfl/display/MovieClip.h"/>
+   <depend name="include/openfl/display/Sprite.h"/>
+   <depend name="include/openfl/display/Stage.h"/>
+   <depend name="include/openfl/events/EventDispatcher.h"/>
+   <depend name="include/openfl/events/IEventDispatcher.h"/>
+  </file>
   <file name="src/GitarooPause.cpp" >
    <depend name="include/Controls.h"/>
    <depend name="include/GitarooPause.h"/>
@@ -13027,6 +13338,9 @@
    <depend name="include/openfl/display/BitmapData.h"/>
    <depend name="include/openfl/display/Graphics.h"/>
    <depend name="include/openfl/display/IBitmapDrawable.h"/>
+  </file>
+  <file name="src/GameDimensions.cpp" >
+   <depend name="include/GameDimensions.h"/>
   </file>
   <file name="src/SongMetadata.cpp" >
    <depend name="include/SongMetadata.h"/>
@@ -13556,9 +13870,11 @@
    <depend name="include/openfl/events/IEventDispatcher.h"/>
   </file>
   <file name="src/Main.cpp" >
+   <depend name="include/GlobalVideo.h"/>
    <depend name="include/Main.h"/>
    <depend name="include/MusicBeatState.h"/>
    <depend name="include/TitleState.h"/>
+   <depend name="include/WebmHandler.h"/>
    <depend name="include/flixel/FlxBasic.h"/>
    <depend name="include/flixel/FlxG.h"/>
    <depend name="include/flixel/FlxGame.h"/>
@@ -13572,6 +13888,7 @@
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/lime/app/IModule.h"/>
    <depend name="include/openfl/Lib.h"/>
+   <depend name="include/openfl/display/Bitmap.h"/>
    <depend name="include/openfl/display/DisplayObject.h"/>
    <depend name="include/openfl/display/DisplayObjectContainer.h"/>
    <depend name="include/openfl/display/FPS.h"/>
@@ -13584,6 +13901,7 @@
    <depend name="include/openfl/events/EventDispatcher.h"/>
    <depend name="include/openfl/events/IEventDispatcher.h"/>
    <depend name="include/openfl/text/TextField.h"/>
+   <depend name="include/webm/WebmPlayer.h"/>
   </file>
   <file name="src/openfl/display/Sprite.cpp" tags="haxe,release">
    <depend name="include/lime/app/IModule.h"/>
@@ -14034,6 +14352,7 @@
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
   </file>
   <file name="src/__boot__.cpp" >
+   <depend name="include/sys/io/FileSeek.h"/>
    <depend name="include/polymod/format/EndLineType.h"/>
    <depend name="include/polymod/format/TextFileFormat.h"/>
    <depend name="include/polymod/PolymodErrorType.h"/>
@@ -14102,6 +14421,10 @@
    <depend name="include/KeyboardScheme.h"/>
    <depend name="include/Control.h"/>
    <depend name="include/Device.h"/>
+   <depend name="include/webm/WebmPlayer.h"/>
+   <depend name="include/webm/WebmIo.h"/>
+   <depend name="include/webm/WebmEvent.h"/>
+   <depend name="include/webm/VpxDecoder.h"/>
    <depend name="include/sys/ssl/Socket.h"/>
    <depend name="include/sys/ssl/Key.h"/>
    <depend name="include/sys/ssl/Certificate.h"/>
@@ -14167,6 +14490,7 @@
    <depend name="include/openfl/events/UncaughtErrorEvent.h"/>
    <depend name="include/openfl/events/TouchEvent.h"/>
    <depend name="include/openfl/events/SecurityErrorEvent.h"/>
+   <depend name="include/openfl/events/SampleDataEvent.h"/>
    <depend name="include/openfl/events/RenderEvent.h"/>
    <depend name="include/openfl/events/ProgressEvent.h"/>
    <depend name="include/openfl/events/NetStatusEvent.h"/>
@@ -14179,6 +14503,7 @@
    <depend name="include/openfl/events/FocusEvent.h"/>
    <depend name="include/openfl/events/_EventDispatcher/Listener.h"/>
    <depend name="include/openfl/events/_EventDispatcher/DispatchIterator.h"/>
+   <depend name="include/openfl/events/AsyncErrorEvent.h"/>
    <depend name="include/openfl/events/ErrorEvent.h"/>
    <depend name="include/openfl/events/TextEvent.h"/>
    <depend name="include/openfl/events/ActivityEvent.h"/>
@@ -14290,6 +14615,9 @@
    <depend name="include/openfl/_Vector/BoolVector.h"/>
    <depend name="include/openfl/_Vector/IVector.h"/>
    <depend name="include/openfl/Lib.h"/>
+   <depend name="include/motion/Actuate.h"/>
+   <depend name="include/motion/easing/Expo.h"/>
+   <depend name="include/motion/actuators/SimpleActuator.h"/>
    <depend name="include/lime/utils/_UInt8ClampedArray/UInt8ClampedArray_Impl_.h"/>
    <depend name="include/lime/utils/_UInt8Array/UInt8Array_Impl_.h"/>
    <depend name="include/lime/utils/_UInt32Array/UInt32Array_Impl_.h"/>
@@ -14517,6 +14845,8 @@
    <depend name="include/MainMenuState.h"/>
    <depend name="include/LoadingState.h"/>
    <depend name="include/Highscore.h"/>
+   <depend name="include/GlobalVideo.h"/>
+   <depend name="include/GameDimensions.h"/>
    <depend name="include/EtternaFunctions.h"/>
    <depend name="include/CoolUtil.h"/>
    <depend name="include/Conductor.h"/>

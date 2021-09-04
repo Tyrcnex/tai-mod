@@ -1,3 +1,8 @@
-:tai:Ni hao, How do you do little fella?
-:tai:I'm Tai, Do you want to go for a rap battle maybe?
-:bf:beep!
+:bf:beep a test
+:gf:Hello test
+:gf-annoy:uhhh this is test
+:gf-oh:OHHH THIS IS A TEST
+:tai:aaah a test
+:tai-annoyed:shit a test
+:tai-rage:AAAAH FUCK YOU TEST
+:tai-demon:hello your computer has virus

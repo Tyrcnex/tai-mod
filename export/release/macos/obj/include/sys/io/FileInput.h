@@ -12,6 +12,7 @@
 HX_DECLARE_CLASS2(haxe,io,Bytes)
 HX_DECLARE_CLASS2(haxe,io,Input)
 HX_DECLARE_CLASS2(sys,io,FileInput)
+HX_DECLARE_CLASS2(sys,io,FileSeek)
 
 namespace sys{
 namespace io{
@@ -55,6 +56,12 @@ class HXCPP_CLASS_ATTRIBUTES FileInput_obj : public  ::haxe::io::Input_obj
 		int readBytes( ::haxe::io::Bytes s,int p,int l);
 
 		void close();
+
+		void seek(int p, ::sys::io::FileSeek pos);
+		::Dynamic seek_dyn();
+
+		int tell();
+		::Dynamic tell_dyn();
 
 };
 

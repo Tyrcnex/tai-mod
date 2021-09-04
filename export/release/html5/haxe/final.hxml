@@ -18,6 +18,10 @@
 -D newgrounds=1.1.4
 -cp /usr/local/lib/haxe/lib/polymod/git
 -D polymod=0.0.0
+-cp /usr/local/lib/haxe/lib/actuate/1,8,9/src
+-D actuate=1.8.9
+-cp /usr/local/lib/haxe/lib/extension-webm/git
+-D extension-webm=0.0.5
 -cp source
 -D howlerjs
 -D lime-webgl
