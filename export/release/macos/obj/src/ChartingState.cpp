@@ -319,71 +319,71 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_c8186eee1bd9a607_41_new,"ChartingState","new",0x5e894bff,"ChartingState.new","ChartingState.hx",41,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_95_create,"ChartingState","create",0xe351b8bd,"ChartingState.create","ChartingState.hx",95,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_198_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",198,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_206_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",206,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_217_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",217,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_222_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",222,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_227_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",227,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_232_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",232,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_275_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",275,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_283_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",283,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_291_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",291,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_299_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",299,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_307_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",307,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_190_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",190,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_378_addSectionUI,"ChartingState","addSectionUI",0x70a90d99,"ChartingState.addSectionUI","ChartingState.hx",378,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_385_addSectionUI,"ChartingState","addSectionUI",0x70a90d99,"ChartingState.addSectionUI","ChartingState.hx",385,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_359_addSectionUI,"ChartingState","addSectionUI",0x70a90d99,"ChartingState.addSectionUI","ChartingState.hx",359,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_424_addNoteUI,"ChartingState","addNoteUI",0x01b274a6,"ChartingState.addNoteUI","ChartingState.hx",424,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_477_loadSong,"ChartingState","loadSong",0x36c2f91c,"ChartingState.loadSong","ChartingState.hx",477,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_460_loadSong,"ChartingState","loadSong",0x36c2f91c,"ChartingState.loadSong","ChartingState.hx",460,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_487_generateUI,"ChartingState","generateUI",0x13f5670a,"ChartingState.generateUI","ChartingState.hx",487,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_507_getEvent,"ChartingState","getEvent",0x4f66dba5,"ChartingState.getEvent","ChartingState.hx",507,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_591_sectionStartTime,"ChartingState","sectionStartTime",0x9b4027eb,"ChartingState.sectionStartTime","ChartingState.hx",591,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_662_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",662,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_666_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",666,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_608_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",608,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_769_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",769,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_957_changeNoteSustain,"ChartingState","changeNoteSustain",0x9b3f5f20,"ChartingState.changeNoteSustain","ChartingState.hx",957,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_972_beatHit,"ChartingState","beatHit",0x66ca219c,"ChartingState.beatHit","ChartingState.hx",972,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_984_recalculateSteps,"ChartingState","recalculateSteps",0xf6d4c855,"ChartingState.recalculateSteps","ChartingState.hx",984,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1003_resetSection,"ChartingState","resetSection",0xb8b9e457,"ChartingState.resetSection","ChartingState.hx",1003,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1026_changeSection,"ChartingState","changeSection",0xb8ce82b4,"ChartingState.changeSection","ChartingState.hx",1026,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1062_copySection,"ChartingState","copySection",0xd085354f,"ChartingState.copySection","ChartingState.hx",1062,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1077_updateSectionUI,"ChartingState","updateSectionUI",0x006c124f,"ChartingState.updateSectionUI","ChartingState.hx",1077,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1089_updateHeads,"ChartingState","updateHeads",0x26e9ef29,"ChartingState.updateHeads","ChartingState.hx",1089,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1103_updateNoteUI,"ChartingState","updateNoteUI",0x1a7d0230,"ChartingState.updateNoteUI","ChartingState.hx",1103,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1108_updateGrid,"ChartingState","updateGrid",0xc2b587b0,"ChartingState.updateGrid","ChartingState.hx",1108,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1187_addSection,"ChartingState","addSection",0x8af6f805,"ChartingState.addSection","ChartingState.hx",1187,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1202_selectNote,"ChartingState","selectNote",0x7d3a534f,"ChartingState.selectNote","ChartingState.hx",1202,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1221_deleteNote,"ChartingState","deleteNote",0x61ebbbfe,"ChartingState.deleteNote","ChartingState.hx",1221,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1235_clearSection,"ChartingState","clearSection",0x225a5059,"ChartingState.clearSection","ChartingState.hx",1235,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1242_clearSong,"ChartingState","clearSong",0xd7f188e1,"ChartingState.clearSong","ChartingState.hx",1242,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1252_addNote,"ChartingState","addNote",0x780c91d2,"ChartingState.addNote","ChartingState.hx",1252,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1274_getStrumTime,"ChartingState","getStrumTime",0xec7b6301,"ChartingState.getStrumTime","ChartingState.hx",1274,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1279_getYfromStrum,"ChartingState","getYfromStrum",0x7268247b,"ChartingState.getYfromStrum","ChartingState.hx",1279,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1309_loadLevel,"ChartingState","loadLevel",0xa572de5d,"ChartingState.loadLevel","ChartingState.hx",1309,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1313_getNotes,"ChartingState","getNotes",0x796cefcc,"ChartingState.getNotes","ChartingState.hx",1313,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1325_loadJson,"ChartingState","loadJson",0x30d3176f,"ChartingState.loadJson","ChartingState.hx",1325,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1331_loadAutosave,"ChartingState","loadAutosave",0xe706d2f3,"ChartingState.loadAutosave","ChartingState.hx",1331,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1337_autosaveSong,"ChartingState","autosaveSong",0x50afbca2,"ChartingState.autosaveSong","ChartingState.hx",1337,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1345_saveLevel,"ChartingState","saveLevel",0x18e899e6,"ChartingState.saveLevel","ChartingState.hx",1345,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1363_onSaveComplete,"ChartingState","onSaveComplete",0x9fbb2796,"ChartingState.onSaveComplete","ChartingState.hx",1363,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1375_onSaveCancel,"ChartingState","onSaveCancel",0xc234b317,"ChartingState.onSaveCancel","ChartingState.hx",1375,0xd9647851)
-HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1386_onSaveError,"ChartingState","onSaveError",0x40b268cb,"ChartingState.onSaveError","ChartingState.hx",1386,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_98_create,"ChartingState","create",0xe351b8bd,"ChartingState.create","ChartingState.hx",98,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_201_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",201,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_209_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",209,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_220_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",220,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_225_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",225,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_230_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",230,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_235_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",235,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_278_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",278,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_286_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",286,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_294_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",294,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_302_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",302,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_310_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",310,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_193_addSongUI,"ChartingState","addSongUI",0xfd857f49,"ChartingState.addSongUI","ChartingState.hx",193,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_381_addSectionUI,"ChartingState","addSectionUI",0x70a90d99,"ChartingState.addSectionUI","ChartingState.hx",381,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_388_addSectionUI,"ChartingState","addSectionUI",0x70a90d99,"ChartingState.addSectionUI","ChartingState.hx",388,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_362_addSectionUI,"ChartingState","addSectionUI",0x70a90d99,"ChartingState.addSectionUI","ChartingState.hx",362,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_427_addNoteUI,"ChartingState","addNoteUI",0x01b274a6,"ChartingState.addNoteUI","ChartingState.hx",427,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_480_loadSong,"ChartingState","loadSong",0x36c2f91c,"ChartingState.loadSong","ChartingState.hx",480,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_463_loadSong,"ChartingState","loadSong",0x36c2f91c,"ChartingState.loadSong","ChartingState.hx",463,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_490_generateUI,"ChartingState","generateUI",0x13f5670a,"ChartingState.generateUI","ChartingState.hx",490,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_510_getEvent,"ChartingState","getEvent",0x4f66dba5,"ChartingState.getEvent","ChartingState.hx",510,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_594_sectionStartTime,"ChartingState","sectionStartTime",0x9b4027eb,"ChartingState.sectionStartTime","ChartingState.hx",594,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_665_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",665,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_669_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",669,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_611_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",611,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_772_update,"ChartingState","update",0xee47d7ca,"ChartingState.update","ChartingState.hx",772,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_960_changeNoteSustain,"ChartingState","changeNoteSustain",0x9b3f5f20,"ChartingState.changeNoteSustain","ChartingState.hx",960,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_975_beatHit,"ChartingState","beatHit",0x66ca219c,"ChartingState.beatHit","ChartingState.hx",975,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_987_recalculateSteps,"ChartingState","recalculateSteps",0xf6d4c855,"ChartingState.recalculateSteps","ChartingState.hx",987,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1006_resetSection,"ChartingState","resetSection",0xb8b9e457,"ChartingState.resetSection","ChartingState.hx",1006,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1029_changeSection,"ChartingState","changeSection",0xb8ce82b4,"ChartingState.changeSection","ChartingState.hx",1029,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1065_copySection,"ChartingState","copySection",0xd085354f,"ChartingState.copySection","ChartingState.hx",1065,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1080_updateSectionUI,"ChartingState","updateSectionUI",0x006c124f,"ChartingState.updateSectionUI","ChartingState.hx",1080,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1092_updateHeads,"ChartingState","updateHeads",0x26e9ef29,"ChartingState.updateHeads","ChartingState.hx",1092,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1106_updateNoteUI,"ChartingState","updateNoteUI",0x1a7d0230,"ChartingState.updateNoteUI","ChartingState.hx",1106,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1111_updateGrid,"ChartingState","updateGrid",0xc2b587b0,"ChartingState.updateGrid","ChartingState.hx",1111,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1190_addSection,"ChartingState","addSection",0x8af6f805,"ChartingState.addSection","ChartingState.hx",1190,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1205_selectNote,"ChartingState","selectNote",0x7d3a534f,"ChartingState.selectNote","ChartingState.hx",1205,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1224_deleteNote,"ChartingState","deleteNote",0x61ebbbfe,"ChartingState.deleteNote","ChartingState.hx",1224,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1238_clearSection,"ChartingState","clearSection",0x225a5059,"ChartingState.clearSection","ChartingState.hx",1238,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1245_clearSong,"ChartingState","clearSong",0xd7f188e1,"ChartingState.clearSong","ChartingState.hx",1245,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1255_addNote,"ChartingState","addNote",0x780c91d2,"ChartingState.addNote","ChartingState.hx",1255,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1277_getStrumTime,"ChartingState","getStrumTime",0xec7b6301,"ChartingState.getStrumTime","ChartingState.hx",1277,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1282_getYfromStrum,"ChartingState","getYfromStrum",0x7268247b,"ChartingState.getYfromStrum","ChartingState.hx",1282,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1312_loadLevel,"ChartingState","loadLevel",0xa572de5d,"ChartingState.loadLevel","ChartingState.hx",1312,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1316_getNotes,"ChartingState","getNotes",0x796cefcc,"ChartingState.getNotes","ChartingState.hx",1316,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1328_loadJson,"ChartingState","loadJson",0x30d3176f,"ChartingState.loadJson","ChartingState.hx",1328,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1334_loadAutosave,"ChartingState","loadAutosave",0xe706d2f3,"ChartingState.loadAutosave","ChartingState.hx",1334,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1340_autosaveSong,"ChartingState","autosaveSong",0x50afbca2,"ChartingState.autosaveSong","ChartingState.hx",1340,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1348_saveLevel,"ChartingState","saveLevel",0x18e899e6,"ChartingState.saveLevel","ChartingState.hx",1348,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1366_onSaveComplete,"ChartingState","onSaveComplete",0x9fbb2796,"ChartingState.onSaveComplete","ChartingState.hx",1366,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1378_onSaveCancel,"ChartingState","onSaveCancel",0xc234b317,"ChartingState.onSaveCancel","ChartingState.hx",1378,0xd9647851)
+HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_1389_onSaveError,"ChartingState","onSaveError",0x40b268cb,"ChartingState.onSaveError","ChartingState.hx",1389,0xd9647851)
 HX_LOCAL_STACK_FRAME(_hx_pos_c8186eee1bd9a607_53_boot,"ChartingState","boot",0x51b233b3,"ChartingState.boot","ChartingState.hx",53,0xd9647851)
 
 void ChartingState_obj::__construct( ::flixel::addons::transition::TransitionData TransIn, ::flixel::addons::transition::TransitionData TransOut){
             	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_41_new)
-HXLINE(1305)		this->daSpacing = ((Float)0.3);
-HXLINE( 605)		this->writingNotes = false;
-HXLINE( 580)		this->updatedSection = false;
-HXLINE(  92)		this->claps = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(  86)		this->player1 =  ::Boyfriend_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("bf",c4,55,00,00));
-HXLINE(  85)		this->player2 =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("dad",47,36,4c,00),null());
-HXLINE(  81)		this->tempBpm = 0;
-HXLINE(  64)		this->GRID_SIZE = 40;
+HXLINE(1308)		this->daSpacing = ((Float)0.3);
+HXLINE( 608)		this->writingNotes = false;
+HXLINE( 583)		this->updatedSection = false;
+HXLINE(  95)		this->claps = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(  89)		this->player1 =  ::Boyfriend_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("bf",c4,55,00,00));
+HXLINE(  88)		this->player2 =  ::Character_obj::__alloc( HX_CTX ,( (Float)(0) ),( (Float)(0) ),HX_("dad",47,36,4c,00),null());
+HXLINE(  84)		this->tempBpm = 0;
+HXLINE(  67)		this->GRID_SIZE = 40;
 HXLINE(  59)		this->amountSteps = 0;
 HXLINE(  58)		this->curSong = HX_("Dad Battle",31,46,15,16);
 HXLINE(  51)		this->curSection = 0;
@@ -422,13 +422,13 @@ bool ChartingState_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void ChartingState_obj::create(){
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_95_create)
-HXLINE(  96)		this->curSection = ::ChartingState_obj::lastSection;
-HXLINE(  98)		if (::hx::IsNotNull( ::PlayState_obj::SONG )) {
-HXLINE(  99)			this->_song = ::PlayState_obj::SONG;
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_98_create)
+HXLINE(  99)		this->curSection = ::ChartingState_obj::lastSection;
+HXLINE( 101)		if (::hx::IsNotNull( ::PlayState_obj::SONG )) {
+HXLINE( 102)			this->_song = ::PlayState_obj::SONG;
             		}
             		else {
-HXLINE( 102)			this->_song =  ::Dynamic(::hx::Anon_obj::Create(11)
+HXLINE( 105)			this->_song =  ::Dynamic(::hx::Anon_obj::Create(11)
             				->setFixed(0,HX_("speed",87,97,69,81),( (Float)(1) ))
             				->setFixed(1,HX_("stage",be,6a,0b,84),HX_("stage",be,6a,0b,84))
             				->setFixed(2,HX_("player1",b0,09,15,8a),HX_("bf",c4,55,00,00))
@@ -441,42 +441,42 @@ HXLINE( 102)			this->_song =  ::Dynamic(::hx::Anon_obj::Create(11)
             				->setFixed(9,HX_("needsVoices",be,05,e9,0d),true)
             				->setFixed(10,HX_("song",d5,23,58,4c),HX_("Test",72,f4,d2,37)));
             		}
-HXLINE( 117)		this->gridBG = ::flixel::addons::display::FlxGridOverlay_obj::create(this->GRID_SIZE,this->GRID_SIZE,(this->GRID_SIZE * 8),(this->GRID_SIZE * 16),null(),null(),null());
-HXLINE( 118)		this->add(this->gridBG);
-HXLINE( 120)		Float _hx_tmp = this->gridBG->x;
-HXDLIN( 120)		 ::flixel::FlxSprite _hx_tmp1 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(_hx_tmp + (this->gridBG->get_width() / ( (Float)(2) ))),null(),null());
-HXDLIN( 120)		this->gridBlackLine = _hx_tmp1->makeGraphic(2,::Std_obj::_hx_int(this->gridBG->get_height()),-16777216,null(),null());
-HXLINE( 121)		this->add(this->gridBlackLine);
-HXLINE( 123)		this->curRenderedNotes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 124)		this->curRenderedSustains =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE( 126)		::flixel::FlxG_obj::mouse->set_visible(true);
-HXLINE( 127)		::flixel::FlxG_obj::save->bind(HX_("funkin",31,b2,4f,6f),HX_("ninjamuffin99",f7,4c,e5,00));
-HXLINE( 129)		this->tempBpm = ( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
-HXLINE( 131)		this->addSection(null());
-HXLINE( 135)		this->updateGrid();
-HXLINE( 137)		this->loadSong(( (::String)(this->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
-HXLINE( 138)		::Conductor_obj::changeBPM(( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
-HXLINE( 139)		::Conductor_obj::mapBPMChanges(this->_song);
-HXLINE( 141)		this->leftIcon =  ::HealthIcon_obj::__alloc( HX_CTX ,( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ),null());
-HXLINE( 142)		this->rightIcon =  ::HealthIcon_obj::__alloc( HX_CTX ,( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null());
-HXLINE( 143)		this->leftIcon->scrollFactor->set(1,1);
-HXLINE( 144)		this->rightIcon->scrollFactor->set(1,1);
-HXLINE( 146)		this->leftIcon->setGraphicSize(0,45);
-HXLINE( 147)		this->rightIcon->setGraphicSize(0,45);
-HXLINE( 149)		this->add(this->leftIcon);
-HXLINE( 150)		this->add(this->rightIcon);
-HXLINE( 152)		this->leftIcon->setPosition(0,-100);
-HXLINE( 153)		 ::HealthIcon _hx_tmp2 = this->rightIcon;
-HXDLIN( 153)		_hx_tmp2->setPosition((this->gridBG->get_width() / ( (Float)(2) )),-100);
-HXLINE( 155)		this->bpmTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,1000,50,0,HX_("",00,00,00,00),16,null());
-HXLINE( 156)		this->bpmTxt->scrollFactor->set(null(),null());
-HXLINE( 157)		this->add(this->bpmTxt);
-HXLINE( 159)		 ::flixel::FlxSprite _hx_tmp3 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,50,null());
-HXDLIN( 159)		this->strumLine = _hx_tmp3->makeGraphic(::Std_obj::_hx_int((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))),4,null(),null(),null());
-HXLINE( 160)		this->add(this->strumLine);
-HXLINE( 162)		this->dummyArrow =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(this->GRID_SIZE,this->GRID_SIZE,null(),null(),null());
-HXLINE( 163)		this->add(this->dummyArrow);
-HXLINE( 165)		::Array< ::Dynamic> tabs = ::Array_obj< ::Dynamic>::__new(4)->init(0, ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 120)		this->gridBG = ::flixel::addons::display::FlxGridOverlay_obj::create(this->GRID_SIZE,this->GRID_SIZE,(this->GRID_SIZE * 8),(this->GRID_SIZE * 16),null(),null(),null());
+HXLINE( 121)		this->add(this->gridBG);
+HXLINE( 123)		Float _hx_tmp = this->gridBG->x;
+HXDLIN( 123)		 ::flixel::FlxSprite _hx_tmp1 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(_hx_tmp + (this->gridBG->get_width() / ( (Float)(2) ))),null(),null());
+HXDLIN( 123)		this->gridBlackLine = _hx_tmp1->makeGraphic(2,::Std_obj::_hx_int(this->gridBG->get_height()),-16777216,null(),null());
+HXLINE( 124)		this->add(this->gridBlackLine);
+HXLINE( 126)		this->curRenderedNotes =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 127)		this->curRenderedSustains =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE( 129)		::flixel::FlxG_obj::mouse->set_visible(true);
+HXLINE( 130)		::flixel::FlxG_obj::save->bind(HX_("funkin",31,b2,4f,6f),HX_("ninjamuffin99",f7,4c,e5,00));
+HXLINE( 132)		this->tempBpm = ( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
+HXLINE( 134)		this->addSection(null());
+HXLINE( 138)		this->updateGrid();
+HXLINE( 140)		this->loadSong(( (::String)(this->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
+HXLINE( 141)		::Conductor_obj::changeBPM(( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
+HXLINE( 142)		::Conductor_obj::mapBPMChanges(this->_song);
+HXLINE( 144)		this->leftIcon =  ::HealthIcon_obj::__alloc( HX_CTX ,( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ),null());
+HXLINE( 145)		this->rightIcon =  ::HealthIcon_obj::__alloc( HX_CTX ,( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null());
+HXLINE( 146)		this->leftIcon->scrollFactor->set(1,1);
+HXLINE( 147)		this->rightIcon->scrollFactor->set(1,1);
+HXLINE( 149)		this->leftIcon->setGraphicSize(0,45);
+HXLINE( 150)		this->rightIcon->setGraphicSize(0,45);
+HXLINE( 152)		this->add(this->leftIcon);
+HXLINE( 153)		this->add(this->rightIcon);
+HXLINE( 155)		this->leftIcon->setPosition(0,-100);
+HXLINE( 156)		 ::HealthIcon _hx_tmp2 = this->rightIcon;
+HXDLIN( 156)		_hx_tmp2->setPosition((this->gridBG->get_width() / ( (Float)(2) )),-100);
+HXLINE( 158)		this->bpmTxt =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,1000,50,0,HX_("",00,00,00,00),16,null());
+HXLINE( 159)		this->bpmTxt->scrollFactor->set(null(),null());
+HXLINE( 160)		this->add(this->bpmTxt);
+HXLINE( 162)		 ::flixel::FlxSprite _hx_tmp3 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,50,null());
+HXDLIN( 162)		this->strumLine = _hx_tmp3->makeGraphic(::Std_obj::_hx_int((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) ))),4,null(),null(),null());
+HXLINE( 163)		this->add(this->strumLine);
+HXLINE( 165)		this->dummyArrow =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null())->makeGraphic(this->GRID_SIZE,this->GRID_SIZE,null(),null(),null());
+HXLINE( 166)		this->add(this->dummyArrow);
+HXLINE( 168)		::Array< ::Dynamic> tabs = ::Array_obj< ::Dynamic>::__new(4)->init(0, ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("name",4b,72,ff,48),HX_("Song",f5,4f,31,37))
             			->setFixed(1,HX_("label",f4,0d,af,6f),HX_("Song Data",55,ca,2e,d8))))->init(1, ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("name",4b,72,ff,48),HX_("Section",c5,2d,29,2b))
@@ -485,221 +485,221 @@ HXLINE( 165)		::Array< ::Dynamic> tabs = ::Array_obj< ::Dynamic>::__new(4)->init
             			->setFixed(1,HX_("label",f4,0d,af,6f),HX_("Note Data",18,cd,41,e6))))->init(3, ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("name",4b,72,ff,48),HX_("Assets",a3,bc,97,80))
             			->setFixed(1,HX_("label",f4,0d,af,6f),HX_("Assets",a3,bc,97,80))));
-HXLINE( 172)		this->UI_box =  ::flixel::addons::ui::FlxUITabMenu_obj::__alloc( HX_CTX ,null(),null(),tabs,null(),true,null(),null());
-HXLINE( 174)		this->UI_box->resize(( (Float)(300) ),( (Float)(400) ));
-HXLINE( 175)		this->UI_box->set_x((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )));
-HXLINE( 176)		this->UI_box->set_y(( (Float)(20) ));
-HXLINE( 177)		this->add(this->UI_box);
-HXLINE( 179)		this->addSongUI();
-HXLINE( 180)		this->addSectionUI();
-HXLINE( 181)		this->addNoteUI();
-HXLINE( 183)		this->add(this->curRenderedNotes);
-HXLINE( 184)		this->add(this->curRenderedSustains);
-HXLINE( 186)		this->super::create();
+HXLINE( 175)		this->UI_box =  ::flixel::addons::ui::FlxUITabMenu_obj::__alloc( HX_CTX ,null(),null(),tabs,null(),true,null(),null());
+HXLINE( 177)		this->UI_box->resize(( (Float)(300) ),( (Float)(400) ));
+HXLINE( 178)		this->UI_box->set_x((( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )));
+HXLINE( 179)		this->UI_box->set_y(( (Float)(20) ));
+HXLINE( 180)		this->add(this->UI_box);
+HXLINE( 182)		this->addSongUI();
+HXLINE( 183)		this->addSectionUI();
+HXLINE( 184)		this->addNoteUI();
+HXLINE( 186)		this->add(this->curRenderedNotes);
+HXLINE( 187)		this->add(this->curRenderedSustains);
+HXLINE( 189)		this->super::create();
             	}
 
 
 void ChartingState_obj::addSongUI(){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::ChartingState,_gthis, ::flixel::addons::ui::FlxUICheckBox,check_voices) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_198_addSongUI)
-HXLINE( 199)			_gthis->_song->__SetField(HX_("needsVoices",be,05,e9,0d),check_voices->checked,::hx::paccDynamic);
-HXLINE( 200)			::haxe::Log_obj::trace(HX_("CHECKED!",3a,9f,7d,06),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),200,HX_("ChartingState",8d,e0,dd,9b),HX_("addSongUI",6a,02,ad,e5)));
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_201_addSongUI)
+HXLINE( 202)			_gthis->_song->__SetField(HX_("needsVoices",be,05,e9,0d),check_voices->checked,::hx::paccDynamic);
+HXLINE( 203)			::haxe::Log_obj::trace(HX_("CHECKED!",3a,9f,7d,06),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),203,HX_("ChartingState",8d,e0,dd,9b),HX_("addSongUI",6a,02,ad,e5)));
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::flixel::addons::ui::FlxUICheckBox,check_mute_inst) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_206_addSongUI)
-HXLINE( 207)			Float vol = ( (Float)(1) );
-HXLINE( 209)			if (check_mute_inst->checked) {
-HXLINE( 210)				vol = ( (Float)(0) );
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_209_addSongUI)
+HXLINE( 210)			Float vol = ( (Float)(1) );
+HXLINE( 212)			if (check_mute_inst->checked) {
+HXLINE( 213)				vol = ( (Float)(0) );
             			}
-HXLINE( 212)			::flixel::FlxG_obj::sound->music->set_volume(vol);
+HXLINE( 215)			::flixel::FlxG_obj::sound->music->set_volume(vol);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::ChartingState,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_217_addSongUI)
-HXLINE( 217)			_gthis->saveLevel();
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_220_addSongUI)
+HXLINE( 220)			_gthis->saveLevel();
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::ChartingState,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_222_addSongUI)
-HXLINE( 222)			_gthis->loadSong(( (::String)(_gthis->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_225_addSongUI)
+HXLINE( 225)			_gthis->loadSong(( (::String)(_gthis->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ));
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_4, ::ChartingState,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_227_addSongUI)
-HXLINE( 227)			 ::ChartingState _gthis1 = _gthis;
-HXDLIN( 227)			_gthis1->loadJson(( (::String)(_gthis->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase());
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_230_addSongUI)
+HXLINE( 230)			 ::ChartingState _gthis1 = _gthis;
+HXDLIN( 230)			_gthis1->loadJson(( (::String)(_gthis->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase());
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_5, ::ChartingState,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_232_addSongUI)
-HXLINE( 233)			{
-HXLINE( 233)				int _g = 0;
-HXDLIN( 233)				int _g1 = ( (::Array< ::Dynamic>)(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) )->length;
-HXDLIN( 233)				while((_g < _g1)){
-HXLINE( 233)					_g = (_g + 1);
-HXDLIN( 233)					int ii = (_g - 1);
-HXLINE( 235)					{
-HXLINE( 235)						int _g1 = 0;
-HXDLIN( 235)						int _g2 = ( (::cpp::VirtualArray)( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(ii)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length();
-HXDLIN( 235)						while((_g1 < _g2)){
-HXLINE( 235)							_g1 = (_g1 + 1);
-HXDLIN( 235)							int i = (_g1 - 1);
-HXLINE( 237)							 ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(ii)->__SetField(HX_("sectionNotes",1c,c8,a7,fe),::cpp::VirtualArray_obj::__new(0),::hx::paccDynamic);
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_235_addSongUI)
+HXLINE( 236)			{
+HXLINE( 236)				int _g = 0;
+HXDLIN( 236)				int _g1 = ( (::Array< ::Dynamic>)(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) )->length;
+HXDLIN( 236)				while((_g < _g1)){
+HXLINE( 236)					_g = (_g + 1);
+HXDLIN( 236)					int ii = (_g - 1);
+HXLINE( 238)					{
+HXLINE( 238)						int _g1 = 0;
+HXDLIN( 238)						int _g2 = ( (::cpp::VirtualArray)( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(ii)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length();
+HXDLIN( 238)						while((_g1 < _g2)){
+HXLINE( 238)							_g1 = (_g1 + 1);
+HXDLIN( 238)							int i = (_g1 - 1);
+HXLINE( 240)							 ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(ii)->__SetField(HX_("sectionNotes",1c,c8,a7,fe),::cpp::VirtualArray_obj::__new(0),::hx::paccDynamic);
             						}
             					}
             				}
             			}
-HXLINE( 240)			_gthis->resetSection(true);
+HXLINE( 243)			_gthis->resetSection(true);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_6, ::ChartingState,_gthis,::Array< ::String >,characters) HXARGC(1)
             		void _hx_run(::String character){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_275_addSongUI)
-HXLINE( 275)			::Array< ::String > characters1 = characters;
-HXDLIN( 275)			 ::Dynamic player1DropDown = ::Std_obj::parseInt(character);
-HXDLIN( 275)			_gthis->_song->__SetField(HX_("player1",b0,09,15,8a),characters1->__get(( (int)(player1DropDown) )),::hx::paccDynamic);
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_278_addSongUI)
+HXLINE( 278)			::Array< ::String > characters1 = characters;
+HXDLIN( 278)			 ::Dynamic player1DropDown = ::Std_obj::parseInt(character);
+HXDLIN( 278)			_gthis->_song->__SetField(HX_("player1",b0,09,15,8a),characters1->__get(( (int)(player1DropDown) )),::hx::paccDynamic);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_7, ::ChartingState,_gthis,::Array< ::String >,characters) HXARGC(1)
             		void _hx_run(::String character){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_283_addSongUI)
-HXLINE( 283)			::Array< ::String > characters1 = characters;
-HXDLIN( 283)			 ::Dynamic player2DropDown = ::Std_obj::parseInt(character);
-HXDLIN( 283)			_gthis->_song->__SetField(HX_("player2",b1,09,15,8a),characters1->__get(( (int)(player2DropDown) )),::hx::paccDynamic);
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_286_addSongUI)
+HXLINE( 286)			::Array< ::String > characters1 = characters;
+HXDLIN( 286)			 ::Dynamic player2DropDown = ::Std_obj::parseInt(character);
+HXDLIN( 286)			_gthis->_song->__SetField(HX_("player2",b1,09,15,8a),characters1->__get(( (int)(player2DropDown) )),::hx::paccDynamic);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_8, ::ChartingState,_gthis,::Array< ::String >,gfVersions) HXARGC(1)
             		void _hx_run(::String gfVersion){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_291_addSongUI)
-HXLINE( 291)			::Array< ::String > gfVersions1 = gfVersions;
-HXDLIN( 291)			 ::Dynamic gfVersionDropDown = ::Std_obj::parseInt(gfVersion);
-HXDLIN( 291)			_gthis->_song->__SetField(HX_("gfVersion",b9,c6,7d,f3),gfVersions1->__get(( (int)(gfVersionDropDown) )),::hx::paccDynamic);
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_294_addSongUI)
+HXLINE( 294)			::Array< ::String > gfVersions1 = gfVersions;
+HXDLIN( 294)			 ::Dynamic gfVersionDropDown = ::Std_obj::parseInt(gfVersion);
+HXDLIN( 294)			_gthis->_song->__SetField(HX_("gfVersion",b9,c6,7d,f3),gfVersions1->__get(( (int)(gfVersionDropDown) )),::hx::paccDynamic);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_9,::Array< ::String >,stages, ::ChartingState,_gthis) HXARGC(1)
             		void _hx_run(::String stage){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_299_addSongUI)
-HXLINE( 299)			::Array< ::String > stages1 = stages;
-HXDLIN( 299)			 ::Dynamic stageDropDown = ::Std_obj::parseInt(stage);
-HXDLIN( 299)			_gthis->_song->__SetField(HX_("stage",be,6a,0b,84),stages1->__get(( (int)(stageDropDown) )),::hx::paccDynamic);
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_302_addSongUI)
+HXLINE( 302)			::Array< ::String > stages1 = stages;
+HXDLIN( 302)			 ::Dynamic stageDropDown = ::Std_obj::parseInt(stage);
+HXDLIN( 302)			_gthis->_song->__SetField(HX_("stage",be,6a,0b,84),stages1->__get(( (int)(stageDropDown) )),::hx::paccDynamic);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_10, ::ChartingState,_gthis,::Array< ::String >,noteStyles) HXARGC(1)
             		void _hx_run(::String noteStyle){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_307_addSongUI)
-HXLINE( 307)			::Array< ::String > noteStyles1 = noteStyles;
-HXDLIN( 307)			 ::Dynamic noteStyleDropDown = ::Std_obj::parseInt(noteStyle);
-HXDLIN( 307)			_gthis->_song->__SetField(HX_("noteStyle",df,ef,aa,c1),noteStyles1->__get(( (int)(noteStyleDropDown) )),::hx::paccDynamic);
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_310_addSongUI)
+HXLINE( 310)			::Array< ::String > noteStyles1 = noteStyles;
+HXDLIN( 310)			 ::Dynamic noteStyleDropDown = ::Std_obj::parseInt(noteStyle);
+HXDLIN( 310)			_gthis->_song->__SetField(HX_("noteStyle",df,ef,aa,c1),noteStyles1->__get(( (int)(noteStyleDropDown) )),::hx::paccDynamic);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_190_addSongUI)
-HXLINE( 189)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 191)		 ::flixel::addons::ui::FlxUIInputText UI_songTitle =  ::flixel::addons::ui::FlxUIInputText_obj::__alloc( HX_CTX ,10,10,70,( (::String)(this->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ),8,null(),null(),null());
-HXLINE( 192)		this->typingShit = UI_songTitle;
-HXLINE( 194)		 ::flixel::addons::ui::FlxUICheckBox check_voices =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,25,null(),null(),HX_("Has voice track",b7,2b,b0,eb),100,null(),null());
-HXLINE( 195)		check_voices->set_checked(( (bool)(this->_song->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) ));
-HXLINE( 197)		check_voices->callback =  ::Dynamic(new _hx_Closure_0(_gthis,check_voices));
-HXLINE( 203)		 ::flixel::addons::ui::FlxUICheckBox check_mute_inst =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,200,null(),null(),HX_("Mute Instrumental (in editor)",a2,93,a5,ab),100,null(),null());
-HXLINE( 204)		check_mute_inst->set_checked(false);
-HXLINE( 205)		check_mute_inst->callback =  ::Dynamic(new _hx_Closure_1(check_mute_inst));
-HXLINE( 215)		 ::flixel::ui::FlxButton saveButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,110,8,HX_("Save",5d,b7,26,37), ::Dynamic(new _hx_Closure_2(_gthis)));
-HXLINE( 220)		Float saveButton1 = saveButton->x;
-HXDLIN( 220)		Float reloadSong = ((saveButton1 + saveButton->get_width()) + 10);
-HXDLIN( 220)		 ::flixel::ui::FlxButton reloadSong1 =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,reloadSong,saveButton->y,HX_("Reload Audio",cf,9c,c1,ed), ::Dynamic(new _hx_Closure_3(_gthis)));
-HXLINE( 225)		 ::flixel::ui::FlxButton reloadSongJson =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,reloadSong1->x,(saveButton->y + 30),HX_("Reload JSON",2f,1c,a5,4a), ::Dynamic(new _hx_Closure_4(_gthis)));
-HXLINE( 231)		 ::flixel::ui::FlxButton restart =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,140,HX_("Reset Chart",8d,3f,ff,f3), ::Dynamic(new _hx_Closure_5(_gthis)));
-HXLINE( 243)		 ::flixel::ui::FlxButton loadAutosaveBtn =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,reloadSongJson->x,(reloadSongJson->y + 30),HX_("load autosave",66,5f,5a,83),this->loadAutosave_dyn());
-HXLINE( 244)		 ::flixel::addons::ui::FlxUINumericStepper stepperBPM =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,65,((Float)0.1),1,((Float)1.0),((Float)5000.0),1,null(),null(),null(),null(),null());
-HXLINE( 245)		stepperBPM->set_value(( (Float)(::Conductor_obj::bpm) ));
-HXLINE( 246)		stepperBPM->name = HX_("song_bpm",35,36,15,42);
-HXLINE( 248)		 ::flixel::text::FlxText stepperBPMLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,65,null(),HX_("BPM",bf,5a,32,00),null(),null());
-HXLINE( 250)		 ::flixel::addons::ui::FlxUINumericStepper stepperSpeed =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,80,((Float)0.1),1,((Float)0.1),10,1,null(),null(),null(),null(),null());
-HXLINE( 251)		stepperSpeed->set_value(( (Float)(this->_song->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) ));
-HXLINE( 252)		stepperSpeed->name = HX_("song_speed",5d,10,41,a4);
-HXLINE( 254)		 ::flixel::text::FlxText stepperSpeedLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,80,null(),HX_("Scroll Speed",34,bf,42,cb),null(),null());
-HXLINE( 256)		 ::flixel::addons::ui::FlxUINumericStepper stepperVocalVol =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,95,((Float)0.1),1,((Float)0.1),10,1,null(),null(),null(),null(),null());
-HXLINE( 257)		stepperVocalVol->set_value(this->vocals->_volume);
-HXLINE( 258)		stepperVocalVol->name = HX_("song_vocalvol",a8,3c,96,f8);
-HXLINE( 260)		 ::flixel::text::FlxText stepperVocalVolLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,95,null(),HX_("Vocal Volume",65,14,e3,28),null(),null());
-HXLINE( 262)		 ::flixel::addons::ui::FlxUINumericStepper stepperSongVol =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,110,((Float)0.1),1,((Float)0.1),10,1,null(),null(),null(),null(),null());
-HXLINE( 263)		stepperSongVol->set_value(::flixel::FlxG_obj::sound->music->_volume);
-HXLINE( 264)		stepperSongVol->name = HX_("song_instvol",63,a1,f2,af);
-HXLINE( 266)		 ::flixel::text::FlxText stepperSongVolLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,110,null(),HX_("Instrumental Volume",68,1c,6d,b8),null(),null());
-HXLINE( 268)		::String library = null();
-HXDLIN( 268)		::Array< ::String > characters = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("characterList",a7,ac,9f,40)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library));
-HXLINE( 269)		::String library1 = null();
-HXDLIN( 269)		::Array< ::String > gfVersions = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("gfVersionList",b7,5f,86,04)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library1));
-HXLINE( 270)		::String library2 = null();
-HXDLIN( 270)		::Array< ::String > stages = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("stageList",3c,ea,b6,f7)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library2));
-HXLINE( 271)		::String library3 = null();
-HXDLIN( 271)		::Array< ::String > noteStyles = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("noteStyleList",dd,13,36,3c)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library3));
-HXLINE( 273)		 ::flixel::addons::ui::FlxUIDropDownMenu player1DropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,10,100,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(characters,true), ::Dynamic(new _hx_Closure_6(_gthis,characters)),null(),null(),null(),null());
-HXLINE( 277)		player1DropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ));
-HXLINE( 279)		 ::flixel::text::FlxText player1Label =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,80,64,HX_("Player 1",d2,1d,05,22),null(),null());
-HXLINE( 281)		 ::flixel::addons::ui::FlxUIDropDownMenu player2DropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,140,100,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(characters,true), ::Dynamic(new _hx_Closure_7(_gthis,characters)),null(),null(),null(),null());
-HXLINE( 285)		player2DropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ));
-HXLINE( 287)		 ::flixel::text::FlxText player2Label =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,140,80,64,HX_("Player 2",d3,1d,05,22),null(),null());
-HXLINE( 289)		 ::flixel::addons::ui::FlxUIDropDownMenu gfVersionDropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,10,200,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(gfVersions,true), ::Dynamic(new _hx_Closure_8(_gthis,gfVersions)),null(),null(),null(),null());
-HXLINE( 293)		gfVersionDropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("gfVersion",b9,c6,7d,f3),::hx::paccDynamic)) ));
-HXLINE( 295)		 ::flixel::text::FlxText gfVersionLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,180,64,HX_("Girlfriend",da,95,f9,8e),null(),null());
-HXLINE( 297)		 ::flixel::addons::ui::FlxUIDropDownMenu stageDropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,140,200,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(stages,true), ::Dynamic(new _hx_Closure_9(stages,_gthis)),null(),null(),null(),null());
-HXLINE( 301)		stageDropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic)) ));
-HXLINE( 303)		 ::flixel::text::FlxText stageLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,140,180,64,HX_("Stage",9e,da,38,17),null(),null());
-HXLINE( 305)		 ::flixel::addons::ui::FlxUIDropDownMenu noteStyleDropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,10,300,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(noteStyles,true), ::Dynamic(new _hx_Closure_10(_gthis,noteStyles)),null(),null(),null(),null());
-HXLINE( 309)		noteStyleDropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("noteStyle",df,ef,aa,c1),::hx::paccDynamic)) ));
-HXLINE( 311)		 ::flixel::text::FlxText noteStyleLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,280,64,HX_("Note Skin",6b,8d,33,f0),null(),null());
-HXLINE( 313)		 ::flixel::addons::ui::FlxUI tab_group_song =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
-HXLINE( 314)		tab_group_song->name = HX_("Song",f5,4f,31,37);
-HXLINE( 315)		tab_group_song->add(UI_songTitle).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 316)		tab_group_song->add(restart).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 317)		tab_group_song->add(check_voices).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 318)		tab_group_song->add(check_mute_inst).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 319)		tab_group_song->add(saveButton).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 320)		tab_group_song->add(reloadSong1).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 321)		tab_group_song->add(reloadSongJson).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 322)		tab_group_song->add(loadAutosaveBtn).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 323)		tab_group_song->add(stepperBPM).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 324)		tab_group_song->add(stepperBPMLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 325)		tab_group_song->add(stepperSpeed).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 326)		tab_group_song->add(stepperSpeedLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 327)		tab_group_song->add(stepperVocalVol).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 328)		tab_group_song->add(stepperVocalVolLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 329)		tab_group_song->add(stepperSongVol).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 330)		tab_group_song->add(stepperSongVolLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 332)		 ::flixel::addons::ui::FlxUI tab_group_assets =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
-HXLINE( 333)		tab_group_assets->name = HX_("Assets",a3,bc,97,80);
-HXLINE( 334)		tab_group_assets->add(noteStyleDropDown).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 335)		tab_group_assets->add(noteStyleLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 336)		tab_group_assets->add(gfVersionDropDown).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 337)		tab_group_assets->add(gfVersionLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 338)		tab_group_assets->add(stageDropDown).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 339)		tab_group_assets->add(stageLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 340)		tab_group_assets->add(player1DropDown).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 341)		tab_group_assets->add(player2DropDown).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 342)		tab_group_assets->add(player1Label).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 343)		tab_group_assets->add(player2Label).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 345)		this->UI_box->addGroup(tab_group_song);
-HXLINE( 346)		this->UI_box->addGroup(tab_group_assets);
-HXLINE( 347)		this->UI_box->scrollFactor->set(null(),null());
-HXLINE( 349)		::flixel::FlxG_obj::camera->follow(this->strumLine,null(),null());
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_193_addSongUI)
+HXLINE( 192)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 194)		 ::flixel::addons::ui::FlxUIInputText UI_songTitle =  ::flixel::addons::ui::FlxUIInputText_obj::__alloc( HX_CTX ,10,10,70,( (::String)(this->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ),8,null(),null(),null());
+HXLINE( 195)		this->typingShit = UI_songTitle;
+HXLINE( 197)		 ::flixel::addons::ui::FlxUICheckBox check_voices =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,25,null(),null(),HX_("Has voice track",b7,2b,b0,eb),100,null(),null());
+HXLINE( 198)		check_voices->set_checked(( (bool)(this->_song->__Field(HX_("needsVoices",be,05,e9,0d),::hx::paccDynamic)) ));
+HXLINE( 200)		check_voices->callback =  ::Dynamic(new _hx_Closure_0(_gthis,check_voices));
+HXLINE( 206)		 ::flixel::addons::ui::FlxUICheckBox check_mute_inst =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,200,null(),null(),HX_("Mute Instrumental (in editor)",a2,93,a5,ab),100,null(),null());
+HXLINE( 207)		check_mute_inst->set_checked(false);
+HXLINE( 208)		check_mute_inst->callback =  ::Dynamic(new _hx_Closure_1(check_mute_inst));
+HXLINE( 218)		 ::flixel::ui::FlxButton saveButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,110,8,HX_("Save",5d,b7,26,37), ::Dynamic(new _hx_Closure_2(_gthis)));
+HXLINE( 223)		Float saveButton1 = saveButton->x;
+HXDLIN( 223)		Float reloadSong = ((saveButton1 + saveButton->get_width()) + 10);
+HXDLIN( 223)		 ::flixel::ui::FlxButton reloadSong1 =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,reloadSong,saveButton->y,HX_("Reload Audio",cf,9c,c1,ed), ::Dynamic(new _hx_Closure_3(_gthis)));
+HXLINE( 228)		 ::flixel::ui::FlxButton reloadSongJson =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,reloadSong1->x,(saveButton->y + 30),HX_("Reload JSON",2f,1c,a5,4a), ::Dynamic(new _hx_Closure_4(_gthis)));
+HXLINE( 234)		 ::flixel::ui::FlxButton restart =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,140,HX_("Reset Chart",8d,3f,ff,f3), ::Dynamic(new _hx_Closure_5(_gthis)));
+HXLINE( 246)		 ::flixel::ui::FlxButton loadAutosaveBtn =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,reloadSongJson->x,(reloadSongJson->y + 30),HX_("load autosave",66,5f,5a,83),this->loadAutosave_dyn());
+HXLINE( 247)		 ::flixel::addons::ui::FlxUINumericStepper stepperBPM =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,65,((Float)0.1),1,((Float)1.0),((Float)5000.0),1,null(),null(),null(),null(),null());
+HXLINE( 248)		stepperBPM->set_value(( (Float)(::Conductor_obj::bpm) ));
+HXLINE( 249)		stepperBPM->name = HX_("song_bpm",35,36,15,42);
+HXLINE( 251)		 ::flixel::text::FlxText stepperBPMLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,65,null(),HX_("BPM",bf,5a,32,00),null(),null());
+HXLINE( 253)		 ::flixel::addons::ui::FlxUINumericStepper stepperSpeed =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,80,((Float)0.1),1,((Float)0.1),10,1,null(),null(),null(),null(),null());
+HXLINE( 254)		stepperSpeed->set_value(( (Float)(this->_song->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) ));
+HXLINE( 255)		stepperSpeed->name = HX_("song_speed",5d,10,41,a4);
+HXLINE( 257)		 ::flixel::text::FlxText stepperSpeedLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,80,null(),HX_("Scroll Speed",34,bf,42,cb),null(),null());
+HXLINE( 259)		 ::flixel::addons::ui::FlxUINumericStepper stepperVocalVol =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,95,((Float)0.1),1,((Float)0.1),10,1,null(),null(),null(),null(),null());
+HXLINE( 260)		stepperVocalVol->set_value(this->vocals->_volume);
+HXLINE( 261)		stepperVocalVol->name = HX_("song_vocalvol",a8,3c,96,f8);
+HXLINE( 263)		 ::flixel::text::FlxText stepperVocalVolLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,95,null(),HX_("Vocal Volume",65,14,e3,28),null(),null());
+HXLINE( 265)		 ::flixel::addons::ui::FlxUINumericStepper stepperSongVol =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,110,((Float)0.1),1,((Float)0.1),10,1,null(),null(),null(),null(),null());
+HXLINE( 266)		stepperSongVol->set_value(::flixel::FlxG_obj::sound->music->_volume);
+HXLINE( 267)		stepperSongVol->name = HX_("song_instvol",63,a1,f2,af);
+HXLINE( 269)		 ::flixel::text::FlxText stepperSongVolLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,110,null(),HX_("Instrumental Volume",68,1c,6d,b8),null(),null());
+HXLINE( 271)		::String library = null();
+HXDLIN( 271)		::Array< ::String > characters = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("characterList",a7,ac,9f,40)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library));
+HXLINE( 272)		::String library1 = null();
+HXDLIN( 272)		::Array< ::String > gfVersions = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("gfVersionList",b7,5f,86,04)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library1));
+HXLINE( 273)		::String library2 = null();
+HXDLIN( 273)		::Array< ::String > stages = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("stageList",3c,ea,b6,f7)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library2));
+HXLINE( 274)		::String library3 = null();
+HXDLIN( 274)		::Array< ::String > noteStyles = ::CoolUtil_obj::coolTextFile(::Paths_obj::getPath(((HX_("data/",c5,0e,88,d4) + HX_("noteStyleList",dd,13,36,3c)) + HX_(".txt",02,3f,c0,1e)),HX_("TEXT",ad,94,ba,37),library3));
+HXLINE( 276)		 ::flixel::addons::ui::FlxUIDropDownMenu player1DropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,10,100,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(characters,true), ::Dynamic(new _hx_Closure_6(_gthis,characters)),null(),null(),null(),null());
+HXLINE( 280)		player1DropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ));
+HXLINE( 282)		 ::flixel::text::FlxText player1Label =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,80,64,HX_("Player 1",d2,1d,05,22),null(),null());
+HXLINE( 284)		 ::flixel::addons::ui::FlxUIDropDownMenu player2DropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,140,100,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(characters,true), ::Dynamic(new _hx_Closure_7(_gthis,characters)),null(),null(),null(),null());
+HXLINE( 288)		player2DropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ));
+HXLINE( 290)		 ::flixel::text::FlxText player2Label =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,140,80,64,HX_("Player 2",d3,1d,05,22),null(),null());
+HXLINE( 292)		 ::flixel::addons::ui::FlxUIDropDownMenu gfVersionDropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,10,200,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(gfVersions,true), ::Dynamic(new _hx_Closure_8(_gthis,gfVersions)),null(),null(),null(),null());
+HXLINE( 296)		gfVersionDropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("gfVersion",b9,c6,7d,f3),::hx::paccDynamic)) ));
+HXLINE( 298)		 ::flixel::text::FlxText gfVersionLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,180,64,HX_("Girlfriend",da,95,f9,8e),null(),null());
+HXLINE( 300)		 ::flixel::addons::ui::FlxUIDropDownMenu stageDropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,140,200,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(stages,true), ::Dynamic(new _hx_Closure_9(stages,_gthis)),null(),null(),null(),null());
+HXLINE( 304)		stageDropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("stage",be,6a,0b,84),::hx::paccDynamic)) ));
+HXLINE( 306)		 ::flixel::text::FlxText stageLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,140,180,64,HX_("Stage",9e,da,38,17),null(),null());
+HXLINE( 308)		 ::flixel::addons::ui::FlxUIDropDownMenu noteStyleDropDown =  ::flixel::addons::ui::FlxUIDropDownMenu_obj::__alloc( HX_CTX ,10,300,::flixel::addons::ui::FlxUIDropDownMenu_obj::makeStrIdLabelArray(noteStyles,true), ::Dynamic(new _hx_Closure_10(_gthis,noteStyles)),null(),null(),null(),null());
+HXLINE( 312)		noteStyleDropDown->set_selectedLabel(( (::String)(this->_song->__Field(HX_("noteStyle",df,ef,aa,c1),::hx::paccDynamic)) ));
+HXLINE( 314)		 ::flixel::text::FlxText noteStyleLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,10,280,64,HX_("Note Skin",6b,8d,33,f0),null(),null());
+HXLINE( 316)		 ::flixel::addons::ui::FlxUI tab_group_song =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
+HXLINE( 317)		tab_group_song->name = HX_("Song",f5,4f,31,37);
+HXLINE( 318)		tab_group_song->add(UI_songTitle).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 319)		tab_group_song->add(restart).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 320)		tab_group_song->add(check_voices).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 321)		tab_group_song->add(check_mute_inst).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 322)		tab_group_song->add(saveButton).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 323)		tab_group_song->add(reloadSong1).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 324)		tab_group_song->add(reloadSongJson).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 325)		tab_group_song->add(loadAutosaveBtn).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 326)		tab_group_song->add(stepperBPM).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 327)		tab_group_song->add(stepperBPMLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 328)		tab_group_song->add(stepperSpeed).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 329)		tab_group_song->add(stepperSpeedLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 330)		tab_group_song->add(stepperVocalVol).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 331)		tab_group_song->add(stepperVocalVolLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 332)		tab_group_song->add(stepperSongVol).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 333)		tab_group_song->add(stepperSongVolLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 335)		 ::flixel::addons::ui::FlxUI tab_group_assets =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
+HXLINE( 336)		tab_group_assets->name = HX_("Assets",a3,bc,97,80);
+HXLINE( 337)		tab_group_assets->add(noteStyleDropDown).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 338)		tab_group_assets->add(noteStyleLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 339)		tab_group_assets->add(gfVersionDropDown).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 340)		tab_group_assets->add(gfVersionLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 341)		tab_group_assets->add(stageDropDown).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 342)		tab_group_assets->add(stageLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 343)		tab_group_assets->add(player1DropDown).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 344)		tab_group_assets->add(player2DropDown).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 345)		tab_group_assets->add(player1Label).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 346)		tab_group_assets->add(player2Label).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 348)		this->UI_box->addGroup(tab_group_song);
+HXLINE( 349)		this->UI_box->addGroup(tab_group_assets);
+HXLINE( 350)		this->UI_box->scrollFactor->set(null(),null());
+HXLINE( 352)		::flixel::FlxG_obj::camera->follow(this->strumLine,null(),null());
             	}
 
 
@@ -708,84 +708,84 @@ HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,addSongUI,(void))
 void ChartingState_obj::addSectionUI(){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::ChartingState,_gthis, ::flixel::addons::ui::FlxUINumericStepper,stepperCopy) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_378_addSectionUI)
-HXLINE( 378)			 ::ChartingState _gthis1 = _gthis;
-HXDLIN( 378)			_gthis1->copySection(::Std_obj::_hx_int(stepperCopy->value));
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_381_addSectionUI)
+HXLINE( 381)			 ::ChartingState _gthis1 = _gthis;
+HXDLIN( 381)			_gthis1->copySection(::Std_obj::_hx_int(stepperCopy->value));
             		}
             		HX_END_LOCAL_FUNC0((void))
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::ChartingState,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_385_addSectionUI)
-HXLINE( 385)			int _g = 0;
-HXDLIN( 385)			int _g1 = ( (::cpp::VirtualArray)( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length();
-HXDLIN( 385)			while((_g < _g1)){
-HXLINE( 385)				_g = (_g + 1);
-HXDLIN( 385)				int i = (_g - 1);
-HXLINE( 387)				::Array< int > note = ( (::Array< int >)( ::Dynamic( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem(i)) );
-HXLINE( 388)				note[1] = ::hx::Mod((note->__get(1) + 4),8);
-HXLINE( 389)				 ::Dynamic( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__SetItem(i,note);
-HXLINE( 390)				_gthis->updateGrid();
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_388_addSectionUI)
+HXLINE( 388)			int _g = 0;
+HXDLIN( 388)			int _g1 = ( (::cpp::VirtualArray)( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length();
+HXDLIN( 388)			while((_g < _g1)){
+HXLINE( 388)				_g = (_g + 1);
+HXDLIN( 388)				int i = (_g - 1);
+HXLINE( 390)				::Array< int > note = ( (::Array< int >)( ::Dynamic( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem(i)) );
+HXLINE( 391)				note[1] = ::hx::Mod((note->__get(1) + 4),8);
+HXLINE( 392)				 ::Dynamic( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__SetItem(i,note);
+HXLINE( 393)				_gthis->updateGrid();
             			}
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_359_addSectionUI)
-HXLINE( 358)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 360)		 ::flixel::addons::ui::FlxUI tab_group_section =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
-HXLINE( 361)		tab_group_section->name = HX_("Section",c5,2d,29,2b);
-HXLINE( 363)		this->stepperLength =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,10,4,0,0,999,0,null(),null(),null(),null(),null());
-HXLINE( 364)		this->stepperLength->set_value(( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ));
-HXLINE( 365)		this->stepperLength->name = HX_("section_length",40,57,01,c1);
-HXLINE( 367)		 ::flixel::text::FlxText stepperLengthLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,10,null(),HX_("Section Length (in steps)",14,d4,2f,40),null(),null());
-HXLINE( 369)		this->stepperSectionBPM =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,80,1,::Conductor_obj::bpm,0,999,0,null(),null(),null(),null(),null());
-HXLINE( 370)		this->stepperSectionBPM->set_value(( (Float)(::Conductor_obj::bpm) ));
-HXLINE( 371)		this->stepperSectionBPM->name = HX_("section_bpm",45,60,97,44);
-HXLINE( 373)		 ::flixel::addons::ui::FlxUINumericStepper stepperCopy =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,110,132,1,1,-999,999,0,null(),null(),null(),null(),null());
-HXLINE( 374)		 ::flixel::text::FlxText stepperCopyLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,174,132,null(),HX_("sections back",99,e8,ca,16),null(),null());
-HXLINE( 376)		 ::flixel::ui::FlxButton copyButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,130,HX_("Copy last section",46,61,ca,99), ::Dynamic(new _hx_Closure_0(_gthis,stepperCopy)));
-HXLINE( 381)		 ::flixel::ui::FlxButton clearSectionButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,150,HX_("Clear Section",12,08,13,f3),this->clearSection_dyn());
-HXLINE( 383)		 ::flixel::ui::FlxButton swapSection =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,170,HX_("Swap Section",58,33,c1,af), ::Dynamic(new _hx_Closure_1(_gthis)));
-HXLINE( 393)		this->check_mustHitSection =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,30,null(),null(),HX_("Camera Points to P1?",bb,77,df,54),100,null(),null());
-HXLINE( 394)		this->check_mustHitSection->name = HX_("check_mustHit",13,36,be,48);
-HXLINE( 395)		this->check_mustHitSection->set_checked(true);
-HXLINE( 398)		this->check_altAnim =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,400,null(),null(),HX_("Alternate Animation",5e,98,41,fc),100,null(),null());
-HXLINE( 399)		this->check_altAnim->name = HX_("check_altAnim",23,ee,53,2e);
-HXLINE( 401)		this->check_changeBPM =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,60,null(),null(),HX_("Change BPM",2f,3c,7a,fb),100,null(),null());
-HXLINE( 402)		this->check_changeBPM->name = HX_("check_changeBPM",d8,2d,43,fc);
-HXLINE( 404)		tab_group_section->add(this->stepperLength).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 405)		tab_group_section->add(stepperLengthLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 406)		tab_group_section->add(this->stepperSectionBPM).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 407)		tab_group_section->add(stepperCopy).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 408)		tab_group_section->add(stepperCopyLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 409)		tab_group_section->add(this->check_mustHitSection).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 410)		tab_group_section->add(this->check_altAnim).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 411)		tab_group_section->add(this->check_changeBPM).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 412)		tab_group_section->add(copyButton).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 413)		tab_group_section->add(clearSectionButton).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 414)		tab_group_section->add(swapSection).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 416)		this->UI_box->addGroup(tab_group_section);
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_362_addSectionUI)
+HXLINE( 361)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 363)		 ::flixel::addons::ui::FlxUI tab_group_section =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
+HXLINE( 364)		tab_group_section->name = HX_("Section",c5,2d,29,2b);
+HXLINE( 366)		this->stepperLength =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,10,4,0,0,999,0,null(),null(),null(),null(),null());
+HXLINE( 367)		this->stepperLength->set_value(( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ));
+HXLINE( 368)		this->stepperLength->name = HX_("section_length",40,57,01,c1);
+HXLINE( 370)		 ::flixel::text::FlxText stepperLengthLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,10,null(),HX_("Section Length (in steps)",14,d4,2f,40),null(),null());
+HXLINE( 372)		this->stepperSectionBPM =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,80,1,::Conductor_obj::bpm,0,999,0,null(),null(),null(),null(),null());
+HXLINE( 373)		this->stepperSectionBPM->set_value(( (Float)(::Conductor_obj::bpm) ));
+HXLINE( 374)		this->stepperSectionBPM->name = HX_("section_bpm",45,60,97,44);
+HXLINE( 376)		 ::flixel::addons::ui::FlxUINumericStepper stepperCopy =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,110,132,1,1,-999,999,0,null(),null(),null(),null(),null());
+HXLINE( 377)		 ::flixel::text::FlxText stepperCopyLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,174,132,null(),HX_("sections back",99,e8,ca,16),null(),null());
+HXLINE( 379)		 ::flixel::ui::FlxButton copyButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,130,HX_("Copy last section",46,61,ca,99), ::Dynamic(new _hx_Closure_0(_gthis,stepperCopy)));
+HXLINE( 384)		 ::flixel::ui::FlxButton clearSectionButton =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,150,HX_("Clear Section",12,08,13,f3),this->clearSection_dyn());
+HXLINE( 386)		 ::flixel::ui::FlxButton swapSection =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,170,HX_("Swap Section",58,33,c1,af), ::Dynamic(new _hx_Closure_1(_gthis)));
+HXLINE( 396)		this->check_mustHitSection =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,30,null(),null(),HX_("Camera Points to P1?",bb,77,df,54),100,null(),null());
+HXLINE( 397)		this->check_mustHitSection->name = HX_("check_mustHit",13,36,be,48);
+HXLINE( 398)		this->check_mustHitSection->set_checked(true);
+HXLINE( 401)		this->check_altAnim =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,400,null(),null(),HX_("Alternate Animation",5e,98,41,fc),100,null(),null());
+HXLINE( 402)		this->check_altAnim->name = HX_("check_altAnim",23,ee,53,2e);
+HXLINE( 404)		this->check_changeBPM =  ::flixel::addons::ui::FlxUICheckBox_obj::__alloc( HX_CTX ,10,60,null(),null(),HX_("Change BPM",2f,3c,7a,fb),100,null(),null());
+HXLINE( 405)		this->check_changeBPM->name = HX_("check_changeBPM",d8,2d,43,fc);
+HXLINE( 407)		tab_group_section->add(this->stepperLength).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 408)		tab_group_section->add(stepperLengthLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 409)		tab_group_section->add(this->stepperSectionBPM).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 410)		tab_group_section->add(stepperCopy).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 411)		tab_group_section->add(stepperCopyLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 412)		tab_group_section->add(this->check_mustHitSection).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 413)		tab_group_section->add(this->check_altAnim).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 414)		tab_group_section->add(this->check_changeBPM).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 415)		tab_group_section->add(copyButton).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 416)		tab_group_section->add(clearSectionButton).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 417)		tab_group_section->add(swapSection).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 419)		this->UI_box->addGroup(tab_group_section);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,addSectionUI,(void))
 
 void ChartingState_obj::addNoteUI(){
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_424_addNoteUI)
-HXLINE( 425)		this->tab_group_note =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
-HXLINE( 426)		this->tab_group_note->name = HX_("Note",12,44,e3,33);
-HXLINE( 428)		this->writingNotesText =  ::flixel::addons::ui::FlxUIText_obj::__alloc( HX_CTX ,20,100,0,HX_("",00,00,00,00),null(),null());
-HXLINE( 429)		this->writingNotesText->setFormat(HX_("Arial",23,09,b6,b8),20,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
-HXLINE( 431)		this->stepperSusLength =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,10,(::Conductor_obj::stepCrochet / ( (Float)(2) )),0,0,((::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )) * ( (Float)(4) )),null(),null(),null(),null(),null(),null());
-HXLINE( 432)		this->stepperSusLength->set_value(( (Float)(0) ));
-HXLINE( 433)		this->stepperSusLength->name = HX_("note_susLength",8a,6b,51,4b);
-HXLINE( 435)		 ::flixel::text::FlxText stepperSusLengthLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,10,null(),HX_("Note Sustain Length",51,bb,65,f7),null(),null());
-HXLINE( 437)		 ::flixel::ui::FlxButton applyLength =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,100,HX_("Apply Data",5c,22,e4,a8),null());
-HXLINE( 439)		this->tab_group_note->add(this->writingNotesText).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 440)		this->tab_group_note->add(this->stepperSusLength).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 441)		this->tab_group_note->add(stepperSusLengthLabel).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 442)		this->tab_group_note->add(applyLength).StaticCast<  ::flixel::FlxSprite >();
-HXLINE( 444)		this->UI_box->addGroup(this->tab_group_note);
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_427_addNoteUI)
+HXLINE( 428)		this->tab_group_note =  ::flixel::addons::ui::FlxUI_obj::__alloc( HX_CTX ,null(),this->UI_box,null(),null(),null(),null());
+HXLINE( 429)		this->tab_group_note->name = HX_("Note",12,44,e3,33);
+HXLINE( 431)		this->writingNotesText =  ::flixel::addons::ui::FlxUIText_obj::__alloc( HX_CTX ,20,100,0,HX_("",00,00,00,00),null(),null());
+HXLINE( 432)		this->writingNotesText->setFormat(HX_("Arial",23,09,b6,b8),20,-1,HX_("left",07,08,b0,47),::flixel::text::FlxTextBorderStyle_obj::OUTLINE_dyn(),-16777216,null());
+HXLINE( 434)		this->stepperSusLength =  ::flixel::addons::ui::FlxUINumericStepper_obj::__alloc( HX_CTX ,10,10,(::Conductor_obj::stepCrochet / ( (Float)(2) )),0,0,((::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )) * ( (Float)(4) )),null(),null(),null(),null(),null(),null());
+HXLINE( 435)		this->stepperSusLength->set_value(( (Float)(0) ));
+HXLINE( 436)		this->stepperSusLength->name = HX_("note_susLength",8a,6b,51,4b);
+HXLINE( 438)		 ::flixel::text::FlxText stepperSusLengthLabel =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,74,10,null(),HX_("Note Sustain Length",51,bb,65,f7),null(),null());
+HXLINE( 440)		 ::flixel::ui::FlxButton applyLength =  ::flixel::ui::FlxButton_obj::__alloc( HX_CTX ,10,100,HX_("Apply Data",5c,22,e4,a8),null());
+HXLINE( 442)		this->tab_group_note->add(this->writingNotesText).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 443)		this->tab_group_note->add(this->stepperSusLength).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 444)		this->tab_group_note->add(stepperSusLengthLabel).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 445)		this->tab_group_note->add(applyLength).StaticCast<  ::flixel::FlxSprite >();
+HXLINE( 447)		this->UI_box->addGroup(this->tab_group_note);
             	}
 
 
@@ -794,132 +794,132 @@ HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,addNoteUI,(void))
 void ChartingState_obj::loadSong(::String daSong){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::ChartingState,_gthis) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_477_loadSong)
-HXLINE( 478)			_gthis->vocals->pause();
-HXLINE( 479)			_gthis->vocals->set_time(( (Float)(0) ));
-HXLINE( 480)			::flixel::FlxG_obj::sound->music->pause();
-HXLINE( 481)			::flixel::FlxG_obj::sound->music->set_time(( (Float)(0) ));
-HXLINE( 482)			_gthis->changeSection(null(),null());
+            			HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_480_loadSong)
+HXLINE( 481)			_gthis->vocals->pause();
+HXLINE( 482)			_gthis->vocals->set_time(( (Float)(0) ));
+HXLINE( 483)			::flixel::FlxG_obj::sound->music->pause();
+HXLINE( 484)			::flixel::FlxG_obj::sound->music->set_time(( (Float)(0) ));
+HXLINE( 485)			_gthis->changeSection(null(),null());
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_460_loadSong)
-HXLINE( 459)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 461)		if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
-HXLINE( 463)			 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 463)			_this->cleanup(_this->autoDestroy,true);
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_463_loadSong)
+HXLINE( 462)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 464)		if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music )) {
+HXLINE( 466)			 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 466)			_this->cleanup(_this->autoDestroy,true);
             		}
-HXLINE( 467)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 467)		_hx_tmp->playMusic((((HX_("songs:assets/songs/",c1,ed,e6,7e) + daSong.toLowerCase()) + HX_("/Inst.",f9,6e,13,1c)) + HX_("ogg",4f,94,54,00)),((Float)0.6),null(),null());
-HXLINE( 470)		 ::flixel::_hx_system::FlxSound _hx_tmp1 =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
-HXDLIN( 470)		this->vocals = _hx_tmp1->loadEmbedded((((HX_("songs:assets/songs/",c1,ed,e6,7e) + daSong.toLowerCase()) + HX_("/Voices.",1e,f6,e5,90)) + HX_("ogg",4f,94,54,00)),null(),null(),null());
-HXLINE( 471)		::flixel::FlxG_obj::sound->list->add(this->vocals).StaticCast<  ::flixel::_hx_system::FlxSound >();
-HXLINE( 473)		::flixel::FlxG_obj::sound->music->pause();
-HXLINE( 474)		this->vocals->pause();
-HXLINE( 476)		::flixel::FlxG_obj::sound->music->onComplete =  ::Dynamic(new _hx_Closure_0(_gthis));
+HXLINE( 470)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 470)		_hx_tmp->playMusic((((HX_("songs:assets/songs/",c1,ed,e6,7e) + daSong.toLowerCase()) + HX_("/Inst.",f9,6e,13,1c)) + HX_("ogg",4f,94,54,00)),((Float)0.6),null(),null());
+HXLINE( 473)		 ::flixel::_hx_system::FlxSound _hx_tmp1 =  ::flixel::_hx_system::FlxSound_obj::__alloc( HX_CTX );
+HXDLIN( 473)		this->vocals = _hx_tmp1->loadEmbedded((((HX_("songs:assets/songs/",c1,ed,e6,7e) + daSong.toLowerCase()) + HX_("/Voices.",1e,f6,e5,90)) + HX_("ogg",4f,94,54,00)),null(),null(),null());
+HXLINE( 474)		::flixel::FlxG_obj::sound->list->add(this->vocals).StaticCast<  ::flixel::_hx_system::FlxSound >();
+HXLINE( 476)		::flixel::FlxG_obj::sound->music->pause();
+HXLINE( 477)		this->vocals->pause();
+HXLINE( 479)		::flixel::FlxG_obj::sound->music->onComplete =  ::Dynamic(new _hx_Closure_0(_gthis));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,loadSong,(void))
 
 void ChartingState_obj::generateUI(){
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_487_generateUI)
-HXLINE( 488)		while((this->bullshitUI->members->get_length() > 0)){
-HXLINE( 490)			this->bullshitUI->remove(Dynamic( this->bullshitUI->members->__get(0)).StaticCast<  ::flixel::FlxBasic >(),true).StaticCast<  ::flixel::FlxBasic >();
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_490_generateUI)
+HXLINE( 491)		while((this->bullshitUI->members->get_length() > 0)){
+HXLINE( 493)			this->bullshitUI->remove(Dynamic( this->bullshitUI->members->__get(0)).StaticCast<  ::flixel::FlxBasic >(),true).StaticCast<  ::flixel::FlxBasic >();
             		}
-HXLINE( 494)		 ::flixel::text::FlxText title =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,(this->UI_box->x + 20),(this->UI_box->y + 20),0,null(),null(),null());
-HXLINE( 495)		this->bullshitUI->add(title).StaticCast<  ::flixel::FlxBasic >();
+HXLINE( 497)		 ::flixel::text::FlxText title =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,(this->UI_box->x + 20),(this->UI_box->y + 20),0,null(),null(),null());
+HXLINE( 498)		this->bullshitUI->add(title).StaticCast<  ::flixel::FlxBasic >();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,generateUI,(void))
 
 void ChartingState_obj::getEvent(::String id, ::Dynamic sender, ::Dynamic data,::cpp::VirtualArray params){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_507_getEvent)
-HXDLIN( 507)		if ((id == HX_("click_check_box",dd,c1,1e,a8))) {
-HXLINE( 509)			 ::flixel::addons::ui::FlxUICheckBox check = ( ( ::flixel::addons::ui::FlxUICheckBox)(sender) );
-HXLINE( 510)			::String label = check->getLabel()->text;
-HXLINE( 511)			::String _hx_switch_0 = label;
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_510_getEvent)
+HXDLIN( 510)		if ((id == HX_("click_check_box",dd,c1,1e,a8))) {
+HXLINE( 512)			 ::flixel::addons::ui::FlxUICheckBox check = ( ( ::flixel::addons::ui::FlxUICheckBox)(sender) );
+HXLINE( 513)			::String label = check->getLabel()->text;
+HXLINE( 514)			::String _hx_switch_0 = label;
             			if (  (_hx_switch_0==HX_("Alternate Animation",5e,98,41,fc)) ){
-HXLINE( 519)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("altAnim",da,f3,f2,e5),check->checked,::hx::paccDynamic);
-HXDLIN( 519)				goto _hx_goto_25;
+HXLINE( 522)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("altAnim",da,f3,f2,e5),check->checked,::hx::paccDynamic);
+HXDLIN( 522)				goto _hx_goto_25;
             			}
             			if (  (_hx_switch_0==HX_("Camera Points to P1?",bb,77,df,54)) ){
-HXLINE( 514)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("mustHitSection",3b,5f,87,62),check->checked,::hx::paccDynamic);
-HXDLIN( 514)				goto _hx_goto_25;
+HXLINE( 517)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("mustHitSection",3b,5f,87,62),check->checked,::hx::paccDynamic);
+HXDLIN( 517)				goto _hx_goto_25;
             			}
             			if (  (_hx_switch_0==HX_("Change BPM",2f,3c,7a,fb)) ){
-HXLINE( 516)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("changeBPM",4f,4f,f8,1d),check->checked,::hx::paccDynamic);
-HXDLIN( 516)				goto _hx_goto_25;
+HXLINE( 519)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("changeBPM",4f,4f,f8,1d),check->checked,::hx::paccDynamic);
+HXDLIN( 519)				goto _hx_goto_25;
             			}
             			_hx_goto_25:;
             		}
             		else {
-HXLINE( 522)			bool _hx_tmp;
-HXDLIN( 522)			if ((id == HX_("change_numeric_stepper",50,0a,cc,bb))) {
-HXLINE( 522)				_hx_tmp = ::Std_obj::isOfType(sender,::hx::ClassOf< ::flixel::addons::ui::FlxUINumericStepper >());
+HXLINE( 525)			bool _hx_tmp;
+HXDLIN( 525)			if ((id == HX_("change_numeric_stepper",50,0a,cc,bb))) {
+HXLINE( 525)				_hx_tmp = ::Std_obj::isOfType(sender,::hx::ClassOf< ::flixel::addons::ui::FlxUINumericStepper >());
             			}
             			else {
-HXLINE( 522)				_hx_tmp = false;
+HXLINE( 525)				_hx_tmp = false;
             			}
-HXDLIN( 522)			if (_hx_tmp) {
-HXLINE( 524)				 ::flixel::addons::ui::FlxUINumericStepper nums = ( ( ::flixel::addons::ui::FlxUINumericStepper)(sender) );
-HXLINE( 525)				::String wname = nums->name;
-HXLINE( 527)				if ((wname == HX_("section_length",40,57,01,c1))) {
-HXLINE( 529)					if ((nums->value <= 4)) {
-HXLINE( 530)						nums->set_value(( (Float)(4) ));
+HXDLIN( 525)			if (_hx_tmp) {
+HXLINE( 527)				 ::flixel::addons::ui::FlxUINumericStepper nums = ( ( ::flixel::addons::ui::FlxUINumericStepper)(sender) );
+HXLINE( 528)				::String wname = nums->name;
+HXLINE( 530)				if ((wname == HX_("section_length",40,57,01,c1))) {
+HXLINE( 532)					if ((nums->value <= 4)) {
+HXLINE( 533)						nums->set_value(( (Float)(4) ));
             					}
-HXLINE( 531)					 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("lengthInSteps",3c,ed,41,db),::Std_obj::_hx_int(nums->value),::hx::paccDynamic);
-HXLINE( 532)					this->updateGrid();
+HXLINE( 534)					 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("lengthInSteps",3c,ed,41,db),::Std_obj::_hx_int(nums->value),::hx::paccDynamic);
+HXLINE( 535)					this->updateGrid();
             				}
             				else {
-HXLINE( 534)					if ((wname == HX_("song_speed",5d,10,41,a4))) {
-HXLINE( 536)						if ((nums->value <= 0)) {
-HXLINE( 537)							nums->set_value(( (Float)(0) ));
+HXLINE( 537)					if ((wname == HX_("song_speed",5d,10,41,a4))) {
+HXLINE( 539)						if ((nums->value <= 0)) {
+HXLINE( 540)							nums->set_value(( (Float)(0) ));
             						}
-HXLINE( 538)						this->_song->__SetField(HX_("speed",87,97,69,81),nums->value,::hx::paccDynamic);
+HXLINE( 541)						this->_song->__SetField(HX_("speed",87,97,69,81),nums->value,::hx::paccDynamic);
             					}
             					else {
-HXLINE( 540)						if ((wname == HX_("song_bpm",35,36,15,42))) {
-HXLINE( 542)							if ((nums->value <= 0)) {
-HXLINE( 543)								nums->set_value(( (Float)(1) ));
+HXLINE( 543)						if ((wname == HX_("song_bpm",35,36,15,42))) {
+HXLINE( 545)							if ((nums->value <= 0)) {
+HXLINE( 546)								nums->set_value(( (Float)(1) ));
             							}
-HXLINE( 544)							this->tempBpm = ::Std_obj::_hx_int(nums->value);
-HXLINE( 545)							::Conductor_obj::mapBPMChanges(this->_song);
-HXLINE( 546)							::Conductor_obj::changeBPM(::Std_obj::_hx_int(nums->value));
+HXLINE( 547)							this->tempBpm = ::Std_obj::_hx_int(nums->value);
+HXLINE( 548)							::Conductor_obj::mapBPMChanges(this->_song);
+HXLINE( 549)							::Conductor_obj::changeBPM(::Std_obj::_hx_int(nums->value));
             						}
             						else {
-HXLINE( 548)							if ((wname == HX_("note_susLength",8a,6b,51,4b))) {
-HXLINE( 550)								if (::hx::IsNull( this->curSelectedNote )) {
-HXLINE( 551)									return;
+HXLINE( 551)							if ((wname == HX_("note_susLength",8a,6b,51,4b))) {
+HXLINE( 553)								if (::hx::IsNull( this->curSelectedNote )) {
+HXLINE( 554)									return;
             								}
-HXLINE( 553)								if ((nums->value <= 0)) {
-HXLINE( 554)									nums->set_value(( (Float)(0) ));
+HXLINE( 556)								if ((nums->value <= 0)) {
+HXLINE( 557)									nums->set_value(( (Float)(0) ));
             								}
-HXLINE( 555)								this->curSelectedNote->set(2,nums->value);
-HXLINE( 556)								this->updateGrid();
+HXLINE( 558)								this->curSelectedNote->set(2,nums->value);
+HXLINE( 559)								this->updateGrid();
             							}
             							else {
-HXLINE( 558)								if ((wname == HX_("section_bpm",45,60,97,44))) {
-HXLINE( 560)									if ((nums->value <= ((Float)0.1))) {
-HXLINE( 561)										nums->set_value(((Float)0.1));
+HXLINE( 561)								if ((wname == HX_("section_bpm",45,60,97,44))) {
+HXLINE( 563)									if ((nums->value <= ((Float)0.1))) {
+HXLINE( 564)										nums->set_value(((Float)0.1));
             									}
-HXLINE( 562)									 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("bpm",df,be,4a,00),::Std_obj::_hx_int(nums->value),::hx::paccDynamic);
-HXLINE( 563)									this->updateGrid();
+HXLINE( 565)									 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("bpm",df,be,4a,00),::Std_obj::_hx_int(nums->value),::hx::paccDynamic);
+HXLINE( 566)									this->updateGrid();
             								}
             								else {
-HXLINE( 564)									if ((wname == HX_("song_vocalvol",a8,3c,96,f8))) {
-HXLINE( 566)										if ((nums->value <= ((Float)0.1))) {
-HXLINE( 567)											nums->set_value(((Float)0.1));
+HXLINE( 567)									if ((wname == HX_("song_vocalvol",a8,3c,96,f8))) {
+HXLINE( 569)										if ((nums->value <= ((Float)0.1))) {
+HXLINE( 570)											nums->set_value(((Float)0.1));
             										}
-HXLINE( 568)										this->vocals->set_volume(nums->value);
+HXLINE( 571)										this->vocals->set_volume(nums->value);
             									}
             									else {
-HXLINE( 569)										if ((wname == HX_("song_instvol",63,a1,f2,af))) {
-HXLINE( 571)											if ((nums->value <= ((Float)0.1))) {
-HXLINE( 572)												nums->set_value(((Float)0.1));
+HXLINE( 572)										if ((wname == HX_("song_instvol",63,a1,f2,af))) {
+HXLINE( 574)											if ((nums->value <= ((Float)0.1))) {
+HXLINE( 575)												nums->set_value(((Float)0.1));
             											}
-HXLINE( 573)											::flixel::FlxG_obj::sound->music->set_volume(nums->value);
+HXLINE( 576)											::flixel::FlxG_obj::sound->music->set_volume(nums->value);
             										}
             									}
             								}
@@ -933,22 +933,22 @@ HXLINE( 573)											::flixel::FlxG_obj::sound->music->set_volume(nums->value)
 
 
 Float ChartingState_obj::sectionStartTime(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_591_sectionStartTime)
-HXLINE( 592)		int daBPM = ( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
-HXLINE( 593)		Float daPos = ( (Float)(0) );
-HXLINE( 594)		{
-HXLINE( 594)			int _g = 0;
-HXDLIN( 594)			int _g1 = this->curSection;
-HXDLIN( 594)			while((_g < _g1)){
-HXLINE( 594)				_g = (_g + 1);
-HXDLIN( 594)				int i = (_g - 1);
-HXLINE( 596)				if (( (bool)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
-HXLINE( 598)					daBPM = ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_594_sectionStartTime)
+HXLINE( 595)		int daBPM = ( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
+HXLINE( 596)		Float daPos = ( (Float)(0) );
+HXLINE( 597)		{
+HXLINE( 597)			int _g = 0;
+HXDLIN( 597)			int _g1 = this->curSection;
+HXDLIN( 597)			while((_g < _g1)){
+HXLINE( 597)				_g = (_g + 1);
+HXDLIN( 597)				int i = (_g - 1);
+HXLINE( 599)				if (( (bool)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
+HXLINE( 601)					daBPM = ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
             				}
-HXLINE( 600)				daPos = (daPos + (( (Float)(4) ) * (( (Float)(60000) ) / ( (Float)(daBPM) ))));
+HXLINE( 603)				daPos = (daPos + (( (Float)(4) ) * (( (Float)(60000) ) / ( (Float)(daBPM) ))));
             			}
             		}
-HXLINE( 602)		return daPos;
+HXLINE( 605)		return daPos;
             	}
 
 
@@ -957,475 +957,475 @@ HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,sectionStartTime,return )
 void ChartingState_obj::update(Float elapsed){
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::ChartingState,_gthis) HXARGC(1)
             		void _hx_run( ::Note note){
-            			HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_662_update)
-HXLINE( 662)			if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music->_channel )) {
+            			HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_665_update)
+HXLINE( 665)			if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music->_channel )) {
             				HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::ChartingState,_gthis, ::Note,note) HXARGC(2)
             				void _hx_run( ::Dynamic _, ::Dynamic _1){
-            					HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_666_update)
-HXLINE( 666)					if (!(_gthis->claps->contains(note))) {
-HXLINE( 668)						_gthis->claps->push(note);
-HXLINE( 669)						if (( (bool)( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) )) {
-HXLINE( 669)							 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 669)							_hx_tmp->play(::Paths_obj::sound(HX_("CLAP",d8,2f,83,2c),null()),null(),null(),null(),null(),null());
+            					HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_669_update)
+HXLINE( 669)					if (!(_gthis->claps->contains(note))) {
+HXLINE( 671)						_gthis->claps->push(note);
+HXLINE( 672)						if (( (bool)( ::Dynamic(_gthis->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(_gthis->curSection)->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) )) {
+HXLINE( 672)							 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 672)							_hx_tmp->play(::Paths_obj::sound(HX_("CLAP",d8,2f,83,2c),null()),null(),null(),null(),null(),null());
             						}
             						else {
-HXLINE( 670)							 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 670)							_hx_tmp->play(::Paths_obj::sound(HX_("SNAP",4a,1e,18,37),null()),null(),null(),null(),null(),null());
+HXLINE( 673)							 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 673)							_hx_tmp->play(::Paths_obj::sound(HX_("SNAP",4a,1e,18,37),null()),null(),null(),null(),null(),null());
             						}
             					}
             				}
             				HX_END_LOCAL_FUNC2((void))
 
-HXLINE( 664)				::flixel::FlxG_obj::overlap(_gthis->strumLine,note, ::Dynamic(new _hx_Closure_0(_gthis,note)),null());
+HXLINE( 667)				::flixel::FlxG_obj::overlap(_gthis->strumLine,note, ::Dynamic(new _hx_Closure_0(_gthis,note)),null());
             			}
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_608_update)
-HXLINE( 607)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 609)		this->updateHeads();
-HXLINE( 611)		this->curStep = this->recalculateSteps();
-HXLINE( 613)		bool _hx_tmp;
-HXDLIN( 613)		 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 613)		if (_this->keyManager->checkStatus(18,_this->status)) {
-HXLINE( 613)			_hx_tmp = (this->UI_box->get_selected_tab() == 0);
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_611_update)
+HXLINE( 610)		 ::ChartingState _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 612)		this->updateHeads();
+HXLINE( 614)		this->curStep = this->recalculateSteps();
+HXLINE( 616)		bool _hx_tmp;
+HXDLIN( 616)		 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 616)		if (_this->keyManager->checkStatus(18,_this->status)) {
+HXLINE( 616)			_hx_tmp = (this->UI_box->get_selected_tab() == 0);
             		}
             		else {
-HXLINE( 613)			_hx_tmp = false;
+HXLINE( 616)			_hx_tmp = false;
             		}
-HXDLIN( 613)		if (_hx_tmp) {
-HXLINE( 615)			this->writingNotes = !(this->writingNotes);
+HXDLIN( 616)		if (_hx_tmp) {
+HXLINE( 618)			this->writingNotes = !(this->writingNotes);
             		}
-HXLINE( 618)		if (this->writingNotes) {
-HXLINE( 619)			this->writingNotesText->set_text(HX_("WRITING NOTES",bd,f4,65,a1));
-            		}
-            		else {
-HXLINE( 621)			this->writingNotesText->set_text(HX_("",00,00,00,00));
-            		}
-HXLINE( 623)		::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
-HXLINE( 624)		this->_song->__SetField(HX_("song",d5,23,58,4c),this->typingShit->text,::hx::paccDynamic);
-HXLINE( 626)		bool upP = ::PlayerSettings_obj::player1->controls->_upP->check();
-HXLINE( 627)		bool rightP = ::PlayerSettings_obj::player1->controls->_rightP->check();
-HXLINE( 628)		bool downP = ::PlayerSettings_obj::player1->controls->_downP->check();
-HXLINE( 629)		bool leftP = ::PlayerSettings_obj::player1->controls->_leftP->check();
-HXLINE( 631)		::Array< bool > controlArray = ::Array_obj< bool >::__new(4)->init(0,leftP)->init(1,downP)->init(2,upP)->init(3,rightP);
-HXLINE( 633)		bool _hx_tmp1;
-HXDLIN( 633)		bool _hx_tmp2;
-HXDLIN( 633)		bool _hx_tmp3;
-HXDLIN( 633)		bool _hx_tmp4;
-HXDLIN( 633)		if (!(upP)) {
-HXLINE( 633)			_hx_tmp4 = rightP;
+HXLINE( 621)		if (this->writingNotes) {
+HXLINE( 622)			this->writingNotesText->set_text(HX_("WRITING NOTES",bd,f4,65,a1));
             		}
             		else {
-HXLINE( 633)			_hx_tmp4 = true;
+HXLINE( 624)			this->writingNotesText->set_text(HX_("",00,00,00,00));
             		}
-HXDLIN( 633)		if (!(_hx_tmp4)) {
-HXLINE( 633)			_hx_tmp3 = downP;
+HXLINE( 626)		::Conductor_obj::songPosition = ::flixel::FlxG_obj::sound->music->_time;
+HXLINE( 627)		this->_song->__SetField(HX_("song",d5,23,58,4c),this->typingShit->text,::hx::paccDynamic);
+HXLINE( 629)		bool upP = ::PlayerSettings_obj::player1->controls->_upP->check();
+HXLINE( 630)		bool rightP = ::PlayerSettings_obj::player1->controls->_rightP->check();
+HXLINE( 631)		bool downP = ::PlayerSettings_obj::player1->controls->_downP->check();
+HXLINE( 632)		bool leftP = ::PlayerSettings_obj::player1->controls->_leftP->check();
+HXLINE( 634)		::Array< bool > controlArray = ::Array_obj< bool >::__new(4)->init(0,leftP)->init(1,downP)->init(2,upP)->init(3,rightP);
+HXLINE( 636)		bool _hx_tmp1;
+HXDLIN( 636)		bool _hx_tmp2;
+HXDLIN( 636)		bool _hx_tmp3;
+HXDLIN( 636)		bool _hx_tmp4;
+HXDLIN( 636)		if (!(upP)) {
+HXLINE( 636)			_hx_tmp4 = rightP;
             		}
             		else {
-HXLINE( 633)			_hx_tmp3 = true;
+HXLINE( 636)			_hx_tmp4 = true;
             		}
-HXDLIN( 633)		if (!(_hx_tmp3)) {
-HXLINE( 633)			_hx_tmp2 = leftP;
-            		}
-            		else {
-HXLINE( 633)			_hx_tmp2 = true;
-            		}
-HXDLIN( 633)		if (_hx_tmp2) {
-HXLINE( 633)			_hx_tmp1 = this->writingNotes;
+HXDLIN( 636)		if (!(_hx_tmp4)) {
+HXLINE( 636)			_hx_tmp3 = downP;
             		}
             		else {
-HXLINE( 633)			_hx_tmp1 = false;
+HXLINE( 636)			_hx_tmp3 = true;
             		}
-HXDLIN( 633)		if (_hx_tmp1) {
-HXLINE( 635)			int _g = 0;
-HXDLIN( 635)			int _g1 = controlArray->length;
-HXDLIN( 635)			while((_g < _g1)){
-HXLINE( 635)				_g = (_g + 1);
-HXDLIN( 635)				int i = (_g - 1);
-HXLINE( 637)				if (controlArray->__get(i)) {
-HXLINE( 639)					{
-HXLINE( 639)						int _g = 0;
-HXDLIN( 639)						int _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length();
-HXDLIN( 639)						while((_g < _g1)){
-HXLINE( 639)							_g = (_g + 1);
-HXDLIN( 639)							int n = (_g - 1);
-HXLINE( 641)							::Array< Float > note = ( (::Array< Float >)( ::Dynamic( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem(n)) );
-HXLINE( 642)							if (::hx::IsNull( note )) {
-HXLINE( 643)								continue;
+HXDLIN( 636)		if (!(_hx_tmp3)) {
+HXLINE( 636)			_hx_tmp2 = leftP;
+            		}
+            		else {
+HXLINE( 636)			_hx_tmp2 = true;
+            		}
+HXDLIN( 636)		if (_hx_tmp2) {
+HXLINE( 636)			_hx_tmp1 = this->writingNotes;
+            		}
+            		else {
+HXLINE( 636)			_hx_tmp1 = false;
+            		}
+HXDLIN( 636)		if (_hx_tmp1) {
+HXLINE( 638)			int _g = 0;
+HXDLIN( 638)			int _g1 = controlArray->length;
+HXDLIN( 638)			while((_g < _g1)){
+HXLINE( 638)				_g = (_g + 1);
+HXDLIN( 638)				int i = (_g - 1);
+HXLINE( 640)				if (controlArray->__get(i)) {
+HXLINE( 642)					{
+HXLINE( 642)						int _g = 0;
+HXDLIN( 642)						int _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length();
+HXDLIN( 642)						while((_g < _g1)){
+HXLINE( 642)							_g = (_g + 1);
+HXDLIN( 642)							int n = (_g - 1);
+HXLINE( 644)							::Array< Float > note = ( (::Array< Float >)( ::Dynamic( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem(n)) );
+HXLINE( 645)							if (::hx::IsNull( note )) {
+HXLINE( 646)								continue;
             							}
-HXLINE( 644)							bool _hx_tmp;
-HXDLIN( 644)							if ((note->__get(0) == ::Conductor_obj::songPosition)) {
-HXLINE( 644)								_hx_tmp = (::hx::Mod(note->__get(1),4) == i);
+HXLINE( 647)							bool _hx_tmp;
+HXDLIN( 647)							if ((note->__get(0) == ::Conductor_obj::songPosition)) {
+HXLINE( 647)								_hx_tmp = (::hx::Mod(note->__get(1),4) == i);
             							}
             							else {
-HXLINE( 644)								_hx_tmp = false;
+HXLINE( 647)								_hx_tmp = false;
             							}
-HXDLIN( 644)							if (_hx_tmp) {
-HXLINE( 646)								::haxe::Log_obj::trace(HX_("GAMING",af,69,7f,03),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),646,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
-HXLINE( 647)								( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->remove(note);
+HXDLIN( 647)							if (_hx_tmp) {
+HXLINE( 649)								::haxe::Log_obj::trace(HX_("GAMING",af,69,7f,03),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),649,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
+HXLINE( 650)								( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->remove(note);
             							}
             						}
             					}
-HXLINE( 650)					::haxe::Log_obj::trace(HX_("adding note",11,23,33,90),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),650,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
-HXLINE( 651)					( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(::cpp::VirtualArray_obj::__new(3)->init(0,::Conductor_obj::songPosition)->init(1,i)->init(2,0));
-HXLINE( 652)					this->updateGrid();
+HXLINE( 653)					::haxe::Log_obj::trace(HX_("adding note",11,23,33,90),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),653,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
+HXLINE( 654)					( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(::cpp::VirtualArray_obj::__new(3)->init(0,::Conductor_obj::songPosition)->init(1,i)->init(2,0));
+HXLINE( 655)					this->updateGrid();
             				}
             			}
             		}
-HXLINE( 658)		 ::flixel::FlxSprite _hx_tmp5 = this->strumLine;
-HXDLIN( 658)		Float _hx_tmp6 = ::Conductor_obj::songPosition;
-HXDLIN( 658)		Float _hx_tmp7 = (_hx_tmp6 - this->sectionStartTime());
-HXDLIN( 658)		_hx_tmp5->set_y(this->getYfromStrum(::hx::Mod(_hx_tmp7,(::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )))));
-HXLINE( 660)		this->curRenderedNotes->forEach( ::Dynamic(new _hx_Closure_1(_gthis)),null());
-HXLINE( 746)		bool _hx_tmp8;
-HXDLIN( 746)		if ((::hx::Mod(this->curBeat,4) == 0)) {
-HXLINE( 746)			_hx_tmp8 = (this->curStep >= (16 * (this->curSection + 1)));
+HXLINE( 661)		 ::flixel::FlxSprite _hx_tmp5 = this->strumLine;
+HXDLIN( 661)		Float _hx_tmp6 = ::Conductor_obj::songPosition;
+HXDLIN( 661)		Float _hx_tmp7 = (_hx_tmp6 - this->sectionStartTime());
+HXDLIN( 661)		_hx_tmp5->set_y(this->getYfromStrum(::hx::Mod(_hx_tmp7,(::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )))));
+HXLINE( 663)		this->curRenderedNotes->forEach( ::Dynamic(new _hx_Closure_1(_gthis)),null());
+HXLINE( 749)		bool _hx_tmp8;
+HXDLIN( 749)		if ((::hx::Mod(this->curBeat,4) == 0)) {
+HXLINE( 749)			_hx_tmp8 = (this->curStep >= (16 * (this->curSection + 1)));
             		}
             		else {
-HXLINE( 746)			_hx_tmp8 = false;
+HXLINE( 749)			_hx_tmp8 = false;
             		}
-HXDLIN( 746)		if (_hx_tmp8) {
-HXLINE( 748)			::haxe::Log_obj::trace(this->curStep,::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),748,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
-HXLINE( 749)			::haxe::Log_obj::trace((( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ) * (this->curSection + 1)),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),749,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
-HXLINE( 750)			::haxe::Log_obj::trace(HX_("DUMBSHIT",e6,67,07,01),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),750,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
-HXLINE( 752)			if (::hx::IsNull(  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem((this->curSection + 1)) )) {
-HXLINE( 754)				this->addSection(null());
+HXDLIN( 749)		if (_hx_tmp8) {
+HXLINE( 751)			::haxe::Log_obj::trace(this->curStep,::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),751,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
+HXLINE( 752)			::haxe::Log_obj::trace((( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ) * (this->curSection + 1)),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),752,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
+HXLINE( 753)			::haxe::Log_obj::trace(HX_("DUMBSHIT",e6,67,07,01),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),753,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
+HXLINE( 755)			if (::hx::IsNull(  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem((this->curSection + 1)) )) {
+HXLINE( 757)				this->addSection(null());
             			}
-HXLINE( 757)			this->changeSection((this->curSection + 1),false);
+HXLINE( 760)			this->changeSection((this->curSection + 1),false);
             		}
-HXLINE( 763)		if ((::flixel::FlxG_obj::mouse->_leftButton->current == 2)) {
-HXLINE( 765)			if (::flixel::FlxG_obj::mouse->overlaps(this->curRenderedNotes,null())) {
+HXLINE( 766)		if ((::flixel::FlxG_obj::mouse->_leftButton->current == 2)) {
+HXLINE( 768)			if (::flixel::FlxG_obj::mouse->overlaps(this->curRenderedNotes,null())) {
             				HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::ChartingState,_gthis) HXARGC(1)
             				void _hx_run( ::Note note){
-            					HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_769_update)
-HXLINE( 769)					if (::flixel::FlxG_obj::mouse->overlaps(note,null())) {
-HXLINE( 771)						 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 771)						if (_this->keyManager->checkStatus(17,_this->status)) {
-HXLINE( 773)							_gthis->selectNote(note);
+            					HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_772_update)
+HXLINE( 772)					if (::flixel::FlxG_obj::mouse->overlaps(note,null())) {
+HXLINE( 774)						 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 774)						if (_this->keyManager->checkStatus(17,_this->status)) {
+HXLINE( 776)							_gthis->selectNote(note);
             						}
             						else {
-HXLINE( 777)							_gthis->deleteNote(note);
+HXLINE( 780)							_gthis->deleteNote(note);
             						}
             					}
             				}
             				HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 767)				this->curRenderedNotes->forEach( ::Dynamic(new _hx_Closure_2(_gthis)),null());
+HXLINE( 770)				this->curRenderedNotes->forEach( ::Dynamic(new _hx_Closure_2(_gthis)),null());
             			}
             			else {
-HXLINE( 784)				bool _hx_tmp;
-HXDLIN( 784)				bool _hx_tmp1;
-HXDLIN( 784)				bool _hx_tmp2;
-HXDLIN( 784)				if ((::flixel::FlxG_obj::mouse->x > this->gridBG->x)) {
-HXLINE( 785)					int _hx_tmp = ::flixel::FlxG_obj::mouse->x;
-HXDLIN( 785)					Float _hx_tmp1 = this->gridBG->x;
-HXLINE( 784)					_hx_tmp2 = (_hx_tmp < (_hx_tmp1 + this->gridBG->get_width()));
+HXLINE( 787)				bool _hx_tmp;
+HXDLIN( 787)				bool _hx_tmp1;
+HXDLIN( 787)				bool _hx_tmp2;
+HXDLIN( 787)				if ((::flixel::FlxG_obj::mouse->x > this->gridBG->x)) {
+HXLINE( 788)					int _hx_tmp = ::flixel::FlxG_obj::mouse->x;
+HXDLIN( 788)					Float _hx_tmp1 = this->gridBG->x;
+HXLINE( 787)					_hx_tmp2 = (_hx_tmp < (_hx_tmp1 + this->gridBG->get_width()));
             				}
             				else {
-HXLINE( 784)					_hx_tmp2 = false;
+HXLINE( 787)					_hx_tmp2 = false;
             				}
-HXDLIN( 784)				if (_hx_tmp2) {
-HXLINE( 784)					_hx_tmp1 = (::flixel::FlxG_obj::mouse->y > this->gridBG->y);
-            				}
-            				else {
-HXLINE( 784)					_hx_tmp1 = false;
-            				}
-HXDLIN( 784)				if (_hx_tmp1) {
-HXLINE( 784)					_hx_tmp = (::flixel::FlxG_obj::mouse->y < (this->gridBG->y + (this->GRID_SIZE * ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ))));
+HXDLIN( 787)				if (_hx_tmp2) {
+HXLINE( 787)					_hx_tmp1 = (::flixel::FlxG_obj::mouse->y > this->gridBG->y);
             				}
             				else {
-HXLINE( 784)					_hx_tmp = false;
+HXLINE( 787)					_hx_tmp1 = false;
             				}
-HXDLIN( 784)				if (_hx_tmp) {
-HXLINE( 790)					this->addNote(null());
+HXDLIN( 787)				if (_hx_tmp1) {
+HXLINE( 787)					_hx_tmp = (::flixel::FlxG_obj::mouse->y < (this->gridBG->y + (this->GRID_SIZE * ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ))));
+            				}
+            				else {
+HXLINE( 787)					_hx_tmp = false;
+            				}
+HXDLIN( 787)				if (_hx_tmp) {
+HXLINE( 793)					this->addNote(null());
             				}
             			}
             		}
-HXLINE( 795)		bool _hx_tmp9;
-HXDLIN( 795)		bool _hx_tmp10;
-HXDLIN( 795)		bool _hx_tmp11;
-HXDLIN( 795)		if ((::flixel::FlxG_obj::mouse->x > this->gridBG->x)) {
-HXLINE( 796)			int _hx_tmp = ::flixel::FlxG_obj::mouse->x;
-HXDLIN( 796)			Float _hx_tmp1 = this->gridBG->x;
-HXLINE( 795)			_hx_tmp11 = (_hx_tmp < (_hx_tmp1 + this->gridBG->get_width()));
+HXLINE( 798)		bool _hx_tmp9;
+HXDLIN( 798)		bool _hx_tmp10;
+HXDLIN( 798)		bool _hx_tmp11;
+HXDLIN( 798)		if ((::flixel::FlxG_obj::mouse->x > this->gridBG->x)) {
+HXLINE( 799)			int _hx_tmp = ::flixel::FlxG_obj::mouse->x;
+HXDLIN( 799)			Float _hx_tmp1 = this->gridBG->x;
+HXLINE( 798)			_hx_tmp11 = (_hx_tmp < (_hx_tmp1 + this->gridBG->get_width()));
             		}
             		else {
-HXLINE( 795)			_hx_tmp11 = false;
+HXLINE( 798)			_hx_tmp11 = false;
             		}
-HXDLIN( 795)		if (_hx_tmp11) {
-HXLINE( 795)			_hx_tmp10 = (::flixel::FlxG_obj::mouse->y > this->gridBG->y);
-            		}
-            		else {
-HXLINE( 795)			_hx_tmp10 = false;
-            		}
-HXDLIN( 795)		if (_hx_tmp10) {
-HXLINE( 795)			_hx_tmp9 = (::flixel::FlxG_obj::mouse->y < (this->gridBG->y + (this->GRID_SIZE * ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ))));
+HXDLIN( 798)		if (_hx_tmp11) {
+HXLINE( 798)			_hx_tmp10 = (::flixel::FlxG_obj::mouse->y > this->gridBG->y);
             		}
             		else {
-HXLINE( 795)			_hx_tmp9 = false;
+HXLINE( 798)			_hx_tmp10 = false;
             		}
-HXDLIN( 795)		if (_hx_tmp9) {
-HXLINE( 800)			this->dummyArrow->set_x(( (Float)((::Math_obj::floor((( (Float)(::flixel::FlxG_obj::mouse->x) ) / ( (Float)(this->GRID_SIZE) ))) * this->GRID_SIZE)) ));
-HXLINE( 801)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 801)			if (_this->keyManager->checkStatus(16,_this->status)) {
-HXLINE( 802)				this->dummyArrow->set_y(( (Float)(::flixel::FlxG_obj::mouse->y) ));
+HXDLIN( 798)		if (_hx_tmp10) {
+HXLINE( 798)			_hx_tmp9 = (::flixel::FlxG_obj::mouse->y < (this->gridBG->y + (this->GRID_SIZE * ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ))));
+            		}
+            		else {
+HXLINE( 798)			_hx_tmp9 = false;
+            		}
+HXDLIN( 798)		if (_hx_tmp9) {
+HXLINE( 803)			this->dummyArrow->set_x(( (Float)((::Math_obj::floor((( (Float)(::flixel::FlxG_obj::mouse->x) ) / ( (Float)(this->GRID_SIZE) ))) * this->GRID_SIZE)) ));
+HXLINE( 804)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 804)			if (_this->keyManager->checkStatus(16,_this->status)) {
+HXLINE( 805)				this->dummyArrow->set_y(( (Float)(::flixel::FlxG_obj::mouse->y) ));
             			}
             			else {
-HXLINE( 804)				this->dummyArrow->set_y(( (Float)((::Math_obj::floor((( (Float)(::flixel::FlxG_obj::mouse->y) ) / ( (Float)(this->GRID_SIZE) ))) * this->GRID_SIZE)) ));
+HXLINE( 807)				this->dummyArrow->set_y(( (Float)((::Math_obj::floor((( (Float)(::flixel::FlxG_obj::mouse->y) ) / ( (Float)(this->GRID_SIZE) ))) * this->GRID_SIZE)) ));
             			}
             		}
-HXLINE( 807)		 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 807)		if (_this1->keyManager->checkStatus(13,_this1->status)) {
-HXLINE( 809)			::ChartingState_obj::lastSection = this->curSection;
-HXLINE( 811)			::PlayState_obj::SONG = this->_song;
-HXLINE( 812)			{
-HXLINE( 812)				 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 812)				_this->cleanup(_this->autoDestroy,true);
+HXLINE( 810)		 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 810)		if (_this1->keyManager->checkStatus(13,_this1->status)) {
+HXLINE( 812)			::ChartingState_obj::lastSection = this->curSection;
+HXLINE( 814)			::PlayState_obj::SONG = this->_song;
+HXLINE( 815)			{
+HXLINE( 815)				 ::flixel::_hx_system::FlxSound _this = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 815)				_this->cleanup(_this->autoDestroy,true);
             			}
-HXLINE( 813)			{
-HXLINE( 813)				 ::flixel::_hx_system::FlxSound _this1 = this->vocals;
-HXDLIN( 813)				_this1->cleanup(_this1->autoDestroy,true);
+HXLINE( 816)			{
+HXLINE( 816)				 ::flixel::_hx_system::FlxSound _this1 = this->vocals;
+HXDLIN( 816)				_this1->cleanup(_this1->autoDestroy,true);
             			}
-HXLINE( 814)			{
-HXLINE( 814)				 ::flixel::FlxState nextState = ::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::PlayState_obj::__alloc( HX_CTX ,null(),null())) ),false);
-HXDLIN( 814)				if (::flixel::FlxG_obj::game->_state->switchTo(nextState)) {
-HXLINE( 814)					::flixel::FlxG_obj::game->_requestedState = nextState;
+HXLINE( 817)			{
+HXLINE( 817)				 ::flixel::FlxState nextState = ::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::PlayState_obj::__alloc( HX_CTX ,null(),null())) ),false);
+HXDLIN( 817)				if (::flixel::FlxG_obj::game->_state->switchTo(nextState)) {
+HXLINE( 817)					::flixel::FlxG_obj::game->_requestedState = nextState;
             				}
             			}
             		}
-HXLINE( 817)		 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 817)		if (_this2->keyManager->checkStatus(69,_this2->status)) {
-HXLINE( 819)			this->changeNoteSustain(::Conductor_obj::stepCrochet);
+HXLINE( 820)		 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 820)		if (_this2->keyManager->checkStatus(69,_this2->status)) {
+HXLINE( 822)			this->changeNoteSustain(::Conductor_obj::stepCrochet);
             		}
-HXLINE( 821)		 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 821)		if (_this3->keyManager->checkStatus(81,_this3->status)) {
-HXLINE( 823)			this->changeNoteSustain(-(::Conductor_obj::stepCrochet));
+HXLINE( 824)		 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 824)		if (_this3->keyManager->checkStatus(81,_this3->status)) {
+HXLINE( 826)			this->changeNoteSustain(-(::Conductor_obj::stepCrochet));
             		}
-HXLINE( 826)		 ::flixel::input::keyboard::FlxKeyList _this4 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 826)		if (_this4->keyManager->checkStatus(9,_this4->status)) {
-HXLINE( 828)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 828)			if (_this->keyManager->checkStatus(16,_this->status)) {
-HXLINE( 830)				{
-HXLINE( 830)					 ::flixel::addons::ui::FlxUITabMenu _g = this->UI_box;
-HXDLIN( 830)					_g->set_selected_tab((_g->get_selected_tab() - 1));
+HXLINE( 829)		 ::flixel::input::keyboard::FlxKeyList _this4 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 829)		if (_this4->keyManager->checkStatus(9,_this4->status)) {
+HXLINE( 831)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 831)			if (_this->keyManager->checkStatus(16,_this->status)) {
+HXLINE( 833)				{
+HXLINE( 833)					 ::flixel::addons::ui::FlxUITabMenu _g = this->UI_box;
+HXDLIN( 833)					_g->set_selected_tab((_g->get_selected_tab() - 1));
             				}
-HXLINE( 831)				if ((this->UI_box->get_selected_tab() < 0)) {
-HXLINE( 832)					this->UI_box->set_selected_tab(2);
+HXLINE( 834)				if ((this->UI_box->get_selected_tab() < 0)) {
+HXLINE( 835)					this->UI_box->set_selected_tab(2);
             				}
             			}
             			else {
-HXLINE( 836)				{
-HXLINE( 836)					 ::flixel::addons::ui::FlxUITabMenu _g = this->UI_box;
-HXDLIN( 836)					_g->set_selected_tab((_g->get_selected_tab() + 1));
+HXLINE( 839)				{
+HXLINE( 839)					 ::flixel::addons::ui::FlxUITabMenu _g = this->UI_box;
+HXDLIN( 839)					_g->set_selected_tab((_g->get_selected_tab() + 1));
             				}
-HXLINE( 837)				if ((this->UI_box->get_selected_tab() >= 3)) {
-HXLINE( 838)					this->UI_box->set_selected_tab(0);
+HXLINE( 840)				if ((this->UI_box->get_selected_tab() >= 3)) {
+HXLINE( 841)					this->UI_box->set_selected_tab(0);
             				}
             			}
             		}
-HXLINE( 842)		if (!(this->typingShit->hasFocus)) {
-HXLINE( 845)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 845)			if (_this->keyManager->checkStatus(17,_this->status)) {
-HXLINE( 847)				bool _hx_tmp;
-HXDLIN( 847)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 847)				if (_this->keyManager->checkStatus(90,_this->status)) {
-HXLINE( 847)					_hx_tmp = ::hx::IsNotNull( this->lastNote );
+HXLINE( 845)		if (!(this->typingShit->hasFocus)) {
+HXLINE( 848)			 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 848)			if (_this->keyManager->checkStatus(17,_this->status)) {
+HXLINE( 850)				bool _hx_tmp;
+HXDLIN( 850)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 850)				if (_this->keyManager->checkStatus(90,_this->status)) {
+HXLINE( 850)					_hx_tmp = ::hx::IsNotNull( this->lastNote );
             				}
             				else {
-HXLINE( 847)					_hx_tmp = false;
+HXLINE( 850)					_hx_tmp = false;
             				}
-HXDLIN( 847)				if (_hx_tmp) {
-HXLINE( 849)					 ::Dynamic _hx_tmp;
-HXDLIN( 849)					if (this->curRenderedNotes->members->contains(this->lastNote)) {
-HXLINE( 849)						_hx_tmp = HX_("delete note",07,6c,a4,b2);
+HXDLIN( 850)				if (_hx_tmp) {
+HXLINE( 852)					 ::Dynamic _hx_tmp;
+HXDLIN( 852)					if (this->curRenderedNotes->members->contains(this->lastNote)) {
+HXLINE( 852)						_hx_tmp = HX_("delete note",07,6c,a4,b2);
             					}
             					else {
-HXLINE( 849)						_hx_tmp = HX_("add note",51,5e,0c,9c);
+HXLINE( 852)						_hx_tmp = HX_("add note",51,5e,0c,9c);
             					}
-HXDLIN( 849)					::haxe::Log_obj::trace(_hx_tmp,::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),849,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
-HXLINE( 850)					if (this->curRenderedNotes->members->contains(this->lastNote)) {
-HXLINE( 851)						this->deleteNote(this->lastNote);
-            					}
-            					else {
-HXLINE( 853)						this->addNote(this->lastNote);
-            					}
-            				}
-            			}
-HXLINE( 857)			int shiftThing = 1;
-HXLINE( 858)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 858)			if (_this1->keyManager->checkStatus(16,_this1->status)) {
-HXLINE( 859)				shiftThing = 4;
-            			}
-HXLINE( 860)			if (!(this->writingNotes)) {
-HXLINE( 862)				bool _hx_tmp;
-HXDLIN( 862)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 862)				if (!(_this->keyManager->checkStatus(39,_this->status))) {
-HXLINE( 862)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 862)					_hx_tmp = _this->keyManager->checkStatus(68,_this->status);
-            				}
-            				else {
-HXLINE( 862)					_hx_tmp = true;
-            				}
-HXDLIN( 862)				if (_hx_tmp) {
-HXLINE( 863)					this->changeSection((this->curSection + shiftThing),null());
-            				}
-HXLINE( 864)				bool _hx_tmp1;
-HXDLIN( 864)				 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 864)				if (!(_this1->keyManager->checkStatus(37,_this1->status))) {
-HXLINE( 864)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 864)					_hx_tmp1 = _this->keyManager->checkStatus(65,_this->status);
-            				}
-            				else {
-HXLINE( 864)					_hx_tmp1 = true;
-            				}
-HXDLIN( 864)				if (_hx_tmp1) {
-HXLINE( 865)					this->changeSection((this->curSection - shiftThing),null());
-            				}
-            			}
-HXLINE( 867)			 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 867)			if (_this2->keyManager->checkStatus(32,_this2->status)) {
-HXLINE( 869)				if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music->_channel )) {
-HXLINE( 871)					::flixel::FlxG_obj::sound->music->pause();
-HXLINE( 872)					this->vocals->pause();
-HXLINE( 873)					this->claps->removeRange(0,this->claps->length);
-            				}
-            				else {
-HXLINE( 877)					this->vocals->play(null(),null(),null());
-HXLINE( 878)					::flixel::FlxG_obj::sound->music->play(null(),null(),null());
-            				}
-            			}
-HXLINE( 882)			 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 882)			if (_this3->keyManager->checkStatus(82,_this3->status)) {
-HXLINE( 884)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 884)				if (_this->keyManager->checkStatus(16,_this->status)) {
-HXLINE( 885)					this->resetSection(true);
-            				}
-            				else {
-HXLINE( 887)					this->resetSection(null());
-            				}
-            			}
-HXLINE( 890)			if ((::flixel::FlxG_obj::mouse->wheel != 0)) {
-HXLINE( 892)				::flixel::FlxG_obj::sound->music->pause();
-HXLINE( 893)				this->vocals->pause();
-HXLINE( 895)				{
-HXLINE( 895)					 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 895)					_g->set_time((_g->_time - ((( (Float)(::flixel::FlxG_obj::mouse->wheel) ) * ::Conductor_obj::stepCrochet) * ((Float)0.4))));
-            				}
-HXLINE( 896)				this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
-            			}
-HXLINE( 899)			 ::flixel::input::keyboard::FlxKeyList _this4 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 899)			if (!(_this4->keyManager->checkStatus(16,_this4->status))) {
-HXLINE( 901)				bool _hx_tmp;
-HXDLIN( 901)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 901)				if (!(_this->keyManager->checkStatus(87,_this->status))) {
-HXLINE( 901)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 901)					_hx_tmp = _this->keyManager->checkStatus(83,_this->status);
-            				}
-            				else {
-HXLINE( 901)					_hx_tmp = true;
-            				}
-HXDLIN( 901)				if (_hx_tmp) {
-HXLINE( 903)					::flixel::FlxG_obj::sound->music->pause();
-HXLINE( 904)					this->vocals->pause();
-HXLINE( 906)					Float daTime = (( (Float)(700) ) * ::flixel::FlxG_obj::elapsed);
-HXLINE( 908)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 908)					if (_this->keyManager->checkStatus(87,_this->status)) {
-HXLINE( 910)						 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 910)						_g->set_time((_g->_time - daTime));
+HXDLIN( 852)					::haxe::Log_obj::trace(_hx_tmp,::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),852,HX_("ChartingState",8d,e0,dd,9b),HX_("update",09,86,05,87)));
+HXLINE( 853)					if (this->curRenderedNotes->members->contains(this->lastNote)) {
+HXLINE( 854)						this->deleteNote(this->lastNote);
             					}
             					else {
+HXLINE( 856)						this->addNote(this->lastNote);
+            					}
+            				}
+            			}
+HXLINE( 860)			int shiftThing = 1;
+HXLINE( 861)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 861)			if (_this1->keyManager->checkStatus(16,_this1->status)) {
+HXLINE( 862)				shiftThing = 4;
+            			}
+HXLINE( 863)			if (!(this->writingNotes)) {
+HXLINE( 865)				bool _hx_tmp;
+HXDLIN( 865)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 865)				if (!(_this->keyManager->checkStatus(39,_this->status))) {
+HXLINE( 865)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 865)					_hx_tmp = _this->keyManager->checkStatus(68,_this->status);
+            				}
+            				else {
+HXLINE( 865)					_hx_tmp = true;
+            				}
+HXDLIN( 865)				if (_hx_tmp) {
+HXLINE( 866)					this->changeSection((this->curSection + shiftThing),null());
+            				}
+HXLINE( 867)				bool _hx_tmp1;
+HXDLIN( 867)				 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 867)				if (!(_this1->keyManager->checkStatus(37,_this1->status))) {
+HXLINE( 867)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 867)					_hx_tmp1 = _this->keyManager->checkStatus(65,_this->status);
+            				}
+            				else {
+HXLINE( 867)					_hx_tmp1 = true;
+            				}
+HXDLIN( 867)				if (_hx_tmp1) {
+HXLINE( 868)					this->changeSection((this->curSection - shiftThing),null());
+            				}
+            			}
+HXLINE( 870)			 ::flixel::input::keyboard::FlxKeyList _this2 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 870)			if (_this2->keyManager->checkStatus(32,_this2->status)) {
+HXLINE( 872)				if (::hx::IsNotNull( ::flixel::FlxG_obj::sound->music->_channel )) {
+HXLINE( 874)					::flixel::FlxG_obj::sound->music->pause();
+HXLINE( 875)					this->vocals->pause();
+HXLINE( 876)					this->claps->removeRange(0,this->claps->length);
+            				}
+            				else {
+HXLINE( 880)					this->vocals->play(null(),null(),null());
+HXLINE( 881)					::flixel::FlxG_obj::sound->music->play(null(),null(),null());
+            				}
+            			}
+HXLINE( 885)			 ::flixel::input::keyboard::FlxKeyList _this3 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 885)			if (_this3->keyManager->checkStatus(82,_this3->status)) {
+HXLINE( 887)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 887)				if (_this->keyManager->checkStatus(16,_this->status)) {
+HXLINE( 888)					this->resetSection(true);
+            				}
+            				else {
+HXLINE( 890)					this->resetSection(null());
+            				}
+            			}
+HXLINE( 893)			if ((::flixel::FlxG_obj::mouse->wheel != 0)) {
+HXLINE( 895)				::flixel::FlxG_obj::sound->music->pause();
+HXLINE( 896)				this->vocals->pause();
+HXLINE( 898)				{
+HXLINE( 898)					 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 898)					_g->set_time((_g->_time - ((( (Float)(::flixel::FlxG_obj::mouse->wheel) ) * ::Conductor_obj::stepCrochet) * ((Float)0.4))));
+            				}
+HXLINE( 899)				this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
+            			}
+HXLINE( 902)			 ::flixel::input::keyboard::FlxKeyList _this4 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 902)			if (!(_this4->keyManager->checkStatus(16,_this4->status))) {
+HXLINE( 904)				bool _hx_tmp;
+HXDLIN( 904)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 904)				if (!(_this->keyManager->checkStatus(87,_this->status))) {
+HXLINE( 904)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 904)					_hx_tmp = _this->keyManager->checkStatus(83,_this->status);
+            				}
+            				else {
+HXLINE( 904)					_hx_tmp = true;
+            				}
+HXDLIN( 904)				if (_hx_tmp) {
+HXLINE( 906)					::flixel::FlxG_obj::sound->music->pause();
+HXLINE( 907)					this->vocals->pause();
+HXLINE( 909)					Float daTime = (( (Float)(700) ) * ::flixel::FlxG_obj::elapsed);
+HXLINE( 911)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 911)					if (_this->keyManager->checkStatus(87,_this->status)) {
 HXLINE( 913)						 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 913)						_g->set_time((_g->_time + daTime));
+HXDLIN( 913)						_g->set_time((_g->_time - daTime));
             					}
-HXLINE( 915)					this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
+            					else {
+HXLINE( 916)						 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 916)						_g->set_time((_g->_time + daTime));
+            					}
+HXLINE( 918)					this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
             				}
             			}
             			else {
-HXLINE( 920)				bool _hx_tmp;
-HXDLIN( 920)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 920)				if (!(_this->keyManager->checkStatus(87,_this->status))) {
-HXLINE( 920)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 920)					_hx_tmp = _this->keyManager->checkStatus(83,_this->status);
+HXLINE( 923)				bool _hx_tmp;
+HXDLIN( 923)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 923)				if (!(_this->keyManager->checkStatus(87,_this->status))) {
+HXLINE( 923)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 923)					_hx_tmp = _this->keyManager->checkStatus(83,_this->status);
             				}
             				else {
-HXLINE( 920)					_hx_tmp = true;
+HXLINE( 923)					_hx_tmp = true;
             				}
-HXDLIN( 920)				if (_hx_tmp) {
-HXLINE( 922)					::flixel::FlxG_obj::sound->music->pause();
-HXLINE( 923)					this->vocals->pause();
-HXLINE( 925)					Float daTime = (::Conductor_obj::stepCrochet * ( (Float)(2) ));
-HXLINE( 927)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 927)					if (_this->keyManager->checkStatus(87,_this->status)) {
-HXLINE( 929)						 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 929)						_g->set_time((_g->_time - daTime));
+HXDLIN( 923)				if (_hx_tmp) {
+HXLINE( 925)					::flixel::FlxG_obj::sound->music->pause();
+HXLINE( 926)					this->vocals->pause();
+HXLINE( 928)					Float daTime = (::Conductor_obj::stepCrochet * ( (Float)(2) ));
+HXLINE( 930)					 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 930)					if (_this->keyManager->checkStatus(87,_this->status)) {
+HXLINE( 932)						 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 932)						_g->set_time((_g->_time - daTime));
             					}
             					else {
-HXLINE( 932)						 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 932)						_g->set_time((_g->_time + daTime));
+HXLINE( 935)						 ::flixel::_hx_system::FlxSound _g = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 935)						_g->set_time((_g->_time + daTime));
             					}
-HXLINE( 934)					this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
+HXLINE( 937)					this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
             				}
             			}
             		}
-HXLINE( 939)		this->_song->__SetField(HX_("bpm",df,be,4a,00),this->tempBpm,::hx::paccDynamic);
-HXLINE( 946)		 ::flixel::text::FlxText _hx_tmp12 = this->bpmTxt;
-HXDLIN( 946)		 ::flixel::text::FlxText _hx_tmp13 = this->bpmTxt;
-HXDLIN( 946)		::String _hx_tmp14 = (::Std_obj::string(::flixel::math::FlxMath_obj::roundDecimal((::Conductor_obj::songPosition / ( (Float)(1000) )),2)) + HX_(" / ",31,71,18,00));
-HXDLIN( 946)		::String _hx_tmp15 = ((_hx_tmp14 + ::Std_obj::string(::flixel::math::FlxMath_obj::roundDecimal((::flixel::FlxG_obj::sound->music->_length / ( (Float)(1000) )),2))) + HX_("\nSection: ",61,ca,0c,ad));
-HXDLIN( 946)		_hx_tmp12->set_text(_hx_tmp13->set_text((((_hx_tmp15 + this->curSection) + HX_("\nCurStep: ",28,2d,e6,9d)) + this->curStep)));
-HXLINE( 953)		this->super::update(elapsed);
+HXLINE( 942)		this->_song->__SetField(HX_("bpm",df,be,4a,00),this->tempBpm,::hx::paccDynamic);
+HXLINE( 949)		 ::flixel::text::FlxText _hx_tmp12 = this->bpmTxt;
+HXDLIN( 949)		 ::flixel::text::FlxText _hx_tmp13 = this->bpmTxt;
+HXDLIN( 949)		::String _hx_tmp14 = (::Std_obj::string(::flixel::math::FlxMath_obj::roundDecimal((::Conductor_obj::songPosition / ( (Float)(1000) )),2)) + HX_(" / ",31,71,18,00));
+HXDLIN( 949)		::String _hx_tmp15 = ((_hx_tmp14 + ::Std_obj::string(::flixel::math::FlxMath_obj::roundDecimal((::flixel::FlxG_obj::sound->music->_length / ( (Float)(1000) )),2))) + HX_("\nSection: ",61,ca,0c,ad));
+HXDLIN( 949)		_hx_tmp12->set_text(_hx_tmp13->set_text((((_hx_tmp15 + this->curSection) + HX_("\nCurStep: ",28,2d,e6,9d)) + this->curStep)));
+HXLINE( 956)		this->super::update(elapsed);
             	}
 
 
 void ChartingState_obj::changeNoteSustain(Float value){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_957_changeNoteSustain)
-HXLINE( 958)		if (::hx::IsNotNull( this->curSelectedNote )) {
-HXLINE( 960)			if (::hx::IsNotNull( this->curSelectedNote->__get(2) )) {
-HXLINE( 962)				::cpp::VirtualArray _hx_tmp = this->curSelectedNote;
-HXDLIN( 962)				int _hx_tmp1 = 2;
-HXDLIN( 962)				_hx_tmp->set(_hx_tmp1,(_hx_tmp->__get(_hx_tmp1) + value));
-HXLINE( 963)				this->curSelectedNote->set(2,::Math_obj::max(( (Float)(this->curSelectedNote->__get(2)) ),( (Float)(0) )));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_960_changeNoteSustain)
+HXLINE( 961)		if (::hx::IsNotNull( this->curSelectedNote )) {
+HXLINE( 963)			if (::hx::IsNotNull( this->curSelectedNote->__get(2) )) {
+HXLINE( 965)				::cpp::VirtualArray _hx_tmp = this->curSelectedNote;
+HXDLIN( 965)				int _hx_tmp1 = 2;
+HXDLIN( 965)				_hx_tmp->set(_hx_tmp1,(_hx_tmp->__get(_hx_tmp1) + value));
+HXLINE( 966)				this->curSelectedNote->set(2,::Math_obj::max(( (Float)(this->curSelectedNote->__get(2)) ),( (Float)(0) )));
             			}
             		}
-HXLINE( 967)		this->updateNoteUI();
-HXLINE( 968)		this->updateGrid();
+HXLINE( 970)		this->updateNoteUI();
+HXLINE( 971)		this->updateGrid();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,changeNoteSustain,(void))
 
 void ChartingState_obj::beatHit(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_972_beatHit)
-HXLINE( 973)		::haxe::Log_obj::trace(HX_("beat",76,e1,13,41),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),973,HX_("ChartingState",8d,e0,dd,9b),HX_("beatHit",7d,ea,04,74)));
-HXLINE( 975)		this->super::beatHit();
-HXLINE( 976)		if (!(::StringTools_obj::startsWith(this->player2->animation->_curAnim->name,HX_("sing",4f,96,53,4c)))) {
-HXLINE( 978)			this->player2->playAnim(HX_("idle",14,a7,b3,45),null(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_975_beatHit)
+HXLINE( 976)		::haxe::Log_obj::trace(HX_("beat",76,e1,13,41),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),976,HX_("ChartingState",8d,e0,dd,9b),HX_("beatHit",7d,ea,04,74)));
+HXLINE( 978)		this->super::beatHit();
+HXLINE( 979)		if (!(::StringTools_obj::startsWith(this->player2->animation->_curAnim->name,HX_("sing",4f,96,53,4c)))) {
+HXLINE( 981)			this->player2->playAnim(HX_("idle",14,a7,b3,45),null(),null(),null());
             		}
-HXLINE( 980)		this->player1->dance();
+HXLINE( 983)		this->player1->dance();
             	}
 
 
 int ChartingState_obj::recalculateSteps(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_984_recalculateSteps)
-HXLINE( 985)		 ::Dynamic lastChange =  ::Dynamic(::hx::Anon_obj::Create(3)
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_987_recalculateSteps)
+HXLINE( 988)		 ::Dynamic lastChange =  ::Dynamic(::hx::Anon_obj::Create(3)
             			->setFixed(0,HX_("stepTime",79,75,25,a0),0)
             			->setFixed(1,HX_("bpm",df,be,4a,00),0)
             			->setFixed(2,HX_("songTime",82,2a,d5,3a),( (Float)(0) )));
-HXLINE( 990)		{
-HXLINE( 990)			int _g = 0;
-HXDLIN( 990)			int _g1 = ::Conductor_obj::bpmChangeMap->length;
-HXDLIN( 990)			while((_g < _g1)){
-HXLINE( 990)				_g = (_g + 1);
-HXDLIN( 990)				int i = (_g - 1);
-HXLINE( 992)				if (::hx::IsGreater( ::flixel::FlxG_obj::sound->music->_time,::Conductor_obj::bpmChangeMap->__get(i)->__Field(HX_("songTime",82,2a,d5,3a),::hx::paccDynamic) )) {
-HXLINE( 993)					lastChange = ::Conductor_obj::bpmChangeMap->__get(i);
+HXLINE( 993)		{
+HXLINE( 993)			int _g = 0;
+HXDLIN( 993)			int _g1 = ::Conductor_obj::bpmChangeMap->length;
+HXDLIN( 993)			while((_g < _g1)){
+HXLINE( 993)				_g = (_g + 1);
+HXDLIN( 993)				int i = (_g - 1);
+HXLINE( 995)				if (::hx::IsGreater( ::flixel::FlxG_obj::sound->music->_time,::Conductor_obj::bpmChangeMap->__get(i)->__Field(HX_("songTime",82,2a,d5,3a),::hx::paccDynamic) )) {
+HXLINE( 996)					lastChange = ::Conductor_obj::bpmChangeMap->__get(i);
             				}
             			}
             		}
-HXLINE( 996)		this->curStep = ( (int)((lastChange->__Field(HX_("stepTime",79,75,25,a0),::hx::paccDynamic) + ::Math_obj::floor(((::flixel::FlxG_obj::sound->music->_time - ( (Float)(lastChange->__Field(HX_("songTime",82,2a,d5,3a),::hx::paccDynamic)) )) / ::Conductor_obj::stepCrochet)))) );
-HXLINE( 997)		this->updateBeat();
-HXLINE( 999)		return this->curStep;
+HXLINE( 999)		this->curStep = ( (int)((lastChange->__Field(HX_("stepTime",79,75,25,a0),::hx::paccDynamic) + ::Math_obj::floor(((::flixel::FlxG_obj::sound->music->_time - ( (Float)(lastChange->__Field(HX_("songTime",82,2a,d5,3a),::hx::paccDynamic)) )) / ::Conductor_obj::stepCrochet)))) );
+HXLINE(1000)		this->updateBeat();
+HXLINE(1002)		return this->curStep;
             	}
 
 
@@ -1433,20 +1433,20 @@ HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,recalculateSteps,return )
 
 void ChartingState_obj::resetSection(::hx::Null< bool >  __o_songBeginning){
             		bool songBeginning = __o_songBeginning.Default(false);
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1003_resetSection)
-HXLINE(1004)		this->updateGrid();
-HXLINE(1006)		::flixel::FlxG_obj::sound->music->pause();
-HXLINE(1007)		this->vocals->pause();
-HXLINE(1010)		 ::flixel::_hx_system::FlxSound _hx_tmp = ::flixel::FlxG_obj::sound->music;
-HXDLIN(1010)		_hx_tmp->set_time(this->sectionStartTime());
-HXLINE(1012)		if (songBeginning) {
-HXLINE(1014)			::flixel::FlxG_obj::sound->music->set_time(( (Float)(0) ));
-HXLINE(1015)			this->curSection = 0;
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1006_resetSection)
+HXLINE(1007)		this->updateGrid();
+HXLINE(1009)		::flixel::FlxG_obj::sound->music->pause();
+HXLINE(1010)		this->vocals->pause();
+HXLINE(1013)		 ::flixel::_hx_system::FlxSound _hx_tmp = ::flixel::FlxG_obj::sound->music;
+HXDLIN(1013)		_hx_tmp->set_time(this->sectionStartTime());
+HXLINE(1015)		if (songBeginning) {
+HXLINE(1017)			::flixel::FlxG_obj::sound->music->set_time(( (Float)(0) ));
+HXLINE(1018)			this->curSection = 0;
             		}
-HXLINE(1018)		this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
-HXLINE(1019)		this->updateCurStep();
-HXLINE(1021)		this->updateGrid();
-HXLINE(1022)		this->updateSectionUI();
+HXLINE(1021)		this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
+HXLINE(1022)		this->updateCurStep();
+HXLINE(1024)		this->updateGrid();
+HXLINE(1025)		this->updateSectionUI();
             	}
 
 
@@ -1456,25 +1456,25 @@ void ChartingState_obj::changeSection(::hx::Null< int >  __o_sec, ::Dynamic __o_
             		int sec = __o_sec.Default(0);
             		 ::Dynamic updateMusic = __o_updateMusic;
             		if (::hx::IsNull(__o_updateMusic)) updateMusic = true;
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1026_changeSection)
-HXLINE(1027)		::haxe::Log_obj::trace((HX_("changing section",72,75,c1,9c) + sec),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1027,HX_("ChartingState",8d,e0,dd,9b),HX_("changeSection",55,aa,ac,be)));
-HXLINE(1029)		if (::hx::IsNotNull(  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(sec) )) {
-HXLINE(1031)			::haxe::Log_obj::trace(HX_("naw im not null",34,ff,11,38),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1031,HX_("ChartingState",8d,e0,dd,9b),HX_("changeSection",55,aa,ac,be)));
-HXLINE(1032)			this->curSection = sec;
-HXLINE(1034)			this->updateGrid();
-HXLINE(1036)			if (( (bool)(updateMusic) )) {
-HXLINE(1038)				::flixel::FlxG_obj::sound->music->pause();
-HXLINE(1039)				this->vocals->pause();
-HXLINE(1049)				 ::flixel::_hx_system::FlxSound _hx_tmp = ::flixel::FlxG_obj::sound->music;
-HXDLIN(1049)				_hx_tmp->set_time(this->sectionStartTime());
-HXLINE(1050)				this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
-HXLINE(1051)				this->updateCurStep();
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1029_changeSection)
+HXLINE(1030)		::haxe::Log_obj::trace((HX_("changing section",72,75,c1,9c) + sec),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1030,HX_("ChartingState",8d,e0,dd,9b),HX_("changeSection",55,aa,ac,be)));
+HXLINE(1032)		if (::hx::IsNotNull(  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(sec) )) {
+HXLINE(1034)			::haxe::Log_obj::trace(HX_("naw im not null",34,ff,11,38),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1034,HX_("ChartingState",8d,e0,dd,9b),HX_("changeSection",55,aa,ac,be)));
+HXLINE(1035)			this->curSection = sec;
+HXLINE(1037)			this->updateGrid();
+HXLINE(1039)			if (( (bool)(updateMusic) )) {
+HXLINE(1041)				::flixel::FlxG_obj::sound->music->pause();
+HXLINE(1042)				this->vocals->pause();
+HXLINE(1052)				 ::flixel::_hx_system::FlxSound _hx_tmp = ::flixel::FlxG_obj::sound->music;
+HXDLIN(1052)				_hx_tmp->set_time(this->sectionStartTime());
+HXLINE(1053)				this->vocals->set_time(::flixel::FlxG_obj::sound->music->_time);
+HXLINE(1054)				this->updateCurStep();
             			}
-HXLINE(1054)			this->updateGrid();
-HXLINE(1055)			this->updateSectionUI();
+HXLINE(1057)			this->updateGrid();
+HXLINE(1058)			this->updateSectionUI();
             		}
             		else {
-HXLINE(1058)			::haxe::Log_obj::trace(HX_("bro wtf I AM NULL",ec,3a,e8,a2),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1058,HX_("ChartingState",8d,e0,dd,9b),HX_("changeSection",55,aa,ac,be)));
+HXLINE(1061)			::haxe::Log_obj::trace(HX_("bro wtf I AM NULL",ec,3a,e8,a2),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1061,HX_("ChartingState",8d,e0,dd,9b),HX_("changeSection",55,aa,ac,be)));
             		}
             	}
 
@@ -1484,55 +1484,55 @@ HX_DEFINE_DYNAMIC_FUNC2(ChartingState_obj,changeSection,(void))
 void ChartingState_obj::copySection( ::Dynamic __o_sectionNum){
             		 ::Dynamic sectionNum = __o_sectionNum;
             		if (::hx::IsNull(__o_sectionNum)) sectionNum = 1;
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1062_copySection)
-HXLINE(1063)		int a = this->curSection;
-HXDLIN(1063)		int b = ( (int)(sectionNum) );
-HXDLIN(1063)		int daSec;
-HXDLIN(1063)		if ((a > b)) {
-HXLINE(1063)			daSec = a;
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1065_copySection)
+HXLINE(1066)		int a = this->curSection;
+HXDLIN(1066)		int b = ( (int)(sectionNum) );
+HXDLIN(1066)		int daSec;
+HXDLIN(1066)		if ((a > b)) {
+HXLINE(1066)			daSec = a;
             		}
             		else {
-HXLINE(1063)			daSec = b;
+HXLINE(1066)			daSec = b;
             		}
-HXLINE(1065)		{
-HXLINE(1065)			int _g = 0;
-HXDLIN(1065)			::cpp::VirtualArray _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem((daSec - ( (int)(sectionNum) )))->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
-HXDLIN(1065)			while((_g < _g1->get_length())){
-HXLINE(1065)				 ::Dynamic note = _g1->__get(_g);
-HXDLIN(1065)				_g = (_g + 1);
-HXLINE(1067)				Float strum = (note->__GetItem(0) + (::Conductor_obj::stepCrochet * ( (Float)((( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(daSec)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ) * ( (int)(sectionNum) ))) )));
-HXLINE(1069)				::cpp::VirtualArray copiedNote = ::cpp::VirtualArray_obj::__new(3)->init(0,strum)->init(1,note->__GetItem(1))->init(2,note->__GetItem(2));
-HXLINE(1070)				( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(daSec)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(copiedNote);
+HXLINE(1068)		{
+HXLINE(1068)			int _g = 0;
+HXDLIN(1068)			::cpp::VirtualArray _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem((daSec - ( (int)(sectionNum) )))->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
+HXDLIN(1068)			while((_g < _g1->get_length())){
+HXLINE(1068)				 ::Dynamic note = _g1->__get(_g);
+HXDLIN(1068)				_g = (_g + 1);
+HXLINE(1070)				Float strum = (note->__GetItem(0) + (::Conductor_obj::stepCrochet * ( (Float)((( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(daSec)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ) * ( (int)(sectionNum) ))) )));
+HXLINE(1072)				::cpp::VirtualArray copiedNote = ::cpp::VirtualArray_obj::__new(3)->init(0,strum)->init(1,note->__GetItem(1))->init(2,note->__GetItem(2));
+HXLINE(1073)				( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(daSec)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(copiedNote);
             			}
             		}
-HXLINE(1073)		this->updateGrid();
+HXLINE(1076)		this->updateGrid();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,copySection,(void))
 
 void ChartingState_obj::updateSectionUI(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1077_updateSectionUI)
-HXLINE(1078)		 ::Dynamic sec =  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection);
-HXLINE(1080)		this->stepperLength->set_value(( (Float)(sec->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ));
-HXLINE(1081)		this->check_mustHitSection->set_checked(( (bool)(sec->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) ));
-HXLINE(1082)		this->check_altAnim->set_checked(( (bool)(sec->__Field(HX_("altAnim",da,f3,f2,e5),::hx::paccDynamic)) ));
-HXLINE(1083)		this->check_changeBPM->set_checked(( (bool)(sec->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) ));
-HXLINE(1084)		this->stepperSectionBPM->set_value(( (Float)(sec->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1080_updateSectionUI)
+HXLINE(1081)		 ::Dynamic sec =  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection);
+HXLINE(1083)		this->stepperLength->set_value(( (Float)(sec->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ));
+HXLINE(1084)		this->check_mustHitSection->set_checked(( (bool)(sec->__Field(HX_("mustHitSection",3b,5f,87,62),::hx::paccDynamic)) ));
+HXLINE(1085)		this->check_altAnim->set_checked(( (bool)(sec->__Field(HX_("altAnim",da,f3,f2,e5),::hx::paccDynamic)) ));
+HXLINE(1086)		this->check_changeBPM->set_checked(( (bool)(sec->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) ));
+HXLINE(1087)		this->stepperSectionBPM->set_value(( (Float)(sec->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,updateSectionUI,(void))
 
 void ChartingState_obj::updateHeads(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1089_updateHeads)
-HXDLIN(1089)		if (this->check_mustHitSection->checked) {
-HXLINE(1091)			this->leftIcon->animation->play(( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
-HXLINE(1092)			this->rightIcon->animation->play(( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1092_updateHeads)
+HXDLIN(1092)		if (this->check_mustHitSection->checked) {
+HXLINE(1094)			this->leftIcon->animation->play(( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
+HXLINE(1095)			this->rightIcon->animation->play(( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
             		}
             		else {
-HXLINE(1096)			this->leftIcon->animation->play(( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
-HXLINE(1097)			this->rightIcon->animation->play(( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
+HXLINE(1099)			this->leftIcon->animation->play(( (::String)(this->_song->__Field(HX_("player2",b1,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
+HXLINE(1100)			this->rightIcon->animation->play(( (::String)(this->_song->__Field(HX_("player1",b0,09,15,8a),::hx::paccDynamic)) ),null(),null(),null());
             		}
             	}
 
@@ -1540,9 +1540,9 @@ HXLINE(1097)			this->rightIcon->animation->play(( (::String)(this->_song->__Fiel
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,updateHeads,(void))
 
 void ChartingState_obj::updateNoteUI(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1103_updateNoteUI)
-HXDLIN(1103)		if (::hx::IsNotNull( this->curSelectedNote )) {
-HXLINE(1104)			this->stepperSusLength->set_value(( (Float)(this->curSelectedNote->__get(2)) ));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1106_updateNoteUI)
+HXDLIN(1106)		if (::hx::IsNotNull( this->curSelectedNote )) {
+HXLINE(1107)			this->stepperSusLength->set_value(( (Float)(this->curSelectedNote->__get(2)) ));
             		}
             	}
 
@@ -1550,73 +1550,73 @@ HXLINE(1104)			this->stepperSusLength->set_value(( (Float)(this->curSelectedNote
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,updateNoteUI,(void))
 
 void ChartingState_obj::updateGrid(){
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1108_updateGrid)
-HXLINE(1109)		this->remove(this->gridBG,null());
-HXLINE(1110)		this->gridBG = ::flixel::addons::display::FlxGridOverlay_obj::create(this->GRID_SIZE,this->GRID_SIZE,(this->GRID_SIZE * 8),(this->GRID_SIZE * ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )),null(),null(),null());
-HXLINE(1111)		this->add(this->gridBG);
-HXLINE(1113)		this->remove(this->gridBlackLine,null());
-HXLINE(1114)		Float _hx_tmp = this->gridBG->x;
-HXDLIN(1114)		 ::flixel::FlxSprite _hx_tmp1 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(_hx_tmp + (this->gridBG->get_width() / ( (Float)(2) ))),null(),null());
-HXDLIN(1114)		this->gridBlackLine = _hx_tmp1->makeGraphic(2,::Std_obj::_hx_int(this->gridBG->get_height()),-16777216,null(),null());
-HXLINE(1115)		this->add(this->gridBlackLine);
-HXLINE(1117)		while((this->curRenderedNotes->members->get_length() > 0)){
-HXLINE(1119)			this->curRenderedNotes->remove(Dynamic( this->curRenderedNotes->members->__get(0)).StaticCast<  ::Note >(),true).StaticCast<  ::Note >();
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1111_updateGrid)
+HXLINE(1112)		this->remove(this->gridBG,null());
+HXLINE(1113)		this->gridBG = ::flixel::addons::display::FlxGridOverlay_obj::create(this->GRID_SIZE,this->GRID_SIZE,(this->GRID_SIZE * 8),(this->GRID_SIZE * ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )),null(),null(),null());
+HXLINE(1114)		this->add(this->gridBG);
+HXLINE(1116)		this->remove(this->gridBlackLine,null());
+HXLINE(1117)		Float _hx_tmp = this->gridBG->x;
+HXDLIN(1117)		 ::flixel::FlxSprite _hx_tmp1 =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(_hx_tmp + (this->gridBG->get_width() / ( (Float)(2) ))),null(),null());
+HXDLIN(1117)		this->gridBlackLine = _hx_tmp1->makeGraphic(2,::Std_obj::_hx_int(this->gridBG->get_height()),-16777216,null(),null());
+HXLINE(1118)		this->add(this->gridBlackLine);
+HXLINE(1120)		while((this->curRenderedNotes->members->get_length() > 0)){
+HXLINE(1122)			this->curRenderedNotes->remove(Dynamic( this->curRenderedNotes->members->__get(0)).StaticCast<  ::Note >(),true).StaticCast<  ::Note >();
             		}
-HXLINE(1122)		while((this->curRenderedSustains->members->get_length() > 0)){
-HXLINE(1124)			this->curRenderedSustains->remove(Dynamic( this->curRenderedSustains->members->__get(0)).StaticCast<  ::flixel::FlxSprite >(),true).StaticCast<  ::flixel::FlxSprite >();
+HXLINE(1125)		while((this->curRenderedSustains->members->get_length() > 0)){
+HXLINE(1127)			this->curRenderedSustains->remove(Dynamic( this->curRenderedSustains->members->__get(0)).StaticCast<  ::flixel::FlxSprite >(),true).StaticCast<  ::flixel::FlxSprite >();
             		}
-HXLINE(1127)		::cpp::VirtualArray sectionInfo = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
-HXLINE(1129)		bool _hx_tmp2;
-HXDLIN(1129)		if (( (bool)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
-HXLINE(1129)			_hx_tmp2 = ::hx::IsGreater(  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic),0 );
-            		}
-            		else {
-HXLINE(1129)			_hx_tmp2 = false;
-            		}
-HXDLIN(1129)		if (_hx_tmp2) {
-HXLINE(1131)			::Conductor_obj::changeBPM(( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
+HXLINE(1130)		::cpp::VirtualArray sectionInfo = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
+HXLINE(1132)		bool _hx_tmp2;
+HXDLIN(1132)		if (( (bool)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
+HXLINE(1132)			_hx_tmp2 = ::hx::IsGreater(  ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic),0 );
             		}
             		else {
-HXLINE(1137)			int daBPM = ( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
-HXLINE(1138)			{
-HXLINE(1138)				int _g = 0;
-HXDLIN(1138)				int _g1 = this->curSection;
-HXDLIN(1138)				while((_g < _g1)){
-HXLINE(1138)					_g = (_g + 1);
-HXDLIN(1138)					int i = (_g - 1);
-HXLINE(1139)					if (( (bool)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
-HXLINE(1140)						daBPM = ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
+HXLINE(1132)			_hx_tmp2 = false;
+            		}
+HXDLIN(1132)		if (_hx_tmp2) {
+HXLINE(1134)			::Conductor_obj::changeBPM(( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) ));
+            		}
+            		else {
+HXLINE(1140)			int daBPM = ( (int)(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
+HXLINE(1141)			{
+HXLINE(1141)				int _g = 0;
+HXDLIN(1141)				int _g1 = this->curSection;
+HXDLIN(1141)				while((_g < _g1)){
+HXLINE(1141)					_g = (_g + 1);
+HXDLIN(1141)					int i = (_g - 1);
+HXLINE(1142)					if (( (bool)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("changeBPM",4f,4f,f8,1d),::hx::paccDynamic)) )) {
+HXLINE(1143)						daBPM = ( (int)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(i)->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)) );
             					}
             				}
             			}
-HXLINE(1141)			::Conductor_obj::changeBPM(daBPM);
+HXLINE(1144)			::Conductor_obj::changeBPM(daBPM);
             		}
-HXLINE(1158)		{
-HXLINE(1158)			int _g = 0;
-HXDLIN(1158)			while((_g < sectionInfo->get_length())){
-HXLINE(1158)				 ::Dynamic i = sectionInfo->__get(_g);
-HXDLIN(1158)				_g = (_g + 1);
-HXLINE(1160)				int daNoteInfo = ( (int)(i->__GetItem(1)) );
-HXLINE(1161)				Float daStrumTime = ( (Float)(i->__GetItem(0)) );
-HXLINE(1162)				Float daSus = ( (Float)(i->__GetItem(2)) );
-HXLINE(1164)				 ::Note note =  ::Note_obj::__alloc( HX_CTX ,daStrumTime,::hx::Mod(daNoteInfo,4),null(),null());
-HXLINE(1165)				note->sustainLength = daSus;
-HXLINE(1166)				note->setGraphicSize(this->GRID_SIZE,this->GRID_SIZE);
-HXLINE(1167)				note->updateHitbox();
-HXLINE(1168)				note->set_x(( (Float)(::Math_obj::floor(( (Float)((daNoteInfo * this->GRID_SIZE)) ))) ));
-HXLINE(1169)				Float _hx_tmp = (daStrumTime - this->sectionStartTime());
-HXDLIN(1169)				note->set_y(( (Float)(::Math_obj::floor(this->getYfromStrum(::hx::Mod(_hx_tmp,(::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )))))) ));
-HXLINE(1171)				if (::hx::IsNotNull( this->curSelectedNote )) {
-HXLINE(1172)					if (::hx::IsEq( this->curSelectedNote->__get(0),note->strumTime )) {
-HXLINE(1173)						this->lastNote = note;
+HXLINE(1161)		{
+HXLINE(1161)			int _g = 0;
+HXDLIN(1161)			while((_g < sectionInfo->get_length())){
+HXLINE(1161)				 ::Dynamic i = sectionInfo->__get(_g);
+HXDLIN(1161)				_g = (_g + 1);
+HXLINE(1163)				int daNoteInfo = ( (int)(i->__GetItem(1)) );
+HXLINE(1164)				Float daStrumTime = ( (Float)(i->__GetItem(0)) );
+HXLINE(1165)				Float daSus = ( (Float)(i->__GetItem(2)) );
+HXLINE(1167)				 ::Note note =  ::Note_obj::__alloc( HX_CTX ,daStrumTime,::hx::Mod(daNoteInfo,4),null(),null(),null());
+HXLINE(1168)				note->sustainLength = daSus;
+HXLINE(1169)				note->setGraphicSize(this->GRID_SIZE,this->GRID_SIZE);
+HXLINE(1170)				note->updateHitbox();
+HXLINE(1171)				note->set_x(( (Float)(::Math_obj::floor(( (Float)((daNoteInfo * this->GRID_SIZE)) ))) ));
+HXLINE(1172)				Float _hx_tmp = (daStrumTime - this->sectionStartTime());
+HXDLIN(1172)				note->set_y(( (Float)(::Math_obj::floor(this->getYfromStrum(::hx::Mod(_hx_tmp,(::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) )))))) ));
+HXLINE(1174)				if (::hx::IsNotNull( this->curSelectedNote )) {
+HXLINE(1175)					if (::hx::IsEq( this->curSelectedNote->__get(0),note->strumTime )) {
+HXLINE(1176)						this->lastNote = note;
             					}
             				}
-HXLINE(1175)				this->curRenderedNotes->add(note).StaticCast<  ::Note >();
-HXLINE(1177)				if ((daSus > 0)) {
-HXLINE(1179)					 ::flixel::FlxSprite sustainVis =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(note->x + (( (Float)(this->GRID_SIZE) ) / ( (Float)(2) ))),(note->y + this->GRID_SIZE),null());
-HXLINE(1180)					Float sustainVis1 = (::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ));
-HXLINE(1179)					 ::flixel::FlxSprite sustainVis2 = sustainVis->makeGraphic(8,::Math_obj::floor(::flixel::math::FlxMath_obj::remapToRange(daSus,( (Float)(0) ),sustainVis1,( (Float)(0) ),this->gridBG->get_height())),null(),null(),null());
-HXLINE(1181)					this->curRenderedSustains->add(sustainVis2).StaticCast<  ::flixel::FlxSprite >();
+HXLINE(1178)				this->curRenderedNotes->add(note).StaticCast<  ::Note >();
+HXLINE(1180)				if ((daSus > 0)) {
+HXLINE(1182)					 ::flixel::FlxSprite sustainVis =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,(note->x + (( (Float)(this->GRID_SIZE) ) / ( (Float)(2) ))),(note->y + this->GRID_SIZE),null());
+HXLINE(1183)					Float sustainVis1 = (::Conductor_obj::stepCrochet * ( (Float)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("lengthInSteps",3c,ed,41,db),::hx::paccDynamic)) ));
+HXLINE(1182)					 ::flixel::FlxSprite sustainVis2 = sustainVis->makeGraphic(8,::Math_obj::floor(::flixel::math::FlxMath_obj::remapToRange(daSus,( (Float)(0) ),sustainVis1,( (Float)(0) ),this->gridBG->get_height())),null(),null(),null());
+HXLINE(1184)					this->curRenderedSustains->add(sustainVis2).StaticCast<  ::flixel::FlxSprite >();
             				}
             			}
             		}
@@ -1627,8 +1627,8 @@ HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,updateGrid,(void))
 
 void ChartingState_obj::addSection(::hx::Null< int >  __o_lengthInSteps){
             		int lengthInSteps = __o_lengthInSteps.Default(16);
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1187_addSection)
-HXLINE(1188)		 ::Dynamic sec =  ::Dynamic(::hx::Anon_obj::Create(7)
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1190_addSection)
+HXLINE(1191)		 ::Dynamic sec =  ::Dynamic(::hx::Anon_obj::Create(7)
             			->setFixed(0,HX_("lengthInSteps",3c,ed,41,db),lengthInSteps)
             			->setFixed(1,HX_("altAnim",da,f3,f2,e5),false)
             			->setFixed(2,HX_("typeOfSection",74,f3,25,fb),0)
@@ -1636,172 +1636,172 @@ HXLINE(1188)		 ::Dynamic sec =  ::Dynamic(::hx::Anon_obj::Create(7)
             			->setFixed(4,HX_("bpm",df,be,4a,00), ::Dynamic(this->_song->__Field(HX_("bpm",df,be,4a,00),::hx::paccDynamic)))
             			->setFixed(5,HX_("changeBPM",4f,4f,f8,1d),false)
             			->setFixed(6,HX_("mustHitSection",3b,5f,87,62),true));
-HXLINE(1198)		( (::Array< ::Dynamic>)(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) )->push(sec);
+HXLINE(1201)		( (::Array< ::Dynamic>)(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) )->push(sec);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,addSection,(void))
 
 void ChartingState_obj::selectNote( ::Note note){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1202_selectNote)
-HXLINE(1203)		int swagNum = 0;
-HXLINE(1205)		{
-HXLINE(1205)			int _g = 0;
-HXDLIN(1205)			::cpp::VirtualArray _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
-HXDLIN(1205)			while((_g < _g1->get_length())){
-HXLINE(1205)				 ::Dynamic i = _g1->__get(_g);
-HXDLIN(1205)				_g = (_g + 1);
-HXLINE(1207)				bool _hx_tmp;
-HXDLIN(1207)				if (::hx::IsEq( i->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic),note->strumTime )) {
-HXLINE(1207)					_hx_tmp = (::hx::Mod(i->__Field(HX_("noteData",3c,7b,96,51),::hx::paccDynamic),4) == note->noteData);
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1205_selectNote)
+HXLINE(1206)		int swagNum = 0;
+HXLINE(1208)		{
+HXLINE(1208)			int _g = 0;
+HXDLIN(1208)			::cpp::VirtualArray _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
+HXDLIN(1208)			while((_g < _g1->get_length())){
+HXLINE(1208)				 ::Dynamic i = _g1->__get(_g);
+HXDLIN(1208)				_g = (_g + 1);
+HXLINE(1210)				bool _hx_tmp;
+HXDLIN(1210)				if (::hx::IsEq( i->__Field(HX_("strumTime",f6,2d,21,f4),::hx::paccDynamic),note->strumTime )) {
+HXLINE(1210)					_hx_tmp = (::hx::Mod(i->__Field(HX_("noteData",3c,7b,96,51),::hx::paccDynamic),4) == note->noteData);
             				}
             				else {
-HXLINE(1207)					_hx_tmp = false;
+HXLINE(1210)					_hx_tmp = false;
             				}
-HXDLIN(1207)				if (_hx_tmp) {
-HXLINE(1209)					this->curSelectedNote = ( (::cpp::VirtualArray)( ::Dynamic( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem(swagNum)) );
+HXDLIN(1210)				if (_hx_tmp) {
+HXLINE(1212)					this->curSelectedNote = ( (::cpp::VirtualArray)( ::Dynamic( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem(swagNum)) );
             				}
-HXLINE(1212)				swagNum = (swagNum + 1);
+HXLINE(1215)				swagNum = (swagNum + 1);
             			}
             		}
-HXLINE(1215)		this->updateGrid();
-HXLINE(1216)		this->updateNoteUI();
+HXLINE(1218)		this->updateGrid();
+HXLINE(1219)		this->updateNoteUI();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,selectNote,(void))
 
 void ChartingState_obj::deleteNote( ::Note note){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1221_deleteNote)
-HXLINE(1222)		this->lastNote = note;
-HXLINE(1223)		{
-HXLINE(1223)			int _g = 0;
-HXDLIN(1223)			::cpp::VirtualArray _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
-HXDLIN(1223)			while((_g < _g1->get_length())){
-HXLINE(1223)				 ::Dynamic i = _g1->__get(_g);
-HXDLIN(1223)				_g = (_g + 1);
-HXLINE(1225)				bool _hx_tmp;
-HXDLIN(1225)				if (::hx::IsEq( i->__GetItem(0),note->strumTime )) {
-HXLINE(1225)					_hx_tmp = (::hx::Mod(i->__GetItem(1),4) == note->noteData);
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1224_deleteNote)
+HXLINE(1225)		this->lastNote = note;
+HXLINE(1226)		{
+HXLINE(1226)			int _g = 0;
+HXDLIN(1226)			::cpp::VirtualArray _g1 = ( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) );
+HXDLIN(1226)			while((_g < _g1->get_length())){
+HXLINE(1226)				 ::Dynamic i = _g1->__get(_g);
+HXDLIN(1226)				_g = (_g + 1);
+HXLINE(1228)				bool _hx_tmp;
+HXDLIN(1228)				if (::hx::IsEq( i->__GetItem(0),note->strumTime )) {
+HXLINE(1228)					_hx_tmp = (::hx::Mod(i->__GetItem(1),4) == note->noteData);
             				}
             				else {
-HXLINE(1225)					_hx_tmp = false;
+HXLINE(1228)					_hx_tmp = false;
             				}
-HXDLIN(1225)				if (_hx_tmp) {
-HXLINE(1227)					( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->remove(i);
+HXDLIN(1228)				if (_hx_tmp) {
+HXLINE(1230)					( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->remove(i);
             				}
             			}
             		}
-HXLINE(1231)		this->updateGrid();
+HXLINE(1234)		this->updateGrid();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,deleteNote,(void))
 
 void ChartingState_obj::clearSection(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1235_clearSection)
-HXLINE(1236)		 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("sectionNotes",1c,c8,a7,fe),::cpp::VirtualArray_obj::__new(0),::hx::paccDynamic);
-HXLINE(1238)		this->updateGrid();
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1238_clearSection)
+HXLINE(1239)		 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__SetField(HX_("sectionNotes",1c,c8,a7,fe),::cpp::VirtualArray_obj::__new(0),::hx::paccDynamic);
+HXLINE(1241)		this->updateGrid();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,clearSection,(void))
 
 void ChartingState_obj::clearSong(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1242_clearSong)
-HXLINE(1243)		{
-HXLINE(1243)			int _g = 0;
-HXDLIN(1243)			int _g1 = ( (::Array< ::Dynamic>)(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) )->length;
-HXDLIN(1243)			while((_g < _g1)){
-HXLINE(1243)				_g = (_g + 1);
-HXDLIN(1243)				int daSection = (_g - 1);
-HXLINE(1245)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(daSection)->__SetField(HX_("sectionNotes",1c,c8,a7,fe),::cpp::VirtualArray_obj::__new(0),::hx::paccDynamic);
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1245_clearSong)
+HXLINE(1246)		{
+HXLINE(1246)			int _g = 0;
+HXDLIN(1246)			int _g1 = ( (::Array< ::Dynamic>)(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) )->length;
+HXDLIN(1246)			while((_g < _g1)){
+HXLINE(1246)				_g = (_g + 1);
+HXDLIN(1246)				int daSection = (_g - 1);
+HXLINE(1248)				 ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(daSection)->__SetField(HX_("sectionNotes",1c,c8,a7,fe),::cpp::VirtualArray_obj::__new(0),::hx::paccDynamic);
             			}
             		}
-HXLINE(1248)		this->updateGrid();
+HXLINE(1251)		this->updateGrid();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,clearSong,(void))
 
 void ChartingState_obj::addNote( ::Note n){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1252_addNote)
-HXLINE(1253)		Float noteStrum = this->getStrumTime(this->dummyArrow->y);
-HXDLIN(1253)		Float noteStrum1 = (noteStrum + this->sectionStartTime());
-HXLINE(1254)		int noteData = ::Math_obj::floor((( (Float)(::flixel::FlxG_obj::mouse->x) ) / ( (Float)(this->GRID_SIZE) )));
-HXLINE(1255)		int noteSus = 0;
-HXLINE(1257)		if (::hx::IsNotNull( n )) {
-HXLINE(1258)			( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(::cpp::VirtualArray_obj::__new(3)->init(0,n->strumTime)->init(1,n->noteData)->init(2,n->sustainLength));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1255_addNote)
+HXLINE(1256)		Float noteStrum = this->getStrumTime(this->dummyArrow->y);
+HXDLIN(1256)		Float noteStrum1 = (noteStrum + this->sectionStartTime());
+HXLINE(1257)		int noteData = ::Math_obj::floor((( (Float)(::flixel::FlxG_obj::mouse->x) ) / ( (Float)(this->GRID_SIZE) )));
+HXLINE(1258)		int noteSus = 0;
+HXLINE(1260)		if (::hx::IsNotNull( n )) {
+HXLINE(1261)			( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(::cpp::VirtualArray_obj::__new(3)->init(0,n->strumTime)->init(1,n->noteData)->init(2,n->sustainLength));
             		}
             		else {
-HXLINE(1260)			( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(::cpp::VirtualArray_obj::__new(3)->init(0,noteStrum1)->init(1,noteData)->init(2,noteSus));
+HXLINE(1263)			( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->push(::cpp::VirtualArray_obj::__new(3)->init(0,noteStrum1)->init(1,noteData)->init(2,noteSus));
             		}
-HXLINE(1262)		::cpp::VirtualArray thingy = ( (::cpp::VirtualArray)( ::Dynamic( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem((( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length() - 1))) );
-HXLINE(1264)		this->curSelectedNote = thingy;
-HXLINE(1266)		this->updateGrid();
-HXLINE(1267)		this->updateNoteUI();
-HXLINE(1269)		this->autosaveSong();
+HXLINE(1265)		::cpp::VirtualArray thingy = ( (::cpp::VirtualArray)( ::Dynamic( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic))->__GetItem((( (::cpp::VirtualArray)( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic))->__GetItem(this->curSection)->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)) )->get_length() - 1))) );
+HXLINE(1267)		this->curSelectedNote = thingy;
+HXLINE(1269)		this->updateGrid();
+HXLINE(1270)		this->updateNoteUI();
+HXLINE(1272)		this->autosaveSong();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,addNote,(void))
 
 Float ChartingState_obj::getStrumTime(Float yPos){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1274_getStrumTime)
-HXDLIN(1274)		Float _hx_tmp = this->gridBG->y;
-HXDLIN(1274)		Float _hx_tmp1 = this->gridBG->y;
-HXDLIN(1274)		Float _hx_tmp2 = (_hx_tmp1 + this->gridBG->get_height());
-HXDLIN(1274)		return ::flixel::math::FlxMath_obj::remapToRange(yPos,_hx_tmp,_hx_tmp2,( (Float)(0) ),(( (Float)(16) ) * ::Conductor_obj::stepCrochet));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1277_getStrumTime)
+HXDLIN(1277)		Float _hx_tmp = this->gridBG->y;
+HXDLIN(1277)		Float _hx_tmp1 = this->gridBG->y;
+HXDLIN(1277)		Float _hx_tmp2 = (_hx_tmp1 + this->gridBG->get_height());
+HXDLIN(1277)		return ::flixel::math::FlxMath_obj::remapToRange(yPos,_hx_tmp,_hx_tmp2,( (Float)(0) ),(( (Float)(16) ) * ::Conductor_obj::stepCrochet));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,getStrumTime,return )
 
 Float ChartingState_obj::getYfromStrum(Float strumTime){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1279_getYfromStrum)
-HXDLIN(1279)		Float _hx_tmp = (( (Float)(16) ) * ::Conductor_obj::stepCrochet);
-HXDLIN(1279)		Float _hx_tmp1 = this->gridBG->y;
-HXDLIN(1279)		Float _hx_tmp2 = this->gridBG->y;
-HXDLIN(1279)		return ::flixel::math::FlxMath_obj::remapToRange(strumTime,( (Float)(0) ),_hx_tmp,_hx_tmp1,(_hx_tmp2 + this->gridBG->get_height()));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1282_getYfromStrum)
+HXDLIN(1282)		Float _hx_tmp = (( (Float)(16) ) * ::Conductor_obj::stepCrochet);
+HXDLIN(1282)		Float _hx_tmp1 = this->gridBG->y;
+HXDLIN(1282)		Float _hx_tmp2 = this->gridBG->y;
+HXDLIN(1282)		return ::flixel::math::FlxMath_obj::remapToRange(strumTime,( (Float)(0) ),_hx_tmp,_hx_tmp1,(_hx_tmp2 + this->gridBG->get_height()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,getYfromStrum,return )
 
 void ChartingState_obj::loadLevel(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1309_loadLevel)
-HXDLIN(1309)		::haxe::Log_obj::trace( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1309,HX_("ChartingState",8d,e0,dd,9b),HX_("loadLevel",7e,61,9a,8d)));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1312_loadLevel)
+HXDLIN(1312)		::haxe::Log_obj::trace( ::Dynamic(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)),::hx::SourceInfo(HX_("source/ChartingState.hx",45,af,8d,9a),1312,HX_("ChartingState",8d,e0,dd,9b),HX_("loadLevel",7e,61,9a,8d)));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,loadLevel,(void))
 
 ::cpp::VirtualArray ChartingState_obj::getNotes(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1313_getNotes)
-HXLINE(1314)		::cpp::VirtualArray noteData = ::cpp::VirtualArray_obj::__new(0);
-HXLINE(1316)		{
-HXLINE(1316)			int _g = 0;
-HXDLIN(1316)			::Array< ::Dynamic> _g1 = ( (::Array< ::Dynamic>)(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) );
-HXDLIN(1316)			while((_g < _g1->length)){
-HXLINE(1316)				 ::Dynamic i = _g1->__get(_g);
-HXDLIN(1316)				_g = (_g + 1);
-HXLINE(1318)				noteData->push( ::Dynamic(i->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)));
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1316_getNotes)
+HXLINE(1317)		::cpp::VirtualArray noteData = ::cpp::VirtualArray_obj::__new(0);
+HXLINE(1319)		{
+HXLINE(1319)			int _g = 0;
+HXDLIN(1319)			::Array< ::Dynamic> _g1 = ( (::Array< ::Dynamic>)(this->_song->__Field(HX_("notes",41,dc,ca,9f),::hx::paccDynamic)) );
+HXDLIN(1319)			while((_g < _g1->length)){
+HXLINE(1319)				 ::Dynamic i = _g1->__get(_g);
+HXDLIN(1319)				_g = (_g + 1);
+HXLINE(1321)				noteData->push( ::Dynamic(i->__Field(HX_("sectionNotes",1c,c8,a7,fe),::hx::paccDynamic)));
             			}
             		}
-HXLINE(1321)		return noteData;
+HXLINE(1324)		return noteData;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,getNotes,return )
 
 void ChartingState_obj::loadJson(::String song){
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1325_loadJson)
-HXLINE(1326)		::String _hx_tmp = song.toLowerCase();
-HXDLIN(1326)		::PlayState_obj::SONG = ::Song_obj::loadFromJson(_hx_tmp,song.toLowerCase());
-HXLINE(1327)		{
-HXLINE(1327)			 ::flixel::FlxState nextState = ::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::ChartingState_obj::__alloc( HX_CTX ,null(),null())) ),false);
-HXDLIN(1327)			if (::flixel::FlxG_obj::game->_state->switchTo(nextState)) {
-HXLINE(1327)				::flixel::FlxG_obj::game->_requestedState = nextState;
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1328_loadJson)
+HXLINE(1329)		::String _hx_tmp = song.toLowerCase();
+HXDLIN(1329)		::PlayState_obj::SONG = ::Song_obj::loadFromJson(_hx_tmp,song.toLowerCase());
+HXLINE(1330)		{
+HXLINE(1330)			 ::flixel::FlxState nextState = ::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::ChartingState_obj::__alloc( HX_CTX ,null(),null())) ),false);
+HXDLIN(1330)			if (::flixel::FlxG_obj::game->_state->switchTo(nextState)) {
+HXLINE(1330)				::flixel::FlxG_obj::game->_requestedState = nextState;
             			}
             		}
             	}
@@ -1810,12 +1810,12 @@ HXLINE(1327)				::flixel::FlxG_obj::game->_requestedState = nextState;
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,loadJson,(void))
 
 void ChartingState_obj::loadAutosave(){
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1331_loadAutosave)
-HXLINE(1332)		::PlayState_obj::SONG = ::Song_obj::parseJSONshit(( (::String)(::flixel::FlxG_obj::save->data->__Field(HX_("autosave",2c,4e,9a,44),::hx::paccDynamic)) ));
-HXLINE(1333)		{
-HXLINE(1333)			 ::flixel::FlxState nextState = ::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::ChartingState_obj::__alloc( HX_CTX ,null(),null())) ),false);
-HXDLIN(1333)			if (::flixel::FlxG_obj::game->_state->switchTo(nextState)) {
-HXLINE(1333)				::flixel::FlxG_obj::game->_requestedState = nextState;
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1334_loadAutosave)
+HXLINE(1335)		::PlayState_obj::SONG = ::Song_obj::parseJSONshit(( (::String)(::flixel::FlxG_obj::save->data->__Field(HX_("autosave",2c,4e,9a,44),::hx::paccDynamic)) ));
+HXLINE(1336)		{
+HXLINE(1336)			 ::flixel::FlxState nextState = ::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::ChartingState_obj::__alloc( HX_CTX ,null(),null())) ),false);
+HXDLIN(1336)			if (::flixel::FlxG_obj::game->_state->switchTo(nextState)) {
+HXLINE(1336)				::flixel::FlxG_obj::game->_requestedState = nextState;
             			}
             		}
             	}
@@ -1824,40 +1824,40 @@ HXLINE(1333)				::flixel::FlxG_obj::game->_requestedState = nextState;
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,loadAutosave,(void))
 
 void ChartingState_obj::autosaveSong(){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1337_autosaveSong)
-HXLINE(1338)		 ::Dynamic replacer = null();
-HXDLIN(1338)		::String space = null();
-HXDLIN(1338)		::String _hx_tmp = ::haxe::format::JsonPrinter_obj::print( ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1340_autosaveSong)
+HXLINE(1341)		 ::Dynamic replacer = null();
+HXDLIN(1341)		::String space = null();
+HXDLIN(1341)		::String _hx_tmp = ::haxe::format::JsonPrinter_obj::print( ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("song",d5,23,58,4c),this->_song)),replacer,space);
-HXDLIN(1338)		::flixel::FlxG_obj::save->data->__SetField(HX_("autosave",2c,4e,9a,44),_hx_tmp,::hx::paccDynamic);
-HXLINE(1341)		::flixel::FlxG_obj::save->flush(null(),null());
+HXDLIN(1341)		::flixel::FlxG_obj::save->data->__SetField(HX_("autosave",2c,4e,9a,44),_hx_tmp,::hx::paccDynamic);
+HXLINE(1344)		::flixel::FlxG_obj::save->flush(null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,autosaveSong,(void))
 
 void ChartingState_obj::saveLevel(){
-            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1345_saveLevel)
-HXLINE(1346)		 ::Dynamic json =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_GC_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1348_saveLevel)
+HXLINE(1349)		 ::Dynamic json =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("song",d5,23,58,4c),this->_song));
-HXLINE(1350)		 ::Dynamic replacer = null();
-HXDLIN(1350)		::String space = null();
-HXDLIN(1350)		::String data = ::haxe::format::JsonPrinter_obj::print(json,replacer,space);
-HXLINE(1352)		bool _hx_tmp;
-HXDLIN(1352)		if (::hx::IsNotNull( data )) {
-HXLINE(1352)			_hx_tmp = (data.length > 0);
+HXLINE(1353)		 ::Dynamic replacer = null();
+HXDLIN(1353)		::String space = null();
+HXDLIN(1353)		::String data = ::haxe::format::JsonPrinter_obj::print(json,replacer,space);
+HXLINE(1355)		bool _hx_tmp;
+HXDLIN(1355)		if (::hx::IsNotNull( data )) {
+HXLINE(1355)			_hx_tmp = (data.length > 0);
             		}
             		else {
-HXLINE(1352)			_hx_tmp = false;
+HXLINE(1355)			_hx_tmp = false;
             		}
-HXDLIN(1352)		if (_hx_tmp) {
-HXLINE(1354)			this->_file =  ::openfl::net::FileReference_obj::__alloc( HX_CTX );
-HXLINE(1355)			this->_file->addEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null(),null(),null());
-HXLINE(1356)			this->_file->addEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null(),null(),null());
-HXLINE(1357)			this->_file->addEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null(),null(),null());
-HXLINE(1358)			 ::openfl::net::FileReference _hx_tmp = this->_file;
-HXDLIN(1358)			::String _hx_tmp1 = ::StringTools_obj::trim(data);
-HXDLIN(1358)			_hx_tmp->save(_hx_tmp1,(( (::String)(this->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() + HX_(".json",56,f1,d6,c2)));
+HXDLIN(1355)		if (_hx_tmp) {
+HXLINE(1357)			this->_file =  ::openfl::net::FileReference_obj::__alloc( HX_CTX );
+HXLINE(1358)			this->_file->addEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null(),null(),null());
+HXLINE(1359)			this->_file->addEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null(),null(),null());
+HXLINE(1360)			this->_file->addEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null(),null(),null());
+HXLINE(1361)			 ::openfl::net::FileReference _hx_tmp = this->_file;
+HXDLIN(1361)			::String _hx_tmp1 = ::StringTools_obj::trim(data);
+HXDLIN(1361)			_hx_tmp->save(_hx_tmp1,(( (::String)(this->_song->__Field(HX_("song",d5,23,58,4c),::hx::paccDynamic)) ).toLowerCase() + HX_(".json",56,f1,d6,c2)));
             		}
             	}
 
@@ -1865,33 +1865,33 @@ HXDLIN(1358)			_hx_tmp->save(_hx_tmp1,(( (::String)(this->_song->__Field(HX_("so
 HX_DEFINE_DYNAMIC_FUNC0(ChartingState_obj,saveLevel,(void))
 
 void ChartingState_obj::onSaveComplete( ::openfl::events::Event _){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1363_onSaveComplete)
-HXLINE(1364)		this->_file->removeEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null());
-HXLINE(1365)		this->_file->removeEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null());
-HXLINE(1366)		this->_file->removeEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null());
-HXLINE(1367)		this->_file = null();
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1366_onSaveComplete)
+HXLINE(1367)		this->_file->removeEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null());
+HXLINE(1368)		this->_file->removeEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null());
+HXLINE(1369)		this->_file->removeEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null());
+HXLINE(1370)		this->_file = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,onSaveComplete,(void))
 
 void ChartingState_obj::onSaveCancel( ::openfl::events::Event _){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1375_onSaveCancel)
-HXLINE(1376)		this->_file->removeEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null());
-HXLINE(1377)		this->_file->removeEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null());
-HXLINE(1378)		this->_file->removeEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null());
-HXLINE(1379)		this->_file = null();
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1378_onSaveCancel)
+HXLINE(1379)		this->_file->removeEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null());
+HXLINE(1380)		this->_file->removeEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null());
+HXLINE(1381)		this->_file->removeEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null());
+HXLINE(1382)		this->_file = null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,onSaveCancel,(void))
 
 void ChartingState_obj::onSaveError( ::openfl::events::IOErrorEvent _){
-            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1386_onSaveError)
-HXLINE(1387)		this->_file->removeEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null());
-HXLINE(1388)		this->_file->removeEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null());
-HXLINE(1389)		this->_file->removeEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null());
-HXLINE(1390)		this->_file = null();
+            	HX_STACKFRAME(&_hx_pos_c8186eee1bd9a607_1389_onSaveError)
+HXLINE(1390)		this->_file->removeEventListener(HX_("complete",b9,00,c8,7f),this->onSaveComplete_dyn(),null());
+HXLINE(1391)		this->_file->removeEventListener(HX_("cancel",7a,ed,33,b8),this->onSaveCancel_dyn(),null());
+HXLINE(1392)		this->_file->removeEventListener(HX_("ioError",02,fe,41,76),this->onSaveError_dyn(),null());
+HXLINE(1393)		this->_file = null();
             	}
 
 

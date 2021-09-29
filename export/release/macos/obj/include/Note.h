@@ -27,13 +27,13 @@ class HXCPP_CLASS_ATTRIBUTES Note_obj : public  ::flixel::FlxSprite_obj
 	public:
 		enum { _hx_ClassId = 0x08363a36 };
 
-		void __construct(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote);
+		void __construct(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote,::String __o_noteStyle);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="Note")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"Note"); }
-		static ::hx::ObjectPtr< Note_obj > __new(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote);
-		static ::hx::ObjectPtr< Note_obj > __alloc(::hx::Ctx *_hx_ctx,Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote);
+		static ::hx::ObjectPtr< Note_obj > __new(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote,::String __o_noteStyle);
+		static ::hx::ObjectPtr< Note_obj > __alloc(::hx::Ctx *_hx_ctx,Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote,::String __o_noteStyle);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);
@@ -67,6 +67,7 @@ class HXCPP_CLASS_ATTRIBUTES Note_obj : public  ::flixel::FlxSprite_obj
 		bool modifiedByLua;
 		Float sustainLength;
 		bool isSustainNote;
+		::String noteStyle;
 		Float noteScore;
 		::String rating;
 		void update(Float elapsed);

@@ -292,10 +292,10 @@ HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_363_addMoreText,"TitleState","addM
 HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_373_deleteCoolText,"TitleState","deleteCoolText",0x8afda2b6,"TitleState.deleteCoolText","TitleState.hx",373,0xd132a6e5)
 HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_381_beatHit,"TitleState","beatHit",0xfba69a88,"TitleState.beatHit","TitleState.hx",381,0xd132a6e5)
 static const ::String _hx_array_data_8ca18d79_19[] = {
-	HX_("mraydinminer",33,e9,8b,5b),HX_("tyrcnex",ab,89,5a,1e),HX_("verytide",ec,8b,60,52),HX_("nickolosses",7d,8d,bd,25),
+	HX_("mraydinminer",33,e9,8b,5b),HX_("tyrcnex",ab,89,5a,1e),HX_("verytide",ec,8b,60,52),HX_("nickolosses",7d,8d,bd,25),HX_("toes",a9,52,01,4d),
 };
 static const ::String _hx_array_data_8ca18d79_20[] = {
-	HX_("khio",c3,1a,09,47),HX_("mixisdumb",ac,44,8a,39),HX_("ragolithic",22,7a,56,8a),
+	HX_("khio",c3,1a,09,47),HX_("mixisdumb",ac,44,8a,39),HX_("ragolithic",22,7a,56,8a),HX_("mob",c0,16,53,00),
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_449_skipIntro,"TitleState","skipIntro",0xc9924038,"TitleState.skipIntro","TitleState.hx",449,0xd132a6e5)
 HX_LOCAL_STACK_FRAME(_hx_pos_a55214e0452daa02_39_boot,"TitleState","boot",0x7c582f47,"TitleState.boot","TitleState.hx",39,0xd132a6e5)
@@ -732,7 +732,7 @@ HXLINE( 390)			this->gfDance->animation->play(HX_("danceLeft",da,cc,f9,df),null(
             		}
 HXLINE( 394)		switch((int)(this->curBeat)){
             			case (int)2: {
-HXLINE( 397)				this->createCoolText(::Array_obj< ::String >::fromData( _hx_array_data_8ca18d79_19,4));
+HXLINE( 397)				this->createCoolText(::Array_obj< ::String >::fromData( _hx_array_data_8ca18d79_19,5));
             			}
             			break;
             			case (int)3: {
@@ -744,7 +744,7 @@ HXLINE( 404)				this->deleteCoolText();
             			}
             			break;
             			case (int)5: {
-HXLINE( 409)				this->createCoolText(::Array_obj< ::String >::fromData( _hx_array_data_8ca18d79_20,3));
+HXLINE( 409)				this->createCoolText(::Array_obj< ::String >::fromData( _hx_array_data_8ca18d79_20,4));
             			}
             			break;
             			case (int)7: {

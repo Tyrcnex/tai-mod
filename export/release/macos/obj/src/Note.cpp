@@ -111,19 +111,22 @@ static const int _hx_array_data_33e34412_11[] = {
 static const int _hx_array_data_33e34412_12[] = {
 	(int)1,
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_188_update,"Note","update",0xca3a1ee5,"Note.update","Note.hx",188,0x1a8855ec)
-HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_32_boot,"Note","boot",0x09bcee0e,"Note.boot","Note.hx",32,0x1a8855ec)
-HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_33_boot,"Note","boot",0x09bcee0e,"Note.boot","Note.hx",33,0x1a8855ec)
+HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_200_update,"Note","update",0xca3a1ee5,"Note.update","Note.hx",200,0x1a8855ec)
 HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_34_boot,"Note","boot",0x09bcee0e,"Note.boot","Note.hx",34,0x1a8855ec)
 HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_35_boot,"Note","boot",0x09bcee0e,"Note.boot","Note.hx",35,0x1a8855ec)
 HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_36_boot,"Note","boot",0x09bcee0e,"Note.boot","Note.hx",36,0x1a8855ec)
+HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_37_boot,"Note","boot",0x09bcee0e,"Note.boot","Note.hx",37,0x1a8855ec)
+HX_LOCAL_STACK_FRAME(_hx_pos_3be6f1ff2d789e96_38_boot,"Note","boot",0x09bcee0e,"Note.boot","Note.hx",38,0x1a8855ec)
 
-void Note_obj::__construct(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote){
+void Note_obj::__construct(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote,::String __o_noteStyle){
             		 ::Dynamic sustainNote = __o_sustainNote;
             		if (::hx::IsNull(__o_sustainNote)) sustainNote = false;
+            		::String noteStyle = __o_noteStyle;
+            		if (::hx::IsNull(__o_noteStyle)) noteStyle = HX_("normal",27,72,69,30);
             	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_16_new)
-HXLINE(  38)		this->rating = HX_("shit",c0,cf,52,4c);
-HXLINE(  30)		this->noteScore = ((Float)1);
+HXLINE(  40)		this->rating = HX_("shit",c0,cf,52,4c);
+HXLINE(  32)		this->noteScore = ((Float)1);
+HXLINE(  30)		this->noteStyle = HX_("normal",27,72,69,30);
 HXLINE(  28)		this->isSustainNote = false;
 HXLINE(  27)		this->sustainLength = ((Float)0);
 HXLINE(  26)		this->modifiedByLua = false;
@@ -133,181 +136,182 @@ HXLINE(  22)		this->canBeHit = false;
 HXLINE(  21)		this->noteData = 0;
 HXLINE(  20)		this->mustPress = false;
 HXLINE(  18)		this->strumTime = ((Float)0);
-HXLINE(  42)		super::__construct(null(),null(),null());
-HXLINE(  44)		if (::hx::IsNull( prevNote )) {
-HXLINE(  45)			prevNote = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE(  44)		super::__construct(null(),null(),null());
+HXLINE(  46)		this->noteStyle = noteStyle;
+HXLINE(  48)		if (::hx::IsNull( prevNote )) {
+HXLINE(  49)			prevNote = ::hx::ObjectPtr<OBJ_>(this);
             		}
-HXLINE(  47)		this->prevNote = prevNote;
-HXLINE(  48)		this->isSustainNote = ( (bool)(sustainNote) );
-HXLINE(  50)		{
-HXLINE(  50)			 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(  50)			_g->set_x((_g->x + 50));
+HXLINE(  51)		this->prevNote = prevNote;
+HXLINE(  52)		this->isSustainNote = ( (bool)(sustainNote) );
+HXLINE(  54)		{
+HXLINE(  54)			 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  54)			_g->set_x((_g->x + 50));
             		}
-HXLINE(  52)		{
-HXLINE(  52)			 ::Note _g1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(  52)			_g1->set_y((_g1->y - ( (Float)(2000) )));
+HXLINE(  56)		{
+HXLINE(  56)			 ::Note _g1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN(  56)			_g1->set_y((_g1->y - ( (Float)(2000) )));
             		}
-HXLINE(  53)		this->strumTime = strumTime;
-HXLINE(  55)		if ((this->strumTime < 0)) {
-HXLINE(  56)			this->strumTime = ( (Float)(0) );
+HXLINE(  57)		this->strumTime = strumTime;
+HXLINE(  59)		if ((this->strumTime < 0)) {
+HXLINE(  60)			this->strumTime = ( (Float)(0) );
             		}
-HXLINE(  58)		this->noteData = noteData;
-HXLINE(  60)		::String daStage = ::PlayState_obj::curStage;
-HXLINE(  62)		if (::hx::IsEq( ::PlayState_obj::SONG->__Field(HX_("noteStyle",df,ef,aa,c1),::hx::paccDynamic),HX_("pixel",86,c6,a3,c2) )) {
-HXLINE(  65)			this->loadGraphic(::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/pixelUI/arrows-pixels",b7,c3,c7,09)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),HX_("week6",c2,95,be,c7)),true,17,17,null(),null());
-HXLINE(  67)			this->animation->add(HX_("greenScroll",30,4f,fe,9e),::Array_obj< int >::fromData( _hx_array_data_33e34412_1,1),null(),null(),null(),null());
-HXLINE(  68)			this->animation->add(HX_("redScroll",3e,78,c3,3a),::Array_obj< int >::fromData( _hx_array_data_33e34412_2,1),null(),null(),null(),null());
-HXLINE(  69)			this->animation->add(HX_("blueScroll",47,7e,59,a2),::Array_obj< int >::fromData( _hx_array_data_33e34412_3,1),null(),null(),null(),null());
-HXLINE(  70)			this->animation->add(HX_("purpleScroll",69,97,67,99),::Array_obj< int >::fromData( _hx_array_data_33e34412_4,1),null(),null(),null(),null());
-HXLINE(  72)			if (this->isSustainNote) {
-HXLINE(  74)				this->loadGraphic(::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/pixelUI/arrowEnds",08,21,6c,fd)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),HX_("week6",c2,95,be,c7)),true,7,6,null(),null());
-HXLINE(  76)				this->animation->add(HX_("purpleholdend",40,d5,15,5b),::Array_obj< int >::fromData( _hx_array_data_33e34412_5,1),null(),null(),null(),null());
-HXLINE(  77)				this->animation->add(HX_("greenholdend",99,eb,5f,39),::Array_obj< int >::fromData( _hx_array_data_33e34412_6,1),null(),null(),null(),null());
-HXLINE(  78)				this->animation->add(HX_("redholdend",cb,ae,1e,ea),::Array_obj< int >::fromData( _hx_array_data_33e34412_7,1),null(),null(),null(),null());
-HXLINE(  79)				this->animation->add(HX_("blueholdend",a2,f0,cd,25),::Array_obj< int >::fromData( _hx_array_data_33e34412_8,1),null(),null(),null(),null());
-HXLINE(  81)				this->animation->add(HX_("purplehold",7b,8d,da,cd),::Array_obj< int >::fromData( _hx_array_data_33e34412_9,1),null(),null(),null(),null());
-HXLINE(  82)				this->animation->add(HX_("greenhold",82,f5,c1,bc),::Array_obj< int >::fromData( _hx_array_data_33e34412_10,1),null(),null(),null(),null());
-HXLINE(  83)				this->animation->add(HX_("redhold",10,1f,bf,bf),::Array_obj< int >::fromData( _hx_array_data_33e34412_11,1),null(),null(),null(),null());
-HXLINE(  84)				this->animation->add(HX_("bluehold",d9,60,aa,a4),::Array_obj< int >::fromData( _hx_array_data_33e34412_12,1),null(),null(),null(),null());
+HXLINE(  62)		this->noteData = noteData;
+HXLINE(  64)		::String daStage = ::PlayState_obj::curStage;
+HXLINE(  66)		if (::hx::IsEq( ::PlayState_obj::SONG->__Field(HX_("noteStyle",df,ef,aa,c1),::hx::paccDynamic),HX_("pixel",86,c6,a3,c2) )) {
+HXLINE(  69)			this->loadGraphic(::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/pixelUI/arrows-pixels",b7,c3,c7,09)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),HX_("week6",c2,95,be,c7)),true,17,17,null(),null());
+HXLINE(  71)			this->animation->add(HX_("greenScroll",30,4f,fe,9e),::Array_obj< int >::fromData( _hx_array_data_33e34412_1,1),null(),null(),null(),null());
+HXLINE(  72)			this->animation->add(HX_("redScroll",3e,78,c3,3a),::Array_obj< int >::fromData( _hx_array_data_33e34412_2,1),null(),null(),null(),null());
+HXLINE(  73)			this->animation->add(HX_("blueScroll",47,7e,59,a2),::Array_obj< int >::fromData( _hx_array_data_33e34412_3,1),null(),null(),null(),null());
+HXLINE(  74)			this->animation->add(HX_("purpleScroll",69,97,67,99),::Array_obj< int >::fromData( _hx_array_data_33e34412_4,1),null(),null(),null(),null());
+HXLINE(  76)			if (this->isSustainNote) {
+HXLINE(  78)				this->loadGraphic(::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("weeb/pixelUI/arrowEnds",08,21,6c,fd)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),HX_("week6",c2,95,be,c7)),true,7,6,null(),null());
+HXLINE(  80)				this->animation->add(HX_("purpleholdend",40,d5,15,5b),::Array_obj< int >::fromData( _hx_array_data_33e34412_5,1),null(),null(),null(),null());
+HXLINE(  81)				this->animation->add(HX_("greenholdend",99,eb,5f,39),::Array_obj< int >::fromData( _hx_array_data_33e34412_6,1),null(),null(),null(),null());
+HXLINE(  82)				this->animation->add(HX_("redholdend",cb,ae,1e,ea),::Array_obj< int >::fromData( _hx_array_data_33e34412_7,1),null(),null(),null(),null());
+HXLINE(  83)				this->animation->add(HX_("blueholdend",a2,f0,cd,25),::Array_obj< int >::fromData( _hx_array_data_33e34412_8,1),null(),null(),null(),null());
+HXLINE(  85)				this->animation->add(HX_("purplehold",7b,8d,da,cd),::Array_obj< int >::fromData( _hx_array_data_33e34412_9,1),null(),null(),null(),null());
+HXLINE(  86)				this->animation->add(HX_("greenhold",82,f5,c1,bc),::Array_obj< int >::fromData( _hx_array_data_33e34412_10,1),null(),null(),null(),null());
+HXLINE(  87)				this->animation->add(HX_("redhold",10,1f,bf,bf),::Array_obj< int >::fromData( _hx_array_data_33e34412_11,1),null(),null(),null(),null());
+HXLINE(  88)				this->animation->add(HX_("bluehold",d9,60,aa,a4),::Array_obj< int >::fromData( _hx_array_data_33e34412_12,1),null(),null(),null(),null());
             			}
-HXLINE(  87)			Float _hx_tmp = this->get_width();
-HXDLIN(  87)			this->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
-HXLINE(  88)			this->updateHitbox();
+HXLINE(  91)			Float _hx_tmp = this->get_width();
+HXDLIN(  91)			this->setGraphicSize(::Std_obj::_hx_int((_hx_tmp * ::PlayState_obj::daPixelZoom)),null());
+HXLINE(  92)			this->updateHitbox();
             		}
             		else {
-HXLINE(  90)			::String library = null();
-HXDLIN(  90)			::String _hx_tmp = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("NOTE_assets",70,3c,09,f7)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
-HXDLIN(  90)			this->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("NOTE_assets",70,3c,09,f7)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
-HXLINE(  92)			this->animation->addByPrefix(HX_("greenScroll",30,4f,fe,9e),HX_("green0",0d,dc,7f,15),null(),null(),null(),null());
-HXLINE(  93)			this->animation->addByPrefix(HX_("redScroll",3e,78,c3,3a),HX_("red0",bf,4d,a7,4b),null(),null(),null(),null());
-HXLINE(  94)			this->animation->addByPrefix(HX_("blueScroll",47,7e,59,a2),HX_("blue0",56,04,01,b5),null(),null(),null(),null());
-HXLINE(  95)			this->animation->addByPrefix(HX_("purpleScroll",69,97,67,99),HX_("purple0",74,7e,2d,e7),null(),null(),null(),null());
-HXLINE(  97)			this->animation->addByPrefix(HX_("purpleholdend",40,d5,15,5b),HX_("pruple end hold",6e,7c,17,3a),null(),null(),null(),null());
-HXLINE(  98)			this->animation->addByPrefix(HX_("greenholdend",99,eb,5f,39),HX_("green hold end",77,4d,45,46),null(),null(),null(),null());
-HXLINE(  99)			this->animation->addByPrefix(HX_("redholdend",cb,ae,1e,ea),HX_("red hold end",29,c1,a0,b6),null(),null(),null(),null());
-HXLINE( 100)			this->animation->addByPrefix(HX_("blueholdend",a2,f0,cd,25),HX_("blue hold end",c0,66,05,ae),null(),null(),null(),null());
-HXLINE( 102)			this->animation->addByPrefix(HX_("purplehold",7b,8d,da,cd),HX_("purple hold piece",b1,8b,b1,d3),null(),null(),null(),null());
-HXLINE( 103)			this->animation->addByPrefix(HX_("greenhold",82,f5,c1,bc),HX_("green hold piece",8a,42,68,ae),null(),null(),null(),null());
-HXLINE( 104)			this->animation->addByPrefix(HX_("redhold",10,1f,bf,bf),HX_("red hold piece",bc,86,4d,83),null(),null(),null(),null());
-HXLINE( 105)			this->animation->addByPrefix(HX_("bluehold",d9,60,aa,a4),HX_("blue hold piece",13,00,58,99),null(),null(),null(),null());
-HXLINE( 107)			this->setGraphicSize(::Std_obj::_hx_int((this->get_width() * ((Float)0.7))),null());
-HXLINE( 108)			this->updateHitbox();
-HXLINE( 109)			this->set_antialiasing(true);
+HXLINE( 102)			::String library = null();
+HXDLIN( 102)			::String _hx_tmp = ::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("NOTE_assets",70,3c,09,f7)) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),library);
+HXDLIN( 102)			this->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(_hx_tmp,::Paths_obj::getPath(((HX_("images/",77,50,74,c1) + HX_("NOTE_assets",70,3c,09,f7)) + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),library)));
+HXLINE( 104)			this->animation->addByPrefix(HX_("greenScroll",30,4f,fe,9e),HX_("green0",0d,dc,7f,15),null(),null(),null(),null());
+HXLINE( 105)			this->animation->addByPrefix(HX_("redScroll",3e,78,c3,3a),HX_("red0",bf,4d,a7,4b),null(),null(),null(),null());
+HXLINE( 106)			this->animation->addByPrefix(HX_("blueScroll",47,7e,59,a2),HX_("blue0",56,04,01,b5),null(),null(),null(),null());
+HXLINE( 107)			this->animation->addByPrefix(HX_("purpleScroll",69,97,67,99),HX_("purple0",74,7e,2d,e7),null(),null(),null(),null());
+HXLINE( 109)			this->animation->addByPrefix(HX_("purpleholdend",40,d5,15,5b),HX_("pruple end hold",6e,7c,17,3a),null(),null(),null(),null());
+HXLINE( 110)			this->animation->addByPrefix(HX_("greenholdend",99,eb,5f,39),HX_("green hold end",77,4d,45,46),null(),null(),null(),null());
+HXLINE( 111)			this->animation->addByPrefix(HX_("redholdend",cb,ae,1e,ea),HX_("red hold end",29,c1,a0,b6),null(),null(),null(),null());
+HXLINE( 112)			this->animation->addByPrefix(HX_("blueholdend",a2,f0,cd,25),HX_("blue hold end",c0,66,05,ae),null(),null(),null(),null());
+HXLINE( 114)			this->animation->addByPrefix(HX_("purplehold",7b,8d,da,cd),HX_("purple hold piece",b1,8b,b1,d3),null(),null(),null(),null());
+HXLINE( 115)			this->animation->addByPrefix(HX_("greenhold",82,f5,c1,bc),HX_("green hold piece",8a,42,68,ae),null(),null(),null(),null());
+HXLINE( 116)			this->animation->addByPrefix(HX_("redhold",10,1f,bf,bf),HX_("red hold piece",bc,86,4d,83),null(),null(),null(),null());
+HXLINE( 117)			this->animation->addByPrefix(HX_("bluehold",d9,60,aa,a4),HX_("blue hold piece",13,00,58,99),null(),null(),null(),null());
+HXLINE( 119)			this->setGraphicSize(::Std_obj::_hx_int((this->get_width() * ((Float)0.7))),null());
+HXLINE( 120)			this->updateHitbox();
+HXLINE( 121)			this->set_antialiasing(true);
             		}
-HXLINE( 112)		switch((int)(noteData)){
+HXLINE( 124)		switch((int)(noteData)){
             			case (int)0: {
-HXLINE( 115)				{
-HXLINE( 115)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 115)					_g->set_x((_g->x + (::Note_obj::swagWidth * ( (Float)(0) ))));
+HXLINE( 127)				{
+HXLINE( 127)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 127)					_g->set_x((_g->x + (::Note_obj::swagWidth * ( (Float)(0) ))));
             				}
-HXLINE( 116)				this->animation->play(HX_("purpleScroll",69,97,67,99),null(),null(),null());
+HXLINE( 128)				this->animation->play(HX_("purpleScroll",69,97,67,99),null(),null(),null());
             			}
             			break;
             			case (int)1: {
-HXLINE( 118)				{
-HXLINE( 118)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 118)					_g->set_x((_g->x + ::Note_obj::swagWidth));
+HXLINE( 130)				{
+HXLINE( 130)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 130)					_g->set_x((_g->x + ::Note_obj::swagWidth));
             				}
-HXLINE( 119)				this->animation->play(HX_("blueScroll",47,7e,59,a2),null(),null(),null());
+HXLINE( 131)				this->animation->play(HX_("blueScroll",47,7e,59,a2),null(),null(),null());
             			}
             			break;
             			case (int)2: {
-HXLINE( 121)				{
-HXLINE( 121)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 121)					_g->set_x((_g->x + (::Note_obj::swagWidth * ( (Float)(2) ))));
+HXLINE( 133)				{
+HXLINE( 133)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 133)					_g->set_x((_g->x + (::Note_obj::swagWidth * ( (Float)(2) ))));
             				}
-HXLINE( 122)				this->animation->play(HX_("greenScroll",30,4f,fe,9e),null(),null(),null());
+HXLINE( 134)				this->animation->play(HX_("greenScroll",30,4f,fe,9e),null(),null(),null());
             			}
             			break;
             			case (int)3: {
-HXLINE( 124)				{
-HXLINE( 124)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 124)					_g->set_x((_g->x + (::Note_obj::swagWidth * ( (Float)(3) ))));
+HXLINE( 136)				{
+HXLINE( 136)					 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 136)					_g->set_x((_g->x + (::Note_obj::swagWidth * ( (Float)(3) ))));
             				}
-HXLINE( 125)				this->animation->play(HX_("redScroll",3e,78,c3,3a),null(),null(),null());
+HXLINE( 137)				this->animation->play(HX_("redScroll",3e,78,c3,3a),null(),null(),null());
             			}
             			break;
             		}
-HXLINE( 133)		bool _hx_tmp;
-HXDLIN( 133)		if (( (bool)(::flixel::FlxG_obj::save->data->__Field(HX_("downscroll",ef,45,d4,4f),::hx::paccDynamic)) )) {
-HXLINE( 133)			_hx_tmp = ( (bool)(sustainNote) );
+HXLINE( 145)		bool _hx_tmp;
+HXDLIN( 145)		if (( (bool)(::flixel::FlxG_obj::save->data->__Field(HX_("downscroll",ef,45,d4,4f),::hx::paccDynamic)) )) {
+HXLINE( 145)			_hx_tmp = ( (bool)(sustainNote) );
             		}
             		else {
-HXLINE( 133)			_hx_tmp = false;
+HXLINE( 145)			_hx_tmp = false;
             		}
-HXDLIN( 133)		if (_hx_tmp) {
-HXLINE( 134)			this->set_flipY(true);
+HXDLIN( 145)		if (_hx_tmp) {
+HXLINE( 146)			this->set_flipY(true);
             		}
-HXLINE( 136)		bool _hx_tmp1;
-HXDLIN( 136)		if (this->isSustainNote) {
-HXLINE( 136)			_hx_tmp1 = ::hx::IsNotNull( prevNote );
+HXLINE( 148)		bool _hx_tmp1;
+HXDLIN( 148)		if (this->isSustainNote) {
+HXLINE( 148)			_hx_tmp1 = ::hx::IsNotNull( prevNote );
             		}
             		else {
-HXLINE( 136)			_hx_tmp1 = false;
+HXLINE( 148)			_hx_tmp1 = false;
             		}
-HXDLIN( 136)		if (_hx_tmp1) {
-HXLINE( 139)			this->set_alpha(((Float)0.6));
-HXLINE( 141)			{
-HXLINE( 141)				 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 141)				Float _g1 = _g->x;
-HXDLIN( 141)				_g->set_x((_g1 + (this->get_width() / ( (Float)(2) ))));
+HXDLIN( 148)		if (_hx_tmp1) {
+HXLINE( 151)			this->set_alpha(((Float)0.6));
+HXLINE( 153)			{
+HXLINE( 153)				 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 153)				Float _g1 = _g->x;
+HXDLIN( 153)				_g->set_x((_g1 + (this->get_width() / ( (Float)(2) ))));
             			}
-HXLINE( 143)			switch((int)(noteData)){
+HXLINE( 155)			switch((int)(noteData)){
             				case (int)0: {
-HXLINE( 152)					this->animation->play(HX_("purpleholdend",40,d5,15,5b),null(),null(),null());
+HXLINE( 164)					this->animation->play(HX_("purpleholdend",40,d5,15,5b),null(),null(),null());
             				}
             				break;
             				case (int)1: {
-HXLINE( 150)					this->animation->play(HX_("blueholdend",a2,f0,cd,25),null(),null(),null());
+HXLINE( 162)					this->animation->play(HX_("blueholdend",a2,f0,cd,25),null(),null(),null());
             				}
             				break;
             				case (int)2: {
-HXLINE( 146)					this->animation->play(HX_("greenholdend",99,eb,5f,39),null(),null(),null());
+HXLINE( 158)					this->animation->play(HX_("greenholdend",99,eb,5f,39),null(),null(),null());
             				}
             				break;
             				case (int)3: {
-HXLINE( 148)					this->animation->play(HX_("redholdend",cb,ae,1e,ea),null(),null(),null());
+HXLINE( 160)					this->animation->play(HX_("redholdend",cb,ae,1e,ea),null(),null(),null());
             				}
             				break;
             			}
-HXLINE( 155)			this->updateHitbox();
-HXLINE( 157)			{
-HXLINE( 157)				 ::Note _g2 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 157)				Float _g3 = _g2->x;
-HXDLIN( 157)				_g2->set_x((_g3 - (this->get_width() / ( (Float)(2) ))));
+HXLINE( 167)			this->updateHitbox();
+HXLINE( 169)			{
+HXLINE( 169)				 ::Note _g2 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 169)				Float _g3 = _g2->x;
+HXDLIN( 169)				_g2->set_x((_g3 - (this->get_width() / ( (Float)(2) ))));
             			}
-HXLINE( 159)			if (::StringTools_obj::startsWith(::PlayState_obj::curStage,HX_("school",74,b8,c8,40))) {
-HXLINE( 160)				 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 160)				_g->set_x((_g->x + 30));
+HXLINE( 171)			if (::StringTools_obj::startsWith(::PlayState_obj::curStage,HX_("school",74,b8,c8,40))) {
+HXLINE( 172)				 ::Note _g = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 172)				_g->set_x((_g->x + 30));
             			}
-HXLINE( 162)			if (prevNote->isSustainNote) {
-HXLINE( 164)				switch((int)(prevNote->noteData)){
+HXLINE( 174)			if (prevNote->isSustainNote) {
+HXLINE( 176)				switch((int)(prevNote->noteData)){
             					case (int)0: {
-HXLINE( 167)						prevNote->animation->play(HX_("purplehold",7b,8d,da,cd),null(),null(),null());
+HXLINE( 179)						prevNote->animation->play(HX_("purplehold",7b,8d,da,cd),null(),null(),null());
             					}
             					break;
             					case (int)1: {
-HXLINE( 169)						prevNote->animation->play(HX_("bluehold",d9,60,aa,a4),null(),null(),null());
+HXLINE( 181)						prevNote->animation->play(HX_("bluehold",d9,60,aa,a4),null(),null(),null());
             					}
             					break;
             					case (int)2: {
-HXLINE( 171)						prevNote->animation->play(HX_("greenhold",82,f5,c1,bc),null(),null(),null());
+HXLINE( 183)						prevNote->animation->play(HX_("greenhold",82,f5,c1,bc),null(),null(),null());
             					}
             					break;
             					case (int)3: {
-HXLINE( 173)						prevNote->animation->play(HX_("redhold",10,1f,bf,bf),null(),null(),null());
+HXLINE( 185)						prevNote->animation->play(HX_("redhold",10,1f,bf,bf),null(),null(),null());
             					}
             					break;
             				}
-HXLINE( 177)				if (::hx::IsNotEq( ::flixel::FlxG_obj::save->data->__Field(HX_("scrollSpeed",3a,e0,46,cb),::hx::paccDynamic),1 )) {
-HXLINE( 178)					 ::flixel::math::FlxPoint _g = prevNote->scale;
-HXDLIN( 178)					_g->set_y((_g->y * (((::Conductor_obj::stepCrochet / ( (Float)(100) )) * ((Float)1.5)) * ( (Float)(::flixel::FlxG_obj::save->data->__Field(HX_("scrollSpeed",3a,e0,46,cb),::hx::paccDynamic)) ))));
+HXLINE( 189)				if (::hx::IsNotEq( ::flixel::FlxG_obj::save->data->__Field(HX_("scrollSpeed",3a,e0,46,cb),::hx::paccDynamic),1 )) {
+HXLINE( 190)					 ::flixel::math::FlxPoint _g = prevNote->scale;
+HXDLIN( 190)					_g->set_y((_g->y * (((::Conductor_obj::stepCrochet / ( (Float)(100) )) * ((Float)1.5)) * ( (Float)(::flixel::FlxG_obj::save->data->__Field(HX_("scrollSpeed",3a,e0,46,cb),::hx::paccDynamic)) ))));
             				}
             				else {
-HXLINE( 180)					 ::flixel::math::FlxPoint _g = prevNote->scale;
-HXDLIN( 180)					_g->set_y((_g->y * (((::Conductor_obj::stepCrochet / ( (Float)(100) )) * ((Float)1.5)) * ( (Float)(::PlayState_obj::SONG->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) ))));
+HXLINE( 192)					 ::flixel::math::FlxPoint _g = prevNote->scale;
+HXDLIN( 192)					_g->set_y((_g->y * (((::Conductor_obj::stepCrochet / ( (Float)(100) )) * ((Float)1.5)) * ( (Float)(::PlayState_obj::SONG->__Field(HX_("speed",87,97,69,81),::hx::paccDynamic)) ))));
             				}
-HXLINE( 181)				prevNote->updateHitbox();
+HXLINE( 193)				prevNote->updateHitbox();
             			}
             		}
             	}
@@ -319,7 +323,7 @@ void *Note_obj::_hx_vtable = 0;
 Dynamic Note_obj::__Create(::hx::DynamicArray inArgs)
 {
 	::hx::ObjectPtr< Note_obj > _hx_result = new Note_obj();
-	_hx_result->__construct(inArgs[0],inArgs[1],inArgs[2],inArgs[3]);
+	_hx_result->__construct(inArgs[0],inArgs[1],inArgs[2],inArgs[3],inArgs[4]);
 	return _hx_result;
 }
 
@@ -336,42 +340,42 @@ bool Note_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Note_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_188_update)
-HXLINE( 189)		this->super::update(elapsed);
-HXLINE( 191)		if (this->mustPress) {
-HXLINE( 194)			bool _hx_tmp;
-HXDLIN( 194)			if ((this->strumTime > (::Conductor_obj::songPosition - (::Conductor_obj::safeZoneOffset * ((Float)1.5))))) {
-HXLINE( 194)				_hx_tmp = (this->strumTime < (::Conductor_obj::songPosition + (::Conductor_obj::safeZoneOffset * ((Float)0.5))));
+            	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_200_update)
+HXLINE( 201)		this->super::update(elapsed);
+HXLINE( 203)		if (this->mustPress) {
+HXLINE( 206)			bool _hx_tmp;
+HXDLIN( 206)			if ((this->strumTime > (::Conductor_obj::songPosition - (::Conductor_obj::safeZoneOffset * ((Float)1.5))))) {
+HXLINE( 206)				_hx_tmp = (this->strumTime < (::Conductor_obj::songPosition + (::Conductor_obj::safeZoneOffset * ((Float)0.5))));
             			}
             			else {
-HXLINE( 194)				_hx_tmp = false;
+HXLINE( 206)				_hx_tmp = false;
             			}
-HXDLIN( 194)			if (_hx_tmp) {
-HXLINE( 196)				this->canBeHit = true;
-            			}
-            			else {
-HXLINE( 198)				this->canBeHit = false;
-            			}
-HXLINE( 200)			bool _hx_tmp1;
-HXDLIN( 200)			if ((this->strumTime < (::Conductor_obj::songPosition - (::Conductor_obj::safeZoneOffset * ::Conductor_obj::timeScale)))) {
-HXLINE( 200)				_hx_tmp1 = !(this->wasGoodHit);
+HXDLIN( 206)			if (_hx_tmp) {
+HXLINE( 208)				this->canBeHit = true;
             			}
             			else {
-HXLINE( 200)				_hx_tmp1 = false;
+HXLINE( 210)				this->canBeHit = false;
             			}
-HXDLIN( 200)			if (_hx_tmp1) {
-HXLINE( 201)				this->tooLate = true;
+HXLINE( 212)			bool _hx_tmp1;
+HXDLIN( 212)			if ((this->strumTime < (::Conductor_obj::songPosition - (::Conductor_obj::safeZoneOffset * ::Conductor_obj::timeScale)))) {
+HXLINE( 212)				_hx_tmp1 = !(this->wasGoodHit);
+            			}
+            			else {
+HXLINE( 212)				_hx_tmp1 = false;
+            			}
+HXDLIN( 212)			if (_hx_tmp1) {
+HXLINE( 213)				this->tooLate = true;
             			}
             		}
             		else {
-HXLINE( 205)			this->canBeHit = false;
-HXLINE( 207)			if ((this->strumTime <= ::Conductor_obj::songPosition)) {
-HXLINE( 208)				this->wasGoodHit = true;
+HXLINE( 217)			this->canBeHit = false;
+HXLINE( 219)			if ((this->strumTime <= ::Conductor_obj::songPosition)) {
+HXLINE( 220)				this->wasGoodHit = true;
             			}
             		}
-HXLINE( 211)		if (this->tooLate) {
-HXLINE( 213)			if ((this->alpha > ((Float)0.3))) {
-HXLINE( 214)				this->set_alpha(((Float)0.3));
+HXLINE( 223)		if (this->tooLate) {
+HXLINE( 225)			if ((this->alpha > ((Float)0.3))) {
+HXLINE( 226)				this->set_alpha(((Float)0.3));
             			}
             		}
             	}
@@ -388,16 +392,16 @@ int Note_obj::BLUE_NOTE;
 int Note_obj::RED_NOTE;
 
 
-::hx::ObjectPtr< Note_obj > Note_obj::__new(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote) {
+::hx::ObjectPtr< Note_obj > Note_obj::__new(Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote,::String __o_noteStyle) {
 	::hx::ObjectPtr< Note_obj > __this = new Note_obj();
-	__this->__construct(strumTime,noteData,prevNote,__o_sustainNote);
+	__this->__construct(strumTime,noteData,prevNote,__o_sustainNote,__o_noteStyle);
 	return __this;
 }
 
-::hx::ObjectPtr< Note_obj > Note_obj::__alloc(::hx::Ctx *_hx_ctx,Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote) {
+::hx::ObjectPtr< Note_obj > Note_obj::__alloc(::hx::Ctx *_hx_ctx,Float strumTime,int noteData, ::Note prevNote, ::Dynamic __o_sustainNote,::String __o_noteStyle) {
 	Note_obj *__this = (Note_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(Note_obj), true, "Note"));
 	*(void **)__this = Note_obj::_hx_vtable;
-	__this->__construct(strumTime,noteData,prevNote,__o_sustainNote);
+	__this->__construct(strumTime,noteData,prevNote,__o_sustainNote,__o_noteStyle);
 	return __this;
 }
 
@@ -418,6 +422,7 @@ void Note_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(modifiedByLua,"modifiedByLua");
 	HX_MARK_MEMBER_NAME(sustainLength,"sustainLength");
 	HX_MARK_MEMBER_NAME(isSustainNote,"isSustainNote");
+	HX_MARK_MEMBER_NAME(noteStyle,"noteStyle");
 	HX_MARK_MEMBER_NAME(noteScore,"noteScore");
 	HX_MARK_MEMBER_NAME(rating,"rating");
 	 ::flixel::FlxSprite_obj::__Mark(HX_MARK_ARG);
@@ -436,6 +441,7 @@ void Note_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(modifiedByLua,"modifiedByLua");
 	HX_VISIT_MEMBER_NAME(sustainLength,"sustainLength");
 	HX_VISIT_MEMBER_NAME(isSustainNote,"isSustainNote");
+	HX_VISIT_MEMBER_NAME(noteStyle,"noteStyle");
 	HX_VISIT_MEMBER_NAME(noteScore,"noteScore");
 	HX_VISIT_MEMBER_NAME(rating,"rating");
 	 ::flixel::FlxSprite_obj::__Visit(HX_VISIT_ARG);
@@ -459,6 +465,7 @@ void Note_obj::__Visit(HX_VISIT_PARAMS)
 	case 9:
 		if (HX_FIELD_EQ(inName,"strumTime") ) { return ::hx::Val( strumTime ); }
 		if (HX_FIELD_EQ(inName,"mustPress") ) { return ::hx::Val( mustPress ); }
+		if (HX_FIELD_EQ(inName,"noteStyle") ) { return ::hx::Val( noteStyle ); }
 		if (HX_FIELD_EQ(inName,"noteScore") ) { return ::hx::Val( noteScore ); }
 		break;
 	case 10:
@@ -506,6 +513,7 @@ bool Note_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::Prop
 	case 9:
 		if (HX_FIELD_EQ(inName,"strumTime") ) { strumTime=inValue.Cast< Float >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"mustPress") ) { mustPress=inValue.Cast< bool >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"noteStyle") ) { noteStyle=inValue.Cast< ::String >(); return inValue; }
 		if (HX_FIELD_EQ(inName,"noteScore") ) { noteScore=inValue.Cast< Float >(); return inValue; }
 		break;
 	case 10:
@@ -548,6 +556,7 @@ void Note_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("modifiedByLua",18,c8,92,a0));
 	outFields->push(HX_("sustainLength",e9,a1,9c,7c));
 	outFields->push(HX_("isSustainNote",6b,1e,77,c3));
+	outFields->push(HX_("noteStyle",df,ef,aa,c1));
 	outFields->push(HX_("noteScore",00,be,66,b6));
 	outFields->push(HX_("rating",1d,34,8a,bb));
 	super::__GetFields(outFields);
@@ -565,6 +574,7 @@ static ::hx::StorageInfo Note_obj_sMemberStorageInfo[] = {
 	{::hx::fsBool,(int)offsetof(Note_obj,modifiedByLua),HX_("modifiedByLua",18,c8,92,a0)},
 	{::hx::fsFloat,(int)offsetof(Note_obj,sustainLength),HX_("sustainLength",e9,a1,9c,7c)},
 	{::hx::fsBool,(int)offsetof(Note_obj,isSustainNote),HX_("isSustainNote",6b,1e,77,c3)},
+	{::hx::fsString,(int)offsetof(Note_obj,noteStyle),HX_("noteStyle",df,ef,aa,c1)},
 	{::hx::fsFloat,(int)offsetof(Note_obj,noteScore),HX_("noteScore",00,be,66,b6)},
 	{::hx::fsString,(int)offsetof(Note_obj,rating),HX_("rating",1d,34,8a,bb)},
 	{ ::hx::fsUnknown, 0, null()}
@@ -590,6 +600,7 @@ static ::String Note_obj_sMemberFields[] = {
 	HX_("modifiedByLua",18,c8,92,a0),
 	HX_("sustainLength",e9,a1,9c,7c),
 	HX_("isSustainNote",6b,1e,77,c3),
+	HX_("noteStyle",df,ef,aa,c1),
 	HX_("noteScore",00,be,66,b6),
 	HX_("rating",1d,34,8a,bb),
 	HX_("update",09,86,05,87),
@@ -655,24 +666,24 @@ void Note_obj::__register()
 void Note_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_32_boot)
-HXDLIN(  32)		swagWidth = ((Float)112.);
-            	}
-{
-            	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_33_boot)
-HXDLIN(  33)		PURP_NOTE = 0;
-            	}
-{
             	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_34_boot)
-HXDLIN(  34)		GREEN_NOTE = 2;
+HXDLIN(  34)		swagWidth = ((Float)112.);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_35_boot)
-HXDLIN(  35)		BLUE_NOTE = 1;
+HXDLIN(  35)		PURP_NOTE = 0;
             	}
 {
             	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_36_boot)
-HXDLIN(  36)		RED_NOTE = 3;
+HXDLIN(  36)		GREEN_NOTE = 2;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_37_boot)
+HXDLIN(  37)		BLUE_NOTE = 1;
+            	}
+{
+            	HX_STACKFRAME(&_hx_pos_3be6f1ff2d789e96_38_boot)
+HXDLIN(  38)		RED_NOTE = 3;
             	}
 }
 

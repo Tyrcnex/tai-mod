@@ -59,6 +59,9 @@ class ChartingState extends MusicBeatState
 	var amountSteps:Int = 0;
 	var bullshitUI:FlxGroup;
 	var writingNotesText:FlxText;
+
+	
+
 	var highlight:FlxSprite;
 
 	var GRID_SIZE:Int = 40;

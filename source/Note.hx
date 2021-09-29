@@ -91,13 +91,13 @@ class Note extends FlxSprite
 				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
 				updateHitbox();
 			default:
-				var daPath:String = "NOTE_assets";
-				switch (noteStyle) {
-					case 'taiNote':
-						daPath = "NOTE_tai";
-					default:
-						daPath = "NOTE_assets";
-				}
+				// var daPath:String = "NOTE_assets";
+				// switch (noteStyle) {
+				// 	case 'taiNote':
+				// 		daPath = "NOTE_tai";
+				// 	default:
+				// 		daPath = "NOTE_assets";
+				// }
 				
 				frames = Paths.getSparrowAtlas('NOTE_assets');
 
